@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#14353a" />
+<title>AT-A-L04 · Food and Drink — Meals and Preferences | Miftah Speaking Mastery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--ink:#17353b;--muted:#647d80;--paper:#f8f5ee;--gold:#dca54e;--goldsoft:#fff3d8;--teal:#166b68;--tealsoft:#e7f5f0;--terra:#bf6e50;--terrasoft:#fff0e8;--line:#e9e3d7;--white:#fff;--core:#2a8377;--develop:#c58a2c;--stretch:#8c4f9e;--shadow:0 18px 55px rgba(29,48,49,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 6% 0%,#fff2d9,transparent 35%),linear-gradient(180deg,#faf8f2,#f4f1e9);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);line-height:1.5;min-height:100vh}
+button{font:inherit;cursor:pointer;color:inherit}button:disabled{opacity:.4;cursor:not-allowed}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #ce9639;outline-offset:3px}
+a{color:var(--teal)}
+.ar{direction:rtl;unicode-bidi:isolate;font-family:"Noto Naskh Arabic","Geeza Pro","Traditional Arabic",Tahoma,serif;font-weight:600;line-height:1.9}
+.hide{display:none!important}
+/* header */
+.header{background:#14353a;color:#f6f4e9;padding:13px max(18px,calc((100vw - 1240px)/2 + 18px));display:flex;align-items:center;justify-content:space-between;gap:14px;box-shadow:0 4px 20px #19353920;position:sticky;top:0;z-index:20}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}.logo{width:42px;height:42px;background:#d9b77a;border-radius:12px;display:grid;place-items:center;color:#13373d;font-family:serif;font-size:27px;font-weight:700;flex:none}
+.brand strong{display:block;font-size:16px;letter-spacing:.03em}.brand small{display:block;font-size:10.5px;letter-spacing:.14em;color:#d1ded9;text-transform:uppercase}
+.headright{display:flex;gap:8px;align-items:center}.hbtn{background:#ffffff14;border:1px solid #ffffff2a;color:#f6f4e9;border-radius:10px;padding:8px 12px;font-size:12.5px;font-weight:700;text-decoration:none;white-space:nowrap}.hbtn:hover{background:#ffffff24}
+/* layout */
+.container{max-width:1240px;margin:auto;padding:26px 18px 50px}
+.hero{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(280px,1fr);gap:22px;align-items:stretch;margin-bottom:22px}
+.herocard{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px 26px;box-shadow:var(--shadow)}
+.eyebrow{font-size:11px;text-transform:uppercase;color:#a16b29;font-weight:800;letter-spacing:.18em;display:block;margin-bottom:6px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(27px,3vw,38px);font-weight:650;line-height:1.15;margin:0}
+.h1ar{font-size:clamp(22px,2.4vw,30px);color:#2c5a5a;margin:6px 0 0;display:block}
+.intro{color:#5d7173;font-size:14px;margin:12px 0 0}
+.routebox h3{margin:0 0 4px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.routebox p{margin:0 0 12px;font-size:12.5px;color:var(--muted)}
+.routes{display:grid;gap:8px}
+.route{border:1px solid #e3e6df;background:#fbfbf8;border-radius:13px;padding:10px 13px;text-align:left;display:flex;gap:11px;align-items:center}
+.route b{display:block;font-size:13.5px}.route small{display:block;font-size:11.5px;color:var(--muted)}
+.route .dot{width:13px;height:13px;border-radius:50%;flex:none;border:3px solid #fff;box-shadow:0 0 0 1px #d5d9d2}
+.route[aria-pressed="true"]{border-color:#9fcabd;background:var(--tealsoft)}.route[aria-pressed="true"] .dot{box-shadow:0 0 0 2px currentColor}
+.meter{display:flex;gap:14px;align-items:center;margin-top:16px;padding-top:14px;border-top:1px dashed #e4dbc5}
+.ring{--p:0;width:58px;height:58px;border-radius:50%;background:conic-gradient(var(--teal) calc(var(--p)*1%),#e9eee9 0);display:grid;place-items:center;flex:none}
+.ring span{width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;font-weight:800;font-size:13px}
+.meter small{color:var(--muted);font-size:12px;display:block}.meter strong{font-size:14px}
+/* tabs */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);padding:6px;border-radius:16px;margin-bottom:18px;box-shadow:0 4px 25px #19404207}
+.tab{border:0;background:transparent;border-radius:11px;padding:10px 15px;font-weight:750;font-size:13.5px;color:#5c7072;display:flex;gap:8px;align-items:center}
+.tab .num{width:22px;height:22px;border-radius:50%;background:#eef2ee;display:grid;place-items:center;font-size:11px;font-weight:800}
+.tab[aria-selected="true"]{background:var(--teal);color:#fff}.tab[aria-selected="true"] .num{background:#ffffff30}
+.tab:hover:not([aria-selected="true"]){background:#f4f6f2}
+.panel{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:24px 26px}
+.panelhead{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap;margin-bottom:18px}
+.panelhead h2{margin:0;font-size:22px}.panelhead p{margin:4px 0 0;color:var(--muted);font-size:13.5px;max-width:720px}
+/* generic */
+.btn{border:1px solid #dcded7;background:#fff;color:#21454a;border-radius:11px;padding:9px 14px;font-weight:700;font-size:13px;display:inline-flex;gap:7px;align-items:center;justify-content:center;transition:.15s background,.15s box-shadow,.15s transform;text-decoration:none}
+.btn:hover:not(:disabled){background:#f6f7f3;box-shadow:0 4px 14px #00262012;transform:translateY(-1px)}
+.btn.dark{background:var(--teal);border-color:var(--teal);color:#fff}.btn.dark:hover:not(:disabled){background:#105a59}
+.btn.gold{background:#e3ad52;border-color:#e3ad52;color:#14353a}.btn.gold:hover:not(:disabled){background:#d89f40}
+.btn.rec{background:#fff4f0;border-color:#efc3b2;color:#a2442a}.btn.rec.on{background:#c4482b;border-color:#c4482b;color:#fff;animation:pulse 1.2s infinite}
+.btn.small{padding:6px 10px;font-size:12px;border-radius:9px}
+.btn.ghost{background:transparent;border-color:#c8ddd7;color:#176561}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 #c4482b55}50%{box-shadow:0 0 0 7px #c4482b00}}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:850;letter-spacing:.08em;text-transform:uppercase;border-radius:20px;padding:4px 9px;white-space:nowrap}
+.chip.core{background:#e3f3ee;color:#1d6f63}.chip.develop{background:#fbefd9;color:#93621a}.chip.stretch{background:#f3e7f6;color:#7a3f8b}.chip.warn{background:#fde8df;color:#a2442a}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.seg{display:inline-flex;background:#f1f4f0;border-radius:11px;padding:4px;gap:3px;flex-wrap:wrap}
+.seg button{border:0;background:transparent;border-radius:8px;padding:7px 12px;font-size:12.5px;font-weight:750;color:#5f7375}
+.seg button[aria-pressed="true"]{background:#fff;color:#125c5a;box-shadow:0 2px 7px #12454217}
+.tog{background:#f5f7f5;color:#426462;border:1px solid #e6eeea;padding:7px 11px;border-radius:10px;font-size:12px;font-weight:750}
+.tog[aria-pressed="true"]{background:#e4f1eb;border-color:#a2ccc1;color:#155e54}
+.note{background:#fffaf0;border:1px solid #f0dfbb;border-radius:14px;padding:12px 15px;font-size:13px;color:#6b5428}
+.note.teal{background:#f2f9f6;border-color:#cfe5dc;color:#28585a}
+.empty{color:var(--muted);font-size:14px;padding:20px;text-align:center}
+/* bank */
+.bankgroup{margin-bottom:24px}.bankgroup h3{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:0 0 11px;font-size:15px;flex-wrap:wrap}
+.bankgroup h3 .ar{font-size:18px;color:#2c5a5a}
+.bankgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.word{border:1px solid #e7e4da;border-radius:16px;padding:14px 15px 12px;background:#fdfcf9;display:flex;flex-direction:column;gap:6px;position:relative}
+.word.done{border-color:#a9d3c5;background:#f6fbf8}
+.word .head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.word .wa{font-size:25px;line-height:1.6;color:#173940;text-align:right;flex:1}
+.word .en{font-size:13px;font-weight:700}.word .tr{font-size:11.5px;color:#83918f;font-style:italic}
+.forms{display:flex;flex-wrap:wrap;gap:6px;direction:rtl}
+.form{border:1px solid #e3e8e1;background:#fff;border-radius:10px;padding:3px 9px;display:inline-flex;flex-direction:column;align-items:center;line-height:1.3}
+.form .ar{font-size:16px;line-height:1.6}.form small{font-size:9.5px;color:#7a8b88;text-transform:uppercase;letter-spacing:.06em;direction:ltr}
+.form:hover{background:#f2f8f5}
+.wordbar{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.iconbtn{width:34px;height:34px;border-radius:50%;border:1px solid #dfe5df;background:#fff;display:grid;place-items:center;font-size:14px;flex:none}
+.iconbtn:hover{background:#eef6f2}.iconbtn.on{background:#c4482b;color:#fff;border-color:#c4482b;animation:pulse 1.2s infinite}
+.iconbtn.playing{background:var(--teal);color:#fff;border-color:var(--teal)}
+/* role play */
+.rpgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-bottom:20px}
+.rpcard{border:1px solid #e6e2d6;border-radius:17px;padding:15px 16px;background:#fdfcf9;text-align:left;display:flex;flex-direction:column;gap:6px}
+.rpcard:hover{background:#f8faf6}.rpcard[aria-pressed="true"]{border-color:#9fcabd;background:var(--tealsoft);box-shadow:0 0 0 2px #9fcabd55}
+.rpcard .top{display:flex;justify-content:space-between;align-items:center;gap:8px}.rpcard .letter{font-family:Georgia,serif;font-size:22px;font-weight:700;color:#a16b29}
+.rpcard b{font-size:14.5px}.rpcard .ar{font-size:17px;text-align:right}.rpcard small{font-size:11.5px;color:var(--muted)}
+.rpcard .ticks{font-size:11.5px;color:#2d6f64;font-weight:700}
+.stage{border:1px solid #e5e9e2;border-radius:20px;overflow:hidden}
+.situation{background:#14353a;color:#f2efe4;padding:15px 20px;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13px;align-items:center}
+.situation b{color:#f0cf8f}.situation .ar{font-size:18px;margin-left:auto}
+.stepper{display:flex;gap:6px;padding:12px 20px;background:#f7f9f6;border-bottom:1px solid #e9eee7;flex-wrap:wrap;align-items:center}
+.step{width:34px;height:34px;border-radius:50%;border:1px solid #d8e2dc;background:#fff;font-weight:800;font-size:13px;display:grid;place-items:center}
+.step.current{background:var(--teal);color:#fff;border-color:var(--teal)}.step.r2{box-shadow:inset 0 0 0 3px #7cc3a6}.step.r1{box-shadow:inset 0 0 0 3px #e9bd6b}.step.r0{box-shadow:inset 0 0 0 3px #e7a58c}
+.step.unexp{position:relative}.step.unexp::after{content:"!";position:absolute;top:-6px;right:-4px;background:#c4482b;color:#fff;font-size:10px;width:15px;height:15px;border-radius:50%;display:grid;place-items:center}
+.stepper .spacer{flex:1}
+.stagebody{padding:20px;display:grid;gap:14px}
+.bubble{border-radius:18px;padding:16px 18px;position:relative}
+.bubble.examiner{background:#f4f6f1;border:1px solid #e1e8df;border-bottom-left-radius:5px}
+.bubble.you{background:#fff6e9;border:1px solid #f1dfc8;border-bottom-right-radius:5px}
+.who{display:flex;align-items:center;gap:9px;font-size:10.5px;text-transform:uppercase;letter-spacing:.13em;color:#69817d;font-weight:900;margin-bottom:6px}
+.who .av{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:15px;background:#fff;border:1px solid #e3e3da;letter-spacing:0}
+.bigar{font-size:clamp(23px,2.4vw,31px);line-height:1.8;color:#173940;text-align:right}
+.masked{filter:blur(9px);user-select:none}
+.task{font-size:16px;font-weight:750}.task.unexpected{color:#a2442a}
+.helpline{margin-top:9px;border-top:1px dashed #ecd8b7;padding-top:9px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.helpline .ar{font-size:20px}.helpline small{font-size:11px;color:#9a7a45;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.modelbox{background:#f2f9f6;border:1px solid #cfe5dc;border-radius:16px;padding:14px 17px}
+.modelbox .label{font-size:10.5px;text-transform:uppercase;letter-spacing:.14em;font-weight:900;color:#2d6f64;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+.modelbox .bigar{font-size:clamp(21px,2.1vw,27px)}.modelbox .en{color:#557074;font-size:13.5px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.actions .grow{flex:1}
+.rate{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.rate span{font-size:12px;font-weight:800;color:var(--muted);margin-right:3px}
+.rate button{border:1px solid #e1e3dc;background:#fff;border-radius:20px;padding:6px 12px;font-size:12.5px;font-weight:750}
+.rate button[aria-pressed="true"][data-r="2"]{background:#e3f4ec;border-color:#7cc3a6;color:#16613f}
+.rate button[aria-pressed="true"][data-r="1"]{background:#fdf3de;border-color:#e9bd6b;color:#8a5a12}
+.rate button[aria-pressed="true"][data-r="0"]{background:#fdebe4;border-color:#e7a58c;color:#9a3e22}
+/* range spotter */
+.hl{border-radius:5px;padding:0 2px}.hl-reason{background:#d8efe6}.hl-opinion{background:#fbe4c6}.hl-connector{background:#e1e9f8}.hl-past{background:#efe0f4}.hl-future{background:#dff1f5}.hl-condition{background:#fde0d8}.hl-compare{background:#f3efc6}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.legend span{font-size:11px;font-weight:750;border-radius:6px;padding:2px 7px;color:#3d5557}
+.legend span.off{opacity:.35;text-decoration:line-through}
+.check{margin-top:8px;font-size:13px;background:#fff;border:1px dashed #b9d8cd;border-radius:12px;padding:10px 12px}
+.check .ar{font-size:18px}.check .w-ok{color:#1d7a4f}.check .w-miss{color:#b0b8b6}
+/* conversation */
+.convlayout{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:18px;align-items:start}
+.qlist{display:flex;flex-direction:column;gap:6px;max-height:640px;overflow:auto;padding-right:3px}
+.qitem{border:1px solid transparent;background:#fafaf6;border-radius:12px;padding:9px 11px;text-align:left;display:flex;gap:9px;align-items:flex-start}
+.qitem:hover{background:#f3f6f1}.qitem[aria-current="true"]{border-color:#9fcabd;background:var(--tealsoft)}
+.qitem .n{font-size:11px;font-weight:800;color:#8a9b98;min-width:18px;padding-top:3px}.qitem .t{flex:1;min-width:0}.qitem .ar{font-size:15px;display:block;text-align:right;line-height:1.7}.qitem small{font-size:11px;color:var(--muted);display:block}
+.qitem .st{font-size:13px;padding-top:2px}
+.timer{display:flex;align-items:center;gap:12px;background:#f7f9f6;border:1px solid #e3ebe5;border-radius:14px;padding:10px 14px}
+.timer .clock{font-variant-numeric:tabular-nums;font-size:24px;font-weight:800;min-width:62px}
+.timer .bar{flex:1;height:8px;background:#e6ece7;border-radius:9px;overflow:hidden}.timer .bar div{height:100%;width:0;background:linear-gradient(90deg,#2a8377,#d9a14b);transition:width .25s linear}
+.timer .phase{font-size:11px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#5f7472;min-width:70px}
+/* mock */
+.mockintro{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.mockintro div{border:1px solid #e6e2d6;border-radius:15px;padding:13px 15px;background:#fdfcf9;font-size:13px}
+.mockintro b{display:block;font-size:14px;margin-bottom:3px}
+.rubric{display:grid;gap:10px;margin-top:10px}
+.crit{border:1px solid #e6e2d6;border-radius:14px;padding:12px 14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center}
+.crit b{font-size:14px}.crit small{display:block;color:var(--muted);font-size:12px}
+.crit .seg button{min-width:34px}
+.reviewlist{display:grid;gap:10px;margin-top:12px}
+.review{border:1px solid #e9e6dc;border-radius:14px;padding:11px 14px}.review .ar{font-size:18px;text-align:right}.review .en{font-size:12.5px;color:var(--muted)}
+/* progress */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-bottom:18px}
+.stat{border:1px solid #e6e2d6;border-radius:16px;padding:15px;background:#fdfcf9}.stat b{font-size:26px;display:block}.stat small{color:var(--muted);font-size:12px}
+.badges{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:18px}
+.badge{border:1px dashed #d9d3c3;border-radius:16px;padding:15px;display:flex;gap:12px;align-items:center;opacity:.55}
+.badge.won{opacity:1;border-style:solid;border-color:#9fcabd;background:#f2f9f6}.badge .ic{font-size:28px}.badge b{display:block;font-size:14px}.badge small{color:var(--muted);font-size:12px}
+.lessonnav{display:flex;justify-content:space-between;gap:12px;margin-top:22px;flex-wrap:wrap}
+.lessonnav a{flex:1;min-width:220px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 16px;text-decoration:none;color:inherit}
+.lessonnav a small{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#a16b29;font-weight:800}.lessonnav a.next{text-align:right}
+.foot{padding:20px 4px;display:flex;justify-content:space-between;color:#84938f;font-size:11.5px;gap:10px;flex-wrap:wrap}
+/* settings */
+dialog{border:0;border-radius:20px;padding:0;max-width:520px;width:calc(100% - 32px);box-shadow:0 30px 80px #0f2a2e40}
+dialog::backdrop{background:#0f2a2e66}
+.dlg{padding:22px 24px}.dlg h2{margin:0 0 6px;font-size:19px}.dlg label{display:block;font-size:12.5px;font-weight:800;margin:14px 0 6px}
+.dlg select{width:100%;padding:9px 10px;border-radius:10px;border:1px solid #d8ddd6;font:inherit;background:#fff}
+.dlg .row{display:flex;gap:8px;justify-content:flex-end;margin-top:20px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#14353a;color:#fff;padding:10px 16px;border-radius:12px;font-size:13px;box-shadow:0 10px 30px #0003;z-index:50;max-width:calc(100% - 32px)}
+#printArea{display:none}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.convlayout{grid-template-columns:1fr}.qlist{max-height:260px}}
+@media(max-width:620px){.header{padding:10px 14px}.brand small{display:none}.hbtn .lbl{display:none}.container{padding:16px 13px 40px}.herocard,.panel{padding:17px 16px;border-radius:18px}.tab{padding:9px 10px;font-size:12.5px}.tab .lbl{display:none}.tab[aria-selected="true"] .lbl{display:inline}.stagebody{padding:14px}.situation .ar{margin-left:0}.crit{grid-template-columns:1fr}}
+@media print{body{background:#fff}.header,.hero,.tabs,.panel,.lessonnav,.foot,.toast{display:none!important}#printArea{display:block}#printArea h1{font-size:24px}#printArea h2{font-size:18px;border-bottom:2px solid #14353a;padding-bottom:4px;margin-top:26px}#printArea table{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:12.5px}#printArea td,#printArea th{border:1px solid #c9c9c9;padding:6px 8px;vertical-align:top;text-align:left}#printArea .ar{font-size:16px;text-align:right}#printArea tr{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header class="header">
+  <a class="brand" id="hubLink" href="../index.html"><div class="logo" lang="ar">م</div><div><strong>MIFTAH ARABIC</strong><small>Speaking Mastery Studio</small></div></a>
+  <div class="headright"><a class="hbtn" id="hubLink2" href="../index.html">☰ <span class="lbl">All lessons</span></a><button class="hbtn" id="printBtn" title="Print cue cards and model answers">⎙ <span class="lbl">Print</span></button><button class="hbtn" id="settingsBtn" title="Voice and speed">⚙ <span class="lbl">Voice</span></button></div>
+</header>
+<div class="container">
+  <section class="hero">
+    <div class="herocard">
+      <span class="eyebrow" id="eyebrow"></span>
+      <h1 id="title"></h1><span class="ar h1ar" lang="ar" id="titleAr"></span>
+      <p class="intro" id="intro"></p>
+      <div class="note teal" style="margin-top:14px" id="howNote"><b>How it works:</b> listen to the model → say it aloud → record yourself → compare → rate yourself honestly. Your ratings build your mastery score on this device.</div>
+      <div class="note hide" style="margin-top:10px" id="voiceWarn"></div>
+    </div>
+    <div class="herocard routebox">
+      <h3>Choose your route</h3>
+      <p>Your route sets the help you see, the timers and the mock exam.</p>
+      <div class="routes" id="routes"></div>
+      <div class="meter"><div class="ring" id="ring"><span id="ringPct">0%</span></div><div><strong id="meterTitle">Mastery: just starting</strong><small id="meterSub">Rate yourself on role-play tasks and conversation answers.</small></div></div>
+    </div>
+  </section>
+  <nav class="tabs" role="tablist" aria-label="Speaking stations" id="tabs"></nav>
+  <main>
+    <section class="panel" id="p-bank" role="tabpanel"></section>
+    <section class="panel hide" id="p-roleplay" role="tabpanel"></section>
+    <section class="panel hide" id="p-conversation" role="tabpanel"></section>
+    <section class="panel hide" id="p-mock" role="tabpanel"></section>
+    <section class="panel hide" id="p-progress" role="tabpanel"></section>
+  </main>
+  <nav class="lessonnav" id="lessonNav"></nav>
+  <footer class="foot"><span id="footLeft">Miftah Arabic · Cambridge IGCSE Arabic (0544) · Speaking Mastery</span><span>Recordings stay on your device and are never uploaded.</span></footer>
+</div>
+<div id="printArea"></div>
+<dialog id="settings"><div class="dlg">
+  <h2>Voice and speed</h2>
+  <p style="margin:0;font-size:13px;color:var(--muted)">The studio uses your device’s Arabic voice. Natural or Online voices (Edge, Chrome, Safari) sound best.</p>
+  <label for="voiceSel">Arabic voice</label><select id="voiceSel"></select>
+  <label>Speaking speed</label><div class="seg" id="rateSeg"><button data-rate="0.7">Slow</button><button data-rate="0.85">Steady</button><button data-rate="1">Natural</button></div>
+  <label>Pronunciation check (beta)</label><div class="seg" id="srSeg"><button data-sr="1">On</button><button data-sr="0">Off</button></div>
+  <p style="font-size:12px;color:var(--muted);margin:6px 0 0" id="srNote"></p>
+  <div class="row"><button class="btn" id="testVoice">▶ Test voice</button><button class="btn dark" id="closeSettings">Done</button></div>
+</div></dialog>
+<script type="application/json" id="lessonData">{"code":"AT-A-L04","title":"Food and Drink — Meals and Preferences","arabic":"الطَّعَامُ وَالشَّرَابُ وَالْوَجَبَاتُ وَالتَّفْضِيلَاتُ","intro":"Paper 3 practice in breakout rooms: say what you eat and drink, give preferences with reasons, describe meals and family food traditions.","bank":[{"title":"Eat, drink, prefer, cook","arabic":"أَفْعَالُ الطَّعَامِ","items":[{"ar":"آكُلُ","en":"I eat","tr":"ā-ku-lu","kind":"he · she · they","forms":[{"label":"he","ar":"يَأْكُلُ","id":"AT-A-L04-b1-1-f1"},{"label":"she","ar":"تَأْكُلُ","id":"AT-A-L04-b1-1-f2"},{"label":"they","ar":"يَأْكُلُونَ","id":"AT-A-L04-b1-1-f3"}],"id":"AT-A-L04-b1-1"},{"ar":"أَشْرَبُ","en":"I drink","tr":"ash-ra-bu","kind":"he · she · they","forms":[{"label":"he","ar":"يَشْرَبُ","id":"AT-A-L04-b1-2-f1"},{"label":"she","ar":"تَشْرَبُ","id":"AT-A-L04-b1-2-f2"},{"label":"they","ar":"يَشْرَبُونَ","id":"AT-A-L04-b1-2-f3"}],"id":"AT-A-L04-b1-2"},{"ar":"أُفَضِّلُ","en":"I prefer","tr":"u-faḍ-ḍi-lu","kind":"he · she · they","forms":[{"label":"he","ar":"يُفَضِّلُ","id":"AT-A-L04-b1-3-f1"},{"label":"she","ar":"تُفَضِّلُ","id":"AT-A-L04-b1-3-f2"},{"label":"they","ar":"يُفَضِّلُونَ","id":"AT-A-L04-b1-3-f3"}],"id":"AT-A-L04-b1-3"},{"ar":"أَطْبُخُ","en":"I cook","tr":"aṭ-bu-khu","kind":"he · she · they","forms":[{"label":"he","ar":"يَطْبُخُ","id":"AT-A-L04-b1-4-f1"},{"label":"she","ar":"تَطْبُخُ","id":"AT-A-L04-b1-4-f2"},{"label":"they","ar":"يَطْبُخُونَ","id":"AT-A-L04-b1-4-f3"}],"id":"AT-A-L04-b1-4"},{"ar":"وَجْبَةٌ","en":"a meal","tr":"waj-ba-tun","kind":"sg. · dual · pl.","forms":[{"label":"sg.","ar":"وَجْبَةٌ","id":"AT-A-L04-b1-5-f1"},{"label":"dual","ar":"وَجْبَتَانِ","id":"AT-A-L04-b1-5-f2"},{"label":"pl.","ar":"وَجَبَاتٌ","id":"AT-A-L04-b1-5-f3"}],"id":"AT-A-L04-b1-5"},{"ar":"طَبَقٌ","en":"a dish, a plate","tr":"ṭa-ba-qun","kind":"sg. · dual · pl.","forms":[{"label":"sg.","ar":"طَبَقٌ","id":"AT-A-L04-b1-6-f1"},{"label":"dual","ar":"طَبَقَانِ","id":"AT-A-L04-b1-6-f2"},{"label":"pl.","ar":"أَطْبَاقٌ","id":"AT-A-L04-b1-6-f3"}],"id":"AT-A-L04-b1-6"}]},{"title":"Describe it: delicious, spicy, healthy","arabic":"وَصْفُ الطَّعَامِ","items":[{"ar":"لَذِيذٌ","en":"delicious","tr":"la-dhī-dhun","kind":"m. · f.","forms":[{"label":"m.","ar":"لَذِيذٌ","id":"AT-A-L04-b2-1-f1"},{"label":"f.","ar":"لَذِيذَةٌ","id":"AT-A-L04-b2-1-f2"}],"id":"AT-A-L04-b2-1"},{"ar":"حَارٌّ","en":"spicy, hot","tr":"ḥār-run","kind":"m. · f.","forms":[{"label":"m.","ar":"حَارٌّ","id":"AT-A-L04-b2-2-f1"},{"label":"f.","ar":"حَارَّةٌ","id":"AT-A-L04-b2-2-f2"}],"id":"AT-A-L04-b2-2"},{"ar":"صِحِّيٌّ","en":"healthy","tr":"ṣiḥ-ḥiy-yun","kind":"m. · f.","forms":[{"label":"m.","ar":"صِحِّيٌّ","id":"AT-A-L04-b2-3-f1"},{"label":"f.","ar":"صِحِّيَّةٌ","id":"AT-A-L04-b2-3-f2"}],"id":"AT-A-L04-b2-3"},{"ar":"فَاكِهَةٌ","en":"fruit","tr":"fā-ki-ha-tun","kind":"sg. · pl.","forms":[{"label":"sg.","ar":"فَاكِهَةٌ","id":"AT-A-L04-b2-4-f1"},{"label":"pl.","ar":"فَوَاكِهُ","id":"AT-A-L04-b2-4-f2"}],"id":"AT-A-L04-b2-4"},{"ar":"عَصِيرُ البُرْتُقَالِ","en":"","tr":"","kind":"idāfa","forms":[],"id":"AT-A-L04-b2-5"},{"ar":"الفُطُورُ · الغَدَاءُ · العَشَاءُ","en":"","tr":"","kind":"meals","forms":[],"id":"AT-A-L04-b2-6"}]}],"roleplays":[{"id":"A","level":"core","setting":"Dinner at a friend’s house","title":"Dinner at a friend’s house","arabic":"العَشَاءُ عِنْدَ صَدِيقِي","you":"a guest","examiner":"your friend’s mother","tasks":[{"examiner":"أَهْلًا بِكَ! مَاذَا تُحِبُّ أَنْ تَأْكُلَ؟","task":"Say what you like to eat.","help":"أُحِبُّ … وَ …","model":"أُحِبُّ الدَّجَاجَ وَالأُرْزَ كَثِيرًا.","en":"I really like chicken and rice.","unexpected":false,"id":"AT-A-L04-rpA-1","n":1},{"examiner":"هَلْ تَأْكُلُ السَّمَكَ؟","task":"Say if you eat fish.","help":"لَا، لَا آكُلُ … لٰكِنِّي …","model":"لَا، لَا آكُلُ السَّمَكَ، لٰكِنِّي أُحِبُّ اللَّحْمَ.","en":"No, I don’t eat fish, but I like meat.","unexpected":false,"id":"AT-A-L04-rpA-2","n":2},{"examiner":"مَاذَا تَشْرَبُ؟","task":"Say what you would like to drink.","help":"أَشْرَبُ …، مِنْ فَضْلِكِ","model":"أَشْرَبُ عَصِيرَ البُرْتُقَالِ، مِنْ فَضْلِكِ.","en":"I’ll drink orange juice, please.","unexpected":false,"id":"AT-A-L04-rpA-3","n":3},{"examiner":"مَا فَاكِهَتُكَ المُفَضَّلَةُ؟","task":"Say your favourite fruit.","help":"فَاكِهَتِي المُفَضَّلَةُ هِيَ …","model":"فَاكِهَتِي المُفَضَّلَةُ هِيَ المَانْجُو.","en":"My favourite fruit is mango.","unexpected":false,"id":"AT-A-L04-rpA-4","n":4},{"examiner":"هَلْ أَعْجَبَكَ الطَّعَامُ؟","task":"Answer the unexpected question.","help":"نَعَمْ، الطَّعَامُ … جِدًّا","model":"نَعَمْ، الطَّعَامُ لَذِيذٌ جِدًّا، شُكْرًا جَزِيلًا.","en":"Yes, the food is very delicious, thank you very much.","unexpected":true,"id":"AT-A-L04-rpA-5","n":5}]},{"id":"B","level":"core","setting":"A survey about the school canteen","title":"The canteen survey","arabic":"مَقْصَفُ المَدْرَسَةِ","you":"a student","examiner":"the canteen manager","tasks":[{"examiner":"فِي أَيِّ سَاعَةٍ تَتَنَاوَلُ الغَدَاءَ؟","task":"Say what time you have lunch.","help":"أَتَنَاوَلُ الغَدَاءَ فِي …","model":"أَتَنَاوَلُ الغَدَاءَ فِي السَّاعَةِ الوَاحِدَةِ إِلَّا رُبْعًا.","en":"I have lunch at quarter to one.","unexpected":false,"id":"AT-A-L04-rpB-1","n":1},{"examiner":"مَاذَا تَأْكُلُ عَادَةً فِي المَقْصَفِ؟","task":"Say what you usually eat there.","help":"عَادَةً آكُلُ شَطِيرَةَ …","model":"عَادَةً آكُلُ شَطِيرَةَ جُبْنٍ وَتُفَّاحَةً.","en":"I usually eat a cheese sandwich and an apple.","unexpected":false,"id":"AT-A-L04-rpB-2","n":2},{"examiner":"مَا رَأْيُكَ فِي طَعَامِ المَقْصَفِ؟","task":"Give your opinion, with a “but”.","help":"… لَذِيذٌ، لٰكِنَّهُ …","model":"طَعَامُ المَقْصَفِ لَذِيذٌ، لٰكِنَّهُ غَالٍ قَلِيلًا.","en":"The canteen food is tasty, but it is a bit expensive.","unexpected":false,"id":"AT-A-L04-rpB-3","n":3},{"examiner":"… نَعَمْ، عِنْدَنَا شُورْبَةُ العَدَسِ كُلَّ يَوْمٍ.","task":"ASK if there are vegetarian dishes (the examiner then answers).","help":"هَلْ عِنْدَكُمْ أَطْبَاقٌ …؟","model":"هَلْ عِنْدَكُمْ أَطْبَاقٌ نَبَاتِيَّةٌ؟","en":"Do you have vegetarian dishes?","unexpected":false,"id":"AT-A-L04-rpB-4","n":4},{"examiner":"مَاذَا تُرِيدُ أَنْ نُضِيفَ إِلَى القَائِمَةِ؟","task":"Answer the unexpected question.","help":"أُرِيدُ أَنْ تُضِيفُوا …","model":"أُرِيدُ أَنْ تُضِيفُوا سَلَطَةَ فَوَاكِهَ طَازَجَةً، لِأَنَّهَا صِحِّيَّةٌ.","en":"I would like you to add a fresh fruit salad, because it is healthy.","unexpected":true,"id":"AT-A-L04-rpB-5","n":5}]},{"id":"C","level":"develop","setting":"With your exchange partner","title":"Food at home","arabic":"الطَّعَامُ فِي بَيْتِي","you":"a host student","examiner":"your exchange partner from Jordan","tasks":[{"examiner":"كَمْ وَجْبَةً تَتَنَاوَلُ فِي اليَوْمِ؟ وَمَتَى؟","task":"Describe your meals and when you eat them.","help":"ثَلَاثَ وَجَبَاتٍ: الفُطُورَ فِي …","model":"أَتَنَاوَلُ ثَلَاثَ وَجَبَاتٍ: الفُطُورَ فِي السَّابِعَةِ، وَالغَدَاءَ فِي المَدْرَسَةِ، وَالعَشَاءَ مَعَ أُسْرَتِي.","en":"I have three meals: breakfast at seven, lunch at school and dinner with my family.","unexpected":false,"id":"AT-A-L04-rpC-1","n":1},{"examiner":"مَا الطَّبَقُ المُفَضَّلُ فِي أُسْرَتِكَ؟","task":"Name the family’s favourite dish and why.","help":"الطَّبَقُ المُفَضَّلُ … لِأَنَّ …","model":"الطَّبَقُ المُفَضَّلُ فِي أُسْرَتِي هُوَ البِرْيَانِي، لِأَنَّ أُمِّي تَطْبُخُهُ بِبَهَارَاتٍ لَذِيذَةٍ.","en":"My family’s favourite dish is biryani, because my mother cooks it with delicious spices.","unexpected":false,"id":"AT-A-L04-rpC-2","n":2},{"examiner":"هَلْ تُسَاعِدُ فِي المَطْبَخِ؟","task":"Say how you help in the kitchen (two things).","help":"أُسَاعِدُ … أَغْسِلُ … وَأُحَضِّرُ …","model":"نَعَمْ، أُسَاعِدُ أُمِّي أَحْيَانًا؛ أَغْسِلُ الخُضَارَ وَأُحَضِّرُ السَّلَطَةَ.","en":"Yes, I sometimes help my mother: I wash the vegetables and make the salad.","unexpected":false,"id":"AT-A-L04-rpC-3","n":3},{"examiner":"… المَنْسَفُ: لَحْمٌ مَعَ أُرْزٍ وَلَبَنٍ.","task":"ASK what the famous dish in Jordan is (the examiner then answers).","help":"مَا الأَكْلَةُ المَشْهُورَةُ …؟","model":"مَا الأَكْلَةُ المَشْهُورَةُ فِي بَلَدِكُمْ؟","en":"What is the famous dish in your country?","unexpected":false,"id":"AT-A-L04-rpC-4","n":4},{"examiner":"مَا الطَّعَامُ الَّذِي لَا تُحِبُّهُ؟ لِمَاذَا؟","task":"Answer the unexpected question, with a reason.","help":"لَا أُحِبُّ … لِأَنَّ …","model":"لَا أُحِبُّ البَصَلَ النِّيءَ، لِأَنَّ طَعْمَهُ قَوِيٌّ جِدًّا.","en":"I don’t like raw onion, because its taste is very strong.","unexpected":true,"id":"AT-A-L04-rpC-5","n":5}]},{"id":"D","level":"stretch","setting":"A radio programme about food and culture","title":"Food, family and culture","arabic":"الطَّعَامُ وَالثَّقَافَةُ","you":"a student guest","examiner":"the radio presenter","tasks":[{"examiner":"صِفْ عَادَاتِ أُسْرَتِكَ فِي الطَّعَامِ.","task":"Describe your family’s food habits, with a preference.","help":"نُفَضِّلُ … عَلَى …","model":"نَتَنَاوَلُ العَشَاءَ مَعًا كُلَّ مَسَاءٍ، وَنُفَضِّلُ الأَطْبَاقَ البَيْتِيَّةَ عَلَى الوَجَبَاتِ السَّرِيعَةِ.","en":"We have dinner together every evening, and we prefer home-made dishes to fast food.","unexpected":false,"id":"AT-A-L04-rpD-1","n":1},{"examiner":"مَاذَا أَكَلْتُمْ فِي آخِرِ مُنَاسَبَةٍ عَائِلِيَّةٍ؟","task":"Describe food at a recent family occasion (past).","help":"فِي … أَكَلْنَا … وَحَضَّرَتْ …","model":"فِي العِيدِ المَاضِي أَكَلْنَا لَحْمَ الخَرُوفِ مَعَ الأُرْزِ، وَحَضَّرَتْ جَدَّتِي حَلَوِيَّاتٍ كَثِيرَةً.","en":"Last Eid we ate lamb with rice, and my grandmother made lots of sweets.","unexpected":false,"id":"AT-A-L04-rpD-2","n":2},{"examiner":"هَلْ تُفَضِّلُ الطَّعَامَ التَّقْلِيدِيَّ أَمِ الحَدِيثَ؟ لِمَاذَا؟","task":"Give a preference, a reason and a contrast.","help":"أُفَضِّلُ … لِأَنَّهُ … لٰكِنِّي …","model":"أُفَضِّلُ الطَّعَامَ التَّقْلِيدِيَّ لِأَنَّهُ يُذَكِّرُنِي بِبَلَدِ أَجْدَادِي، لٰكِنِّي أُحِبُّ تَجْرِبَةَ أَطْبَاقٍ جَدِيدَةٍ أَيْضًا.","en":"I prefer traditional food because it reminds me of my grandparents’ country, but I also like trying new dishes.","unexpected":false,"id":"AT-A-L04-rpD-3","n":3},{"examiner":"قَارِنْ بَيْنَ الطَّعَامِ فِي بَلَدَيْنِ تَعْرِفُهُمَا.","task":"Compare food in two countries.","help":"بَيْنَمَا … يُفَضِّلُ …","model":"بَيْنَمَا يُحِبُّ البِرِيطَانِيُّونَ السَّمَكَ وَالبَطَاطَا، يُفَضِّلُ النَّاسُ فِي بَاكِسْتَانَ الأَطْعِمَةَ الحَارَّةَ بِالبَهَارَاتِ.","en":"While British people like fish and chips, people in Pakistan prefer spicy food with spices.","unexpected":false,"id":"AT-A-L04-rpD-4","n":4},{"examiner":"لَوْ كُنْتَ طَبَّاخًا، مَاذَا تُحَضِّرُ لِضُيُوفِكَ؟","task":"Answer the unexpected question (a conditional).","help":"لَوْ كُنْتُ طَبَّاخًا، لَحَضَّرْتُ …","model":"لَوْ كُنْتُ طَبَّاخًا، لَحَضَّرْتُ لَهُمْ شُورْبَةً سَاخِنَةً، ثُمَّ دَجَاجًا مَشْوِيًّا مَعَ الأُرْزِ.","en":"If I were a chef, I would make them a hot soup, then grilled chicken with rice.","unexpected":true,"id":"AT-A-L04-rpD-5","n":5}]}],"conversation":[{"level":"core","q":"مَاذَا تَأْكُلُ فِي الفُطُورِ؟","qen":"What do you eat for breakfast?","starter":"آكُلُ …","model":"آكُلُ الخُبْزَ وَالبَيْضَ فِي الفُطُورِ.","en":"I eat bread and eggs for breakfast.","id":"AT-A-L04-c-core-1"},{"level":"core","q":"مَا طَعَامُكَ المُفَضَّلُ؟","qen":"What is your favourite food?","starter":"طَعَامِي المُفَضَّلُ هُوَ …","model":"طَعَامِي المُفَضَّلُ هُوَ البِيتْزَا.","en":"My favourite food is pizza.","id":"AT-A-L04-c-core-2"},{"level":"core","q":"مَاذَا تَشْرَبُ عَادَةً؟","qen":"What do you usually drink?","starter":"أَشْرَبُ … عَادَةً","model":"أَشْرَبُ المَاءَ وَالحَلِيبَ عَادَةً.","en":"I usually drink water and milk.","id":"AT-A-L04-c-core-3"},{"level":"core","q":"هَلْ تُحِبُّ الخُضَارَ؟","qen":"Do you like vegetables?","starter":"نَعَمْ، أُحِبُّ … / لَا …","model":"نَعَمْ، أُحِبُّ الجَزَرَ وَالخِيَارَ.","en":"Yes, I like carrots and cucumber.","id":"AT-A-L04-c-core-4"},{"level":"core","q":"أَيْنَ تَتَنَاوَلُ الغَدَاءَ؟","qen":"Where do you have lunch?","starter":"أَتَنَاوَلُ الغَدَاءَ فِي …","model":"أَتَنَاوَلُ الغَدَاءَ فِي مَقْصَفِ المَدْرَسَةِ.","en":"I have lunch in the school canteen.","id":"AT-A-L04-c-core-5"},{"level":"develop","q":"صِفْ وَجْبَةَ العَشَاءِ فِي بَيْتِكَ.","qen":"Describe dinner at your home.","starter":"نَتَنَاوَلُ العَشَاءَ فِي … عَادَةً نَأْكُلُ …","model":"نَتَنَاوَلُ العَشَاءَ فِي السَّابِعَةِ؛ عَادَةً نَأْكُلُ الأُرْزَ وَالدَّجَاجَ وَالسَّلَطَةَ، ثُمَّ نَأْكُلُ الفَاكِهَةَ.","en":"We have dinner at seven: we usually eat rice, chicken and salad, then fruit.","id":"AT-A-L04-c-develop-1"},{"level":"develop","q":"مَا الطَّعَامُ الَّذِي لَا تُحِبُّهُ؟ لِمَاذَا؟","qen":"What food don’t you like? Why?","starter":"لَا أُحِبُّ … لِأَنَّ …","model":"لَا أُحِبُّ السَّمَكَ، لِأَنَّ رَائِحَتَهُ قَوِيَّةٌ.","en":"I don’t like fish, because its smell is strong.","id":"AT-A-L04-c-develop-2"},{"level":"develop","q":"مَنْ يَطْبُخُ فِي بَيْتِكَ؟","qen":"Who cooks in your house?","starter":"تَطْبُخُ … غَالِبًا، وَأَحْيَانًا …","model":"تَطْبُخُ أُمِّي غَالِبًا، وَأَحْيَانًا يَطْبُخُ أَبِي فِي نِهَايَةِ الأُسْبُوعِ.","en":"My mother usually cooks, and sometimes my father cooks at the weekend.","id":"AT-A-L04-c-develop-3"},{"level":"develop","q":"مَاذَا أَكَلْتَ أَمْسِ؟","qen":"What did you eat yesterday?","starter":"أَمْسِ أَكَلْتُ …","model":"أَمْسِ أَكَلْتُ مَعْكَرُونَةً بِالطَّمَاطِمِ فِي الغَدَاءِ، وَشُورْبَةَ عَدَسٍ فِي العَشَاءِ.","en":"Yesterday I ate pasta with tomatoes for lunch and lentil soup for dinner.","id":"AT-A-L04-c-develop-4"},{"level":"develop","q":"مَا الأَكْلَةُ الَّتِي تُرِيدُ أَنْ تَتَعَلَّمَ طَبْخَهَا؟","qen":"Which dish would you like to learn to cook?","starter":"أُرِيدُ أَنْ أَتَعَلَّمَ طَبْخَ … لِأَنَّ …","model":"أُرِيدُ أَنْ أَتَعَلَّمَ طَبْخَ البِرْيَانِي، لِأَنَّهُ طَبَقُ أُسْرَتِي المُفَضَّلُ.","en":"I want to learn to cook biryani, because it is my family’s favourite dish.","id":"AT-A-L04-c-develop-5"},{"level":"stretch","q":"هَلْ تَأْكُلُ أُسْرَتُكَ مَعًا؟ مَا أَهَمِّيَّةُ ذٰلِكَ؟","qen":"Does your family eat together? Why does it matter?","starter":"نَعَمْ … وَهٰذَا مُهِمٌّ لِأَنَّ …","model":"نَعَمْ، نَأْكُلُ مَعًا كُلَّ مَسَاءٍ، وَهٰذَا مُهِمٌّ لِأَنَّنَا نَتَحَدَّثُ عَنْ يَوْمِنَا وَنَشْعُرُ بِالقُرْبِ.","en":"Yes, we eat together every evening; it matters because we talk about our day and feel close.","id":"AT-A-L04-c-stretch-1"},{"level":"stretch","q":"كَيْفَ تَغَيَّرَتْ عَادَاتُ الأَكْلِ فِي رَأْيِكَ؟","qen":"How have eating habits changed?","starter":"فِي المَاضِي كَانَ النَّاسُ … أَمَّا اليَوْمَ فَيَطْلُبُونَ …","model":"فِي المَاضِي كَانَ النَّاسُ يَطْبُخُونَ فِي البَيْتِ دَائِمًا، أَمَّا اليَوْمَ فَيَطْلُبُونَ الوَجَبَاتِ السَّرِيعَةَ كَثِيرًا.","en":"In the past people always cooked at home; today they order fast food a lot.","id":"AT-A-L04-c-stretch-2"},{"level":"stretch","q":"صِفْ أَكْلَةً تَقْلِيدِيَّةً مِنْ بَلَدِ أُسْرَتِكَ.","qen":"Describe a traditional dish from your family’s country.","starter":"… أَكْلَةٌ مَشْهُورَةٌ، تُطْبَخُ بِالخُضَارِ …","model":"الكُسْكُسِي أَكْلَةٌ مَغْرِبِيَّةٌ مَشْهُورَةٌ، تُطْبَخُ بِالخُضَارِ وَاللَّحْمِ، وَنَأْكُلُهَا يَوْمَ الجُمُعَةِ عَادَةً.","en":"Couscous is a famous Moroccan dish, cooked with vegetables and meat, and we usually eat it on Fridays.","id":"AT-A-L04-c-stretch-3"},{"level":"stretch","q":"مَا أَجْمَلُ وَجْبَةٍ تَتَذَكَّرُهَا؟","qen":"What is the best meal you remember?","starter":"أَجْمَلُ وَجْبَةٍ أَتَذَكَّرُهَا كَانَتْ …","model":"أَجْمَلُ وَجْبَةٍ أَتَذَكَّرُهَا كَانَتْ فِي مَطْعَمٍ عَلَى البَحْرِ؛ أَكَلْنَا سَمَكًا مَشْوِيًّا وَضَحِكْنَا كَثِيرًا.","en":"The best meal I remember was in a restaurant by the sea: we ate grilled fish and laughed a lot.","id":"AT-A-L04-c-stretch-4"},{"level":"stretch","q":"لَوْ فَتَحْتَ مَطْعَمًا، مَاذَا تُقَدِّمُ فِيهِ؟","qen":"If you opened a restaurant, what would you serve?","starter":"لَوْ فَتَحْتُ مَطْعَمًا، لَقَدَّمْتُ …","model":"لَوْ فَتَحْتُ مَطْعَمًا، لَقَدَّمْتُ أَطْبَاقًا مِنْ بُلْدَانٍ مُخْتَلِفَةٍ، لِكَيْ يَتَعَرَّفَ النَّاسُ عَلَى ثَقَافَاتٍ جَدِيدَةٍ.","en":"If I opened a restaurant, I would serve dishes from different countries, so that people get to know new cultures.","id":"AT-A-L04-c-stretch-5"}],"unit":{"code":"TA","label":"Topic A","title":"Everyday Activities","arabic":"الأَنْشِطَةُ اليَوْمِيَّةُ"},"repair":[{"ar":"عَفْوًا، هَلْ يُمْكِنُ أَنْ تُعِيدَ السُّؤَالَ؟","en":"Sorry, could you repeat the question?","tr":"","forms":[{"label":"to m.","ar":"تُعِيدَ","id":"rep-1-f1"},{"label":"to f.","ar":"تُعِيدِي","id":"rep-1-f2"}],"id":"rep-1"},{"ar":"هَلْ يُمْكِنُ أَنْ تَتَكَلَّمَ بِبُطْءٍ، مِنْ فَضْلِكَ؟","en":"Could you speak slowly, please?","forms":[{"label":"to m.","ar":"تَتَكَلَّمَ … مِنْ فَضْلِكَ","id":"rep-2-f1"},{"label":"to f.","ar":"تَتَكَلَّمِي … مِنْ فَضْلِكِ","id":"rep-2-f2"}],"id":"rep-2","tr":""},{"ar":"لَحْظَةً، دَعْنِي أُفَكِّرُ …","en":"One moment, let me think …","forms":[{"label":"to m.","ar":"دَعْنِي","id":"rep-3-f1"},{"label":"to f.","ar":"دَعِينِي","id":"rep-3-f2"}],"id":"rep-3","tr":""},{"ar":"مَا مَعْنَى …؟","en":"What does … mean?","id":"rep-4","forms":[],"tr":""},{"ar":"أَقْصِدُ …","en":"I mean …","id":"rep-5","forms":[],"tr":""},{"ar":"لَا أَعْرِفُ الكَلِمَةَ، وَلٰكِنْ …","en":"I don’t know the word, but …","id":"rep-6","forms":[],"tr":""},{"ar":"بِعِبَارَةٍ أُخْرَى …","en":"In other words …","id":"rep-7","forms":[],"tr":""},{"ar":"سُؤَالٌ جَيِّدٌ! فِي رَأْيِي …","en":"Good question! In my opinion …","id":"rep-8","forms":[],"tr":""}],"audio":[],"audioBase":"audio/AT-A-L04/","nav":{"hub":"../index.html","prev":{"href":"at-a-l03.html","code":"AT-A-L03","title":"Frequency, Sequencing and Communication"},"next":{"href":"at-a-l05.html","code":"AT-A-L05","title":"Eating Out — Café, Menu and Prices"}}}</script>
+<script>
+(()=>{'use strict';
+const D=JSON.parse(document.getElementById('lessonData').textContent);
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const LV={core:{en:'Core',desc:'Full sentences with the help frames visible.',col:'var(--core)',think:10,speak:20,rp:15},develop:{en:'Develop',desc:'Add a reason, a detail and a second time frame.',col:'var(--develop)',think:8,speak:40,rp:20},stretch:{en:'Stretch',desc:'No help: opinions, comparisons and conditionals.',col:'var(--stretch)',think:6,speak:60,rp:25}};
+const ORDER=['core','develop','stretch'];
+const isAsk=t=>/^ASK\b/.test(t.task||'');
+const RATE_TXT={2:'✓ Got it',1:'~ Nearly',0:'↻ Again'};
+/* ---------- storage ---------- */
+const KEY='miftah-sm:'+D.code, PREF='miftah-sm:prefs';
+const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}};
+const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const S=Object.assign({r:{},bank:{},mocks:[],route:null},load(KEY,{}));
+const P=Object.assign({route:'core',rate:0.85,voice:'',sr:1},load(PREF,{}));
+if(!S.route)S.route=P.route;
+const persist=()=>{save(KEY,S);updateMeter()};
+/* ---------- speech synthesis ---------- */
+const synth=window.speechSynthesis;let voices=[];let audioEl=null;let speakingBtn=null;
+const AUDIO=new Set(D.audio||[]);
+function pickVoices(){if(!synth)return;voices=synth.getVoices().filter(v=>/^ar/i.test(v.lang));voices.sort((a,b)=>score(b)-score(a));renderVoiceSel();const w=$('voiceWarn');if(!voices.length&&!AUDIO.size){w.innerHTML='<b>No Arabic voice found on this device.</b> You can still read, record and compare. To hear the models: Windows › Settings › Time &amp; language › Speech › Add voices › Arabic; iPhone/iPad › Settings › Accessibility › Spoken Content › Voices › Arabic; Android › Settings › Text-to-speech. Microsoft Edge has natural Arabic voices built in.';w.classList.remove('hide')}else w.classList.add('hide')}
+function score(v){let s=0;if(/natural|online|neural/i.test(v.name))s+=5;if(/google/i.test(v.name))s+=3;if(/ar-SA|ar-EG|ar-AE/i.test(v.lang))s+=1;if(/hamed|zariyah|salma|shakir|maged|majed|laila/i.test(v.name))s+=1;return s}
+function voice(){return voices.find(v=>v.name===P.voice)||voices[0]||null}
+const clean=t=>String(t).replace(/[…«»"]/g,' ').replace(/\.\.\./g,' ').replace(/\s*·\s*/g,'، ').replace(/\s+/g,' ').trim();
+let pendingDone=null;
+function stopSpeech(){if(synth)synth.cancel();if(audioEl){audioEl.pause();audioEl=null}if(speakingBtn){speakingBtn.classList.remove('playing');speakingBtn=null}const d=pendingDone;pendingDone=null;d&&d()}
+function speak(text,id,btn){return new Promise(res=>{stopSpeech();if(btn){btn.classList.add('playing');speakingBtn=btn}
+  let fin=false;const done=()=>{if(fin)return;fin=true;if(pendingDone===done)pendingDone=null;if(btn)btn.classList.remove('playing');if(speakingBtn===btn)speakingBtn=null;res()};pendingDone=done;
+  if(id&&AUDIO.has(id)){audioEl=new Audio((D.audioBase||'audio/')+id.replace(':','_')+'.mp3');audioEl.playbackRate=Math.max(.7,P.rate+.1);audioEl.onended=done;audioEl.onerror=()=>{audioEl=null;tts(text,done)};audioEl.play().catch(()=>tts(text,done));return}
+  tts(text,done)})}
+function tts(text,done){if(!synth||!clean(text)||!voices.length){done();return}const u=new SpeechSynthesisUtterance(clean(text));const v=voice();if(v)u.voice=v;u.lang=v?v.lang:'ar-SA';u.rate=P.rate;let over=false,guard=0;const fin=()=>{if(over)return;over=true;clearInterval(guard);done()};u.onend=fin;u.onerror=fin;synth.speak(u);
+  // safety net: some browsers never fire onend, so poll once speech has had time to start
+  setTimeout(()=>{if(over)return;guard=setInterval(()=>{if(!synth.speaking&&!synth.pending)fin()},400)},1200)}
+if(synth){pickVoices();synth.onvoiceschanged=pickVoices}else pickVoices();
+/* ---------- recording ---------- */
+const recs=new Map();let mediaStream=null,recorder=null,recKey=null,recBtn=null,recChunks=[],recResolve=null;
+async function getStream(){if(mediaStream)return mediaStream;if(!navigator.mediaDevices?.getUserMedia)throw new Error('no-media');mediaStream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});return mediaStream}
+async function startRec(key,btn){stopSpeech();if(recorder)await stopRec();try{const st=await getStream();recChunks=[];recorder=new MediaRecorder(st);recKey=key;recBtn=btn;recorder.ondataavailable=e=>{if(e.data.size)recChunks.push(e.data)};recorder.onstop=()=>{const blob=new Blob(recChunks,{type:recorder?.mimeType||'audio/webm'});const old=recs.get(recKey);if(old)URL.revokeObjectURL(old.url);recs.set(recKey,{url:URL.createObjectURL(blob),blob});const r=recResolve;recResolve=null;recorder=null;if(recBtn){recBtn.classList.remove('on');recBtn.innerHTML=recBtn.dataset.idle||'🎙'}recBtn=null;document.dispatchEvent(new CustomEvent('rec-saved',{detail:recKey}));r&&r()};recorder.start();if(btn){btn.dataset.idle=btn.innerHTML;btn.classList.add('on');btn.innerHTML=btn.classList.contains('iconbtn')?'■':'■ Stop'}return true}catch(e){toast(location.protocol==='file:'?'Recording needs the page to be opened from the website (https), or allow microphone access.':'Microphone not available. Allow microphone access in your browser settings.');return false}}
+function stopRec(){return new Promise(res=>{if(!recorder||recorder.state==='inactive'){res();return}recResolve=res;recorder.stop()})}
+function toggleRec(key,btn){if(recorder&&recKey===key){stopRec();return}startRec(key,btn)}
+function playRec(key,btn){const r=recs.get(key);if(!r){toast('Record yourself first.');return}stopSpeech();audioEl=new Audio(r.url);if(btn){btn.classList.add('playing');speakingBtn=btn}audioEl.onended=()=>{btn&&btn.classList.remove('playing')};audioEl.play()}
+/* ---------- speech recognition (beta) ---------- */
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+const norm=t=>String(t).normalize('NFC').replace(/[\u064B-\u065F\u0670\u0640]/g,'').replace(/[\u0623\u0625\u0622\u0671]/g,'\u0627').replace(/\u0629/g,'\u0647').replace(/\u0649/g,'\u064A').replace(/[^\u0621-\u064A\s]/g,' ').replace(/\s+/g,' ').trim();
+function checkSpeech(model,out,btn){if(!SR){toast('Pronunciation check works in Chrome or Edge on a computer or Android.');return}if(!P.sr){toast('Turn on the pronunciation check in ⚙ Voice settings.');return}stopSpeech();const rec=new SR();rec.lang='ar-SA';rec.interimResults=false;rec.maxAlternatives=3;btn.classList.add('on');const old=btn.innerHTML;btn.innerHTML='● Listening…';
+ rec.onresult=e=>{const alts=[...e.results[0]].map(a=>a.transcript);let best=null;for(const a of alts){const r=compare(model,a);if(!best||r.pct>best.pct)best=r}showCheck(out,best)};
+ rec.onerror=e=>{out.innerHTML=`<div class="check">I could not hear you clearly (${esc(e.error)}). Check the microphone and try again.</div>`};
+ rec.onend=()=>{btn.classList.remove('on');btn.innerHTML=old};rec.start()}
+function compare(model,heard){const words=String(model).split(/\s+/).filter(w=>norm(w));const strip=w=>w.replace(/^(وال|بال|فال|لل|ال|و|ف|ب|ل)(?=..)/,'');const hs=new Set(norm(heard).split(' ').filter(Boolean).map(strip));const marks=words.map(w=>norm(w).split(' ').every(x=>hs.has(strip(x))));const ok=marks.filter(Boolean).length;return{pct:words.length?Math.round(ok/words.length*100):0,marks,words,heard}}
+function showCheck(out,r){const html=r.words.map((w,i)=>`<span class="${r.marks[i]?'w-ok':'w-miss'}">${esc(w)}</span>`).join(' ');const msg=r.pct>=85?'Excellent — very close to the model!':r.pct>=60?'Good — most words came through. Listen again to the grey words.':'Keep going — listen to the model, then try a shorter part first.';out.innerHTML=`<div class="check"><b>${r.pct}% match</b> · ${msg}<div class="ar" dir="rtl" lang="ar">${html}</div><small style="color:var(--muted)">We heard: <span class="ar" lang="ar">${esc(r.heard)}</span></small><br><small style="color:var(--muted)">Your own answer can be different from the model and still be excellent — this check only compares words.</small></div>`}
+/* ---------- range spotter ---------- */
+const CAT={reason:{en:'Reason',w:['لان','لانه','لانها','لانني','لاننا','لانهم','لانك','لذلك','بسبب','لكي','كي']},opinion:{en:'Opinion',w:['راي','رايي','رايك','اعتقد','اظن','ارى','نرى','يرى','افضل','نفضل','احب','نحب','اكره','يعجبني','اتفق','اشعر']},connector:{en:'Connector',w:['ثم','بعد','قبل','عندما','بينما','لكن','لكنني','لكننا','لكنه','لكنها','لكنك','ولكن','اما','ايضا','اولا','اخيرا','حين','اثناء','رغم','الرغم','كذلك','مثلا','حتي','خصوصا','لهذا']},past:{en:'Past',w:['كان','كانت','كنت','كنا','كانوا','امس','الماضي','الماضيه','سابقا','منذ']},future:{en:'Future',w:['سوف','غدا','القادم','القادمه','المستقبل','ساكون','سيكون']},condition:{en:'Condition',w:['اذا','لو','ان']},compare:{en:'Comparison',w:['اكثر','اقل','افضل','احسن','ارخص','اغلي','اسرع','اصح','اهم','اكبر','اصغر','اطول','اقصر','اجمل','اسهل','اصعب','ابعد','اقرب','اهدا','ابكر','اكثرهم','مثل','الافضل','الاكثر','اقوي','اسوا']}};
+const FUT=/^(\u0648\u064E|\u0641\u064E)?\u0633\u064E[\u0623\u064A\u062A\u0646][\u064E\u064F]/, FUTX=/^(\u0648\u064E|\u0641\u064E)?(\u0633\u064E\u0623\u064E\u0644|\u0633\u064E\u0646\u064E(\u0629|\u0648\u064E\u0627\u062A|\u062A\u064E\u064A\u0652\u0646))/, PASTV=/\u0652(\u062A\u064F|\u0646\u064E\u0627|\u062A\u064F\u0645\u0652)$/, NOUNT=['بيت','البيت','وقت','الوقت','اخت','بنت','زيت','صوت','موت','سبت','السبت','انت','بيتنا','وقتنا'];
+function tag(raw){const word=raw.replace(/^[«("]+|[»)"،.؟!؛:]+$/g,'');const n=norm(word).replace(/^(و|ف)(?=...)/,'');if(!n)return null;
+ if(CAT.condition.w.includes(n)&&n!=='ان')return'condition';
+ if(CAT.reason.w.includes(n))return'reason';
+ if(n==='افضل'||n==='الافضل')return/\u0651/.test(word)&&n==='افضل'?'opinion':'compare';
+ if(CAT.compare.w.includes(n))return'compare';
+ if(CAT.opinion.w.includes(n))return'opinion';
+ if((FUT.test(word)&&!FUTX.test(word))||CAT.future.w.includes(n))return'future';
+ if(CAT.past.w.includes(n))return'past';
+ if(PASTV.test(word)&&n.length>3&&!NOUNT.includes(n))return'past';
+ if(CAT.connector.w.includes(n))return'connector';
+ return null}
+function spot(text){const used=new Set();const html=String(text).split(/(\s+)/).map(t=>{if(/^\s+$/.test(t))return t;const c=tag(t);if(c){used.add(c);return`<span class="hl hl-${c}">${esc(t)}</span>`}return esc(t)}).join('');return{html,used}}
+function legend(used){return`<div class="legend">${Object.keys(CAT).map(k=>`<span class="hl-${k} ${used.has(k)?'':'off'}">${CAT[k].en}</span>`).join('')}</div>`}
+/* ---------- helpers ---------- */
+let toastT;function toast(m){let t=document.querySelector('.toast');if(!t){t=document.createElement('div');t.className='toast';document.body.appendChild(t)}t.textContent=m;clearTimeout(toastT);toastT=setTimeout(()=>t.remove(),3800)}
+const chip=l=>`<span class="chip ${l}">${LV[l].en}</span>`;
+const ratingOf=id=>S.r[id];
+function rateBar(id){const cur=ratingOf(id);return`<div class="rate" data-rate-id="${id}"><span>How did it go?</span>${[2,1,0].map(r=>`<button data-r="${r}" aria-pressed="${cur===r}">${RATE_TXT[r]}</button>`).join('')}</div>`}
+document.addEventListener('click',e=>{const b=e.target.closest('.rate button');if(!b)return;const id=b.parentElement.dataset.rateId;S.r[id]=+b.dataset.r;persist();b.parentElement.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));document.dispatchEvent(new CustomEvent('rated',{detail:id}));if(curTab==='roleplay'&&!rp.running)renderRP();if(curTab==='conversation')renderConv()});
+/* ---------- route ---------- */
+function renderRoutes(){$('routes').innerHTML=ORDER.map(l=>`<button class="route" data-route="${l}" aria-pressed="${S.route===l}" style="color:${LV[l].col}"><span class="dot" style="background:${LV[l].col}"></span><span style="color:var(--ink)"><b>${LV[l].en}</b><small>${LV[l].desc}</small></span></button>`).join('')}
+$('routes').addEventListener('click',e=>{const b=e.target.closest('[data-route]');if(!b)return;S.route=b.dataset.route;P.route=S.route;save(PREF,P);persist();renderRoutes();rp.help=S.route==='core';cv.starter=S.route!=='stretch';renderTab(curTab)});
+/* ---------- meter ---------- */
+function allItems(){return[...D.roleplays.flatMap(r=>r.tasks.map(t=>({id:t.id,level:r.level}))),...D.conversation.map(c=>({id:c.id,level:c.level}))]}
+function levelDone(l){const it=allItems().filter(i=>i.level===l);return it.length&&it.every(i=>S.r[i.id]===2)}
+function updateMeter(){const it=allItems();const pts=it.reduce((a,i)=>a+(S.r[i.id]===2?1:S.r[i.id]===1?.5:0),0);const pct=it.length?Math.round(pts/it.length*100):0;$('ring').style.setProperty('--p',pct);$('ringPct').textContent=pct+'%';const lv=ORDER.filter(levelDone);$('meterTitle').textContent=pct===0?'Mastery: just starting':pct<40?'Mastery: building':pct<75?'Mastery: developing well':pct<100?'Mastery: nearly there':'Mastery: complete!';$('meterSub').textContent=`${it.filter(i=>S.r[i.id]===2).length} of ${it.length} answers rated “Got it”`+(lv.length?` · ${lv.map(l=>LV[l].en).join(', ')} secure`:'')+(S.mocks.length?` · ${S.mocks.length} mock${S.mocks.length>1?'s':''}`:'')}
+/* ---------- tabs ---------- */
+const TABS=[['bank','Key language'],['roleplay','Role plays'],['conversation','Conversation'],['mock','Mock exam'],['progress','My progress']];
+let curTab='bank';
+function renderTabs(){$('tabs').innerHTML=TABS.map(([k,l],i)=>`<button class="tab" role="tab" data-tab="${k}" aria-selected="${curTab===k}"><span class="num">${i+1}</span><span class="lbl">${l}</span></button>`).join('')}
+$('tabs').addEventListener('click',e=>{const b=e.target.closest('[data-tab]');if(!b)return;showTab(b.dataset.tab);const r=$('tabs').getBoundingClientRect();if(r.top<0||r.top>innerHeight*.5)window.scrollTo({top:scrollY+r.top-80,behavior:'smooth'})});
+function showTab(k){stopSpeech();if(mock.running)endMock(true);if(rp.running)stopRP();cvToken++;stopRec();curTab=k;renderTabs();TABS.forEach(([t])=>$('p-'+t).classList.toggle('hide',t!==k));renderTab(k);try{history.replaceState(null,'','#'+k)}catch(e){}}
+function renderTab(k){({bank:renderBank,roleplay:renderRP,conversation:renderConv,mock:renderMock,progress:renderProgress})[k]()}
+/* ---------- 1. bank ---------- */
+const REPAIR=D.repair||[];
+function renderBank(){const groups=[...D.bank];if(REPAIR.length)groups.push({title:'Repair phrases — never stay silent',arabic:'عِبَارَاتُ الإِنْقَاذِ',items:REPAIR});
+ $('p-bank').innerHTML=`<div class="panelhead"><div><h2>1 · Key language</h2><p>Tap 🔊 to hear each word or chunk, say it three times, then record yourself and compare. Tap a form (he · she · they, m. · f. · pl.) to hear it too.</p></div><div class="toolbar"><button class="btn gold" id="shadowBtn">▶ Shadow all</button><span style="font-size:12px;color:var(--muted)">Plays each item with a pause for you to repeat.</span></div></div>`+
+ groups.map((g,gi)=>`<div class="bankgroup"><h3><span>${esc(g.title)}</span><span class="ar" lang="ar">${esc(g.arabic||'')}</span></h3><div class="bankgrid">${g.items.map(w=>`<div class="word ${S.bank[w.id]?'done':''}" data-word="${w.id}"><div class="head"><div><div class="en">${esc(w.en)}</div>${w.tr?`<div class="tr">${esc(w.tr)}</div>`:''}${w.kind?`<div class="tr" style="font-style:normal">${esc(w.kind)}</div>`:''}</div><div class="ar wa" lang="ar">${esc(w.ar)}</div></div>${w.forms&&w.forms.length?`<div class="forms">${w.forms.map(f=>`<button class="form" data-say="${esc(f.ar)}" data-id="${f.id||''}"><span class="ar" lang="ar">${esc(f.ar)}</span><small>${esc(f.label)}</small></button>`).join('')}</div>`:''}<div class="wordbar"><button class="iconbtn" title="Hear it" data-say="${esc(w.ar)}" data-id="${w.id}">🔊</button><button class="iconbtn" title="Record yourself" data-rec="${w.id}">🎙</button><button class="iconbtn" title="Play my recording" data-play="${w.id}">▶</button><button class="iconbtn" title="Mark as practised" data-done="${w.id}">${S.bank[w.id]?'✓':'○'}</button></div></div>`).join('')}</div></div>`).join('');
+ $('shadowBtn').onclick=shadowAll}
+let shadowing=false;
+async function shadowAll(){const btn=$('shadowBtn');if(shadowing){shadowing=false;stopSpeech();btn.textContent='▶ Shadow all';return}shadowing=true;btn.textContent='■ Stop';const cards=[...document.querySelectorAll('#p-bank .word')];for(const c of cards){if(!shadowing)break;c.scrollIntoView({block:'center',behavior:'smooth'});c.style.boxShadow='0 0 0 3px #9fcabd';const b=c.querySelector('[data-say]');await speak(b.dataset.say,b.dataset.id,b);await wait(Math.max(1800,b.dataset.say.length*110));c.style.boxShadow=''}shadowing=false;btn.textContent='▶ Shadow all'}
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+$('p-bank').addEventListener('click',e=>{const s=e.target.closest('[data-say]');if(s){speak(s.dataset.say,s.dataset.id,s);return}const r=e.target.closest('[data-rec]');if(r){toggleRec('b:'+r.dataset.rec,r);return}const p=e.target.closest('[data-play]');if(p){playRec('b:'+p.dataset.play,p);return}const d=e.target.closest('[data-done]');if(d){const id=d.dataset.done;S.bank[id]=!S.bank[id];persist();d.textContent=S.bank[id]?'✓':'○';d.closest('.word').classList.toggle('done',!!S.bank[id])}});
+/* ---------- 2. role play ---------- */
+const rp={sel:0,step:0,help:S.route==='core',hideEx:false,showModel:false,running:false};
+function pickDefaultRP(){const i=D.roleplays.findIndex(r=>r.level===S.route);return i<0?0:i}
+rp.sel=pickDefaultRP();
+function renderRP(){const R=D.roleplays[rp.sel];if(!R){$('p-roleplay').innerHTML='<div class="empty">No role plays for this lesson.</div>';return}const T=R.tasks[rp.step];
+ const done=r=>r.tasks.filter(t=>S.r[t.id]===2).length;
+ $('p-roleplay').innerHTML=`<div class="panelhead"><div><h2>2 · Role plays</h2><p>Exam-style cards. The examiner speaks first; you answer every task in a full sentence. The <b style="color:#a2442a">!</b> task is unexpected — listen carefully. Then compare with the model and rate yourself.</p></div></div>
+ <div class="rpgrid">${D.roleplays.map((r,i)=>`<button class="rpcard" data-rp="${i}" aria-pressed="${i===rp.sel}"><div class="top"><span class="letter">${esc(r.id)}</span>${chip(r.level)}</div><b>${esc(r.title)}</b><span class="ar" lang="ar">${esc(r.arabic)}</span><small>${esc(r.setting)}</small><span class="ticks">${done(r)} / ${r.tasks.length} secure</span></button>`).join('')}</div>
+ <div class="stage"><div class="situation"><span>👤 <b>You are:</b> ${esc(R.you)}</span><span>🎓 <b>Examiner:</b> ${esc(R.examiner)}</span><span class="ar" lang="ar">${esc(R.arabic)}</span></div>
+ <div class="stepper">${R.tasks.map((t,i)=>`<button class="step ${i===rp.step?'current':''} ${t.unexpected?'unexp':''} ${S.r[t.id]!=null?'r'+S.r[t.id]:''}" data-step="${i}" aria-label="Task ${i+1}">${i+1}</button>`).join('')}<span class="spacer"></span><button class="tog" id="tHelp" aria-pressed="${rp.help}">Help frame</button><button class="tog" id="tHide" aria-pressed="${rp.hideEx}" title="Exam realism: listen without reading">Hide examiner text</button><button class="btn dark small" id="runRP">${rp.running?'■ Stop':'▶ Run as exam'}</button></div>
+ <div class="stagebody">
+  ${isAsk(T)?'':exBubble(R,T)}
+  <div class="bubble you"><div class="who"><span class="av">👤</span>Your task ${rp.step+1} of ${R.tasks.length} ${T.unexpected?'<span class="chip warn">! unexpected</span>':''}</div><div class="task ${T.unexpected?'unexpected':''}">${esc(T.task)}</div>${T.help?`<div class="helpline ${rp.help?'':'hide'}"><small>Help frame</small><span class="ar" lang="ar">${esc(T.help)}</span></div>`:''}${isAsk(T)?'<div class="helpline"><small>You ask first — then the examiner replies</small></div>':''}</div>
+  ${isAsk(T)?exBubble(R,T,true):''}
+  <div class="actions"><button class="btn rec" id="recRP">🎙 Record my answer</button><button class="btn" id="playRP" ${recs.has('rp:'+T.id)?'':'disabled'}>▶ My answer</button><button class="btn ghost" id="checkRP" ${SR&&P.sr?'':'disabled'} title="Chrome / Edge">✓ Check my Arabic</button><span class="grow"></span><button class="btn gold" id="modelRP">${rp.showModel?'Hide model':'👁 Show model'}</button></div>
+  <div id="checkOut"></div>
+  ${rp.showModel?modelBox(T.model,T.en,'rpm:'+T.id):''}
+  ${rateBar(T.id)}
+  <div class="actions"><button class="btn" id="prevRP" ${rp.step===0?'disabled':''}>← Previous</button><span class="grow"></span><button class="btn dark" id="nextRP">${rp.step===R.tasks.length-1?'Finish ✓':'Next task →'}</button></div>
+ </div></div>`;
+ bindRP(R,T)}
+function exBubble(R,T,reply){return`<div class="bubble examiner"><div class="who"><span class="av">🎓</span>${reply?'Examiner replies':'Examiner'} · ${esc(R.examiner)}<span style="flex:1"></span><button class="iconbtn" id="sayEx" title="Hear the examiner">🔊</button></div><div class="ar bigar ${rp.hideEx?'masked':''}" lang="ar" id="exText">${esc(T.examiner)}</div></div>`}
+function modelBox(ar,en,key){const s=spot(ar);return`<div class="modelbox"><div class="label"><span>Model answer · نَمُوذَجُ الإِجَابَةِ</span><span><button class="iconbtn" data-model-say="${esc(ar)}" data-id="${key}" title="Hear the model">🔊</button></span></div><div class="ar bigar" lang="ar">${s.html}</div><div class="en">${esc(en)}</div>${legend(s.used)}</div>`}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-model-say]');if(b)speak(b.dataset.modelSay,b.dataset.id,b)});
+function bindRP(R,T){const P2=$('p-roleplay');P2.querySelectorAll('[data-rp]').forEach(b=>b.onclick=()=>{stopRP();rp.sel=+b.dataset.rp;rp.step=0;rp.showModel=false;renderRP()});P2.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>{rp.step=+b.dataset.step;rp.showModel=false;renderRP();autoEx()});
+ $('tHelp').onclick=()=>{rp.help=!rp.help;renderRP()};$('tHide').onclick=()=>{rp.hideEx=!rp.hideEx;renderRP()};
+ $('sayEx').onclick=e=>speak(T.examiner,'rpx:'+T.id,e.currentTarget);$('exText').onclick=()=>{if(rp.hideEx)$('exText').classList.toggle('masked')};
+ $('recRP').onclick=e=>toggleRec('rp:'+T.id,e.currentTarget);$('playRP').onclick=e=>playRec('rp:'+T.id,e.currentTarget);$('checkRP').onclick=e=>checkSpeech(T.model,$('checkOut'),e.currentTarget);
+ $('modelRP').onclick=()=>{rp.showModel=!rp.showModel;renderRP()};
+ $('prevRP').onclick=()=>{rp.step--;rp.showModel=false;renderRP();autoEx()};
+ $('nextRP').onclick=()=>{if(rp.step<R.tasks.length-1){rp.step++;rp.showModel=false;renderRP();autoEx()}else{toast('Role play complete — try the next card or the conversation.');const n=(rp.sel+1)%D.roleplays.length;rp.sel=n;rp.step=0;rp.showModel=false;renderRP()}};
+ $('runRP').onclick=()=>rp.running?stopRP():runRP()}
+function autoEx(){const R=D.roleplays[rp.sel];const T=R.tasks[rp.step];const b=$('sayEx');if(b&&!isAsk(T))speak(T.examiner,'rpx:'+T.id,b)}
+document.addEventListener('rec-saved',e=>{if(String(e.detail).startsWith('rp:')){const b=$('playRP');if(b)b.disabled=false}if(String(e.detail).startsWith('cv:')){const b=$('playCV');if(b)b.disabled=false}});
+let rpToken=0;
+async function runRP(){const R=D.roleplays[rp.sel];rp.running=true;rp.step=0;rp.showModel=false;rp.hideEx=S.route!=='core';const tok=++rpToken;renderRP();
+ const secs=LV[R.level].rp;for(let i=0;i<R.tasks.length;i++){if(tok!==rpToken)return;rp.step=i;renderRP();const T=R.tasks[i];if(!isAsk(T))await speak(T.examiner,'rpx:'+T.id,$('sayEx'));if(tok!==rpToken)return;const btn=$('recRP');await startRec('rp:'+T.id,btn);await countdown($('recRP').parentElement,secs,()=>tok===rpToken,isAsk(T)?'Ask now':'Answer now');await stopRec();if(tok!==rpToken)return;if(isAsk(T)){await speak(T.examiner,'rpx:'+T.id,$('sayEx'));await wait(400)}}
+ rp.running=false;rp.step=0;rp.showModel=true;renderRP();toast('Done! Step through the tasks: play your answer, read the model, rate yourself.')}
+function stopRP(){rpToken++;rp.running=false;stopRec();stopSpeech();const b=$('runRP');if(b)b.textContent='▶ Run as exam'}
+function countdown(after,secs,live,label){return new Promise(res=>{const box=document.createElement('div');box.className='timer';box.innerHTML=`<span class="phase">${label}</span><span class="clock">${secs}s</span><div class="bar"><div></div></div><button class="btn small">Done ✓</button>`;after.insertAdjacentElement('afterend',box);const t0=Date.now();let fin=false;const end=()=>{if(fin)return;fin=true;clearInterval(iv);box.remove();res()};box.querySelector('button').onclick=end;const iv=setInterval(()=>{if(live&&!live()){end();return}const el=(Date.now()-t0)/1000;box.querySelector('.clock').textContent=Math.max(0,Math.ceil(secs-el))+'s';box.querySelector('.bar div').style.width=Math.min(100,el/secs*100)+'%';if(el>=secs)end()},200)})}
+/* ---------- 3. conversation ---------- */
+const cv={filter:S.route,idx:0,starter:S.route!=='stretch',meaning:true,showModel:false};let cvToken=0;
+function cvList(){return D.conversation.filter(c=>cv.filter==='all'||c.level===cv.filter)}
+function renderConv(){const L=cvList();if(cv.idx>=L.length)cv.idx=0;const C=L[cv.idx];
+ $('p-conversation').innerHTML=`<div class="panelhead"><div><h2>3 · Topic conversation</h2><p>Hear the question, use the thinking time, then answer while the timer runs (Core ${LV.core.speak}s · Develop ${LV.develop.speak}s · Stretch ${LV.stretch.speak}s). Develop every answer: <b>answer → reason → example → another time frame</b>.</p></div><div class="seg" id="cvFilter">${['core','develop','stretch','all'].map(f=>`<button data-f="${f}" aria-pressed="${cv.filter===f}">${f==='all'?'All':LV[f].en} (${f==='all'?D.conversation.length:D.conversation.filter(c=>c.level===f).length})</button>`).join('')}</div></div>
+ ${!C?'<div class="empty">No questions at this level.</div>':`<div class="convlayout"><div class="qlist">${L.map((c,i)=>`<button class="qitem" data-q="${i}" aria-current="${i===cv.idx}"><span class="n">${i+1}</span><span class="t"><span class="ar" lang="ar">${esc(c.q)}</span><small>${esc(c.qen)}</small></span><span class="st">${S.r[c.id]===2?'✅':S.r[c.id]===1?'🟡':S.r[c.id]===0?'🔁':''}</span></button>`).join('')}</div>
+ <div class="stage"><div class="stepper"><span>${chip(C.level)}</span><span style="font-size:12.5px;color:var(--muted);font-weight:700">Question ${cv.idx+1} of ${L.length}</span><span class="spacer"></span><button class="tog" id="tMean" aria-pressed="${cv.meaning}">English</button><button class="tog" id="tStart" aria-pressed="${cv.starter}">Starter</button></div>
+ <div class="stagebody"><div class="bubble examiner"><div class="who"><span class="av">🎓</span>The examiner asks<span style="flex:1"></span><button class="iconbtn" id="sayQ" title="Hear the question">🔊</button></div><div class="ar bigar" lang="ar">${esc(C.q)}</div>${cv.meaning?`<div style="color:#5d7173;font-size:14px">${esc(C.qen)}</div>`:''}</div>
+ ${C.starter&&cv.starter?`<div class="bubble you"><div class="helpline" style="border:0;margin:0;padding:0"><small>Start like this</small><span class="ar" lang="ar">${esc(C.starter)}</span></div></div>`:''}
+ <div class="actions"><button class="btn dark" id="goCV">⏱ Think, then answer</button><button class="btn rec" id="recCV">🎙 Record</button><button class="btn" id="playCV" ${recs.has('cv:'+C.id)?'':'disabled'}>▶ My answer</button><button class="btn ghost" id="checkCV" ${SR&&P.sr?'':'disabled'}>✓ Check my Arabic</button><span class="grow"></span><button class="btn gold" id="modelCV">${cv.showModel?'Hide model':'👁 Show model'}</button></div>
+ <div id="cvCheck"></div>
+ ${cv.showModel?modelBox(C.model,C.en,'cvm:'+C.id)+`<div class="note teal" style="font-size:12.5px"><b>Range spotter:</b> the coloured words are what lifts a mark — reasons, opinions, connectors, different time frames, conditions and comparisons. Can you add one more to <i>your</i> answer?</div>`:''}
+ ${rateBar(C.id)}
+ <div class="actions"><button class="btn" id="prevCV" ${cv.idx===0?'disabled':''}>← Previous</button><span class="grow"></span><button class="btn dark" id="nextCV">${cv.idx===L.length-1?'Back to first':'Next question →'}</button></div></div></div></div>`}`;
+ $('cvFilter').onclick=e=>{const b=e.target.closest('[data-f]');if(!b)return;cv.filter=b.dataset.f;cv.idx=0;cv.showModel=false;renderConv()};if(!C)return;
+ document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{cvToken++;cv.idx=+b.dataset.q;cv.showModel=false;renderConv();speak(cvList()[cv.idx].q,'cvq:'+cvList()[cv.idx].id,$('sayQ'))});
+ $('tMean').onclick=()=>{cv.meaning=!cv.meaning;renderConv()};$('tStart').onclick=()=>{cv.starter=!cv.starter;renderConv()};
+ $('sayQ').onclick=e=>speak(C.q,'cvq:'+C.id,e.currentTarget);$('recCV').onclick=e=>toggleRec('cv:'+C.id,e.currentTarget);$('playCV').onclick=e=>playRec('cv:'+C.id,e.currentTarget);$('checkCV').onclick=e=>checkSpeech(C.model,$('cvCheck'),e.currentTarget);
+ $('modelCV').onclick=()=>{cv.showModel=!cv.showModel;renderConv()};
+ $('prevCV').onclick=()=>{cvToken++;cv.idx--;cv.showModel=false;renderConv()};$('nextCV').onclick=()=>{cvToken++;cv.idx=(cv.idx+1)%L.length;cv.showModel=false;renderConv()};
+ $('goCV').onclick=async()=>{const tok=++cvToken;const lv=LV[C.level];const row=$('goCV').parentElement;await speak(C.q,'cvq:'+C.id,$('sayQ'));if(tok!==cvToken)return;await countdown(row,lv.think,()=>tok===cvToken,'Think');if(tok!==cvToken)return;await startRec('cv:'+C.id,$('recCV'));await countdown(row,lv.speak,()=>tok===cvToken,'Speak');await stopRec();if(tok!==cvToken)return;cv.showModel=true;renderConv();toast('Play your answer, compare with the model, then rate yourself.')}}
+/* ---------- 4. mock exam ---------- */
+const mock={running:false,token:0,step:0,plan:null,result:null};
+function mockPlan(){const lv=S.route;const rps=D.roleplays.filter(r=>r.level===lv);const R=(rps.length?rps:D.roleplays)[Math.floor(Math.random()*(rps.length||D.roleplays.length))];
+ const mix={core:{core:3,develop:2,stretch:0},develop:{core:1,develop:3,stretch:1},stretch:{core:0,develop:2,stretch:3}}[lv];let qs=[];
+ for(const l of ORDER){const pool=shuffle(D.conversation.filter(c=>c.level===l));qs.push(...pool.slice(0,mix[l]))}
+ if(qs.length<5)qs.push(...shuffle(D.conversation.filter(c=>!qs.includes(c))).slice(0,5-qs.length));
+ const steps=[...R.tasks.map(t=>({kind:'rp',ask:isAsk(t),text:t.examiner,task:t.task,unexpected:t.unexpected,secs:LV[R.level].rp,id:t.id,model:t.model,en:t.en})),...qs.map(c=>({kind:'cv',text:c.q,task:c.qen,secs:LV[c.level].speak,id:c.id,model:c.model,en:c.en,level:c.level}))];
+ return{R,qs,steps,level:lv}}
+function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function renderMock(){const P3=$('p-mock');
+ if(mock.result){renderMockResult();return}
+ if(!mock.running){const lv=S.route;P3.innerHTML=`<div class="panelhead"><div><h2>4 · Mock speaking exam</h2><p>A timed run-through like Cambridge Paper 3: one role play, then a topic conversation. The examiner speaks; your whole performance is recorded so you can listen back, self-assess and download it for your teacher.</p></div>${chip(lv)}</div>
+ <div class="mockintro"><div><b>Part 1 · Role play</b>A random ${LV[lv].en} card · 5 tasks · ${LV[lv].rp}s per answer.</div><div><b>Part 2 · Conversation</b>5 questions mixed for your route · up to ${LV.stretch.speak}s each.</div><div><b>Exam rules</b>No help frames, no models. If you get stuck, use a repair phrase — never stay silent.</div></div>
+ <div class="note">Find a quiet place, check your microphone, and allow microphone access when asked. Change your route above to change the difficulty.</div>
+ <div class="actions" style="margin-top:16px"><button class="btn dark" id="startMock">▶ Start the mock exam</button><label style="font-size:13px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="mockText"> Show the examiner’s words (easier)</label></div>
+ ${S.mocks.length?`<h3 style="margin-top:24px;font-size:15px">Previous mocks</h3><div class="reviewlist">${S.mocks.slice(-5).reverse().map(m=>`<div class="review"><b>${new Date(m.at).toLocaleDateString()}</b> · ${LV[m.level].en} route · self-assessed <b>${m.score} / 12</b></div>`).join('')}</div>`:''}`;
+  $('startMock').onclick=()=>startMock($('mockText').checked);return}
+ const st=mock.plan.steps[mock.step];const n=mock.plan.steps.length;
+ P3.innerHTML=`<div class="panelhead"><div><h2>4 · Mock exam in progress</h2><p>${st.kind==='rp'?'Part 1 · Role play — '+esc(mock.plan.R.title):'Part 2 · Topic conversation'} · step ${mock.step+1} of ${n}</p></div><button class="btn" id="stopMock">■ End mock</button></div>
+ <div class="stage">${st.kind==='rp'?`<div class="situation"><span>👤 <b>You are:</b> ${esc(mock.plan.R.you)}</span><span>🎓 <b>Examiner:</b> ${esc(mock.plan.R.examiner)}</span></div>`:''}
+ <div class="stepper">${mock.plan.steps.map((s,i)=>`<span class="step ${i===mock.step?'current':''} ${s.unexpected?'unexp':''}" style="${i<mock.step?'background:#e3f3ee':''}">${i+1}</span>`).join('')}</div>
+ <div class="stagebody"><div class="bubble examiner"><div class="who"><span class="av">🎓</span>${st.ask?'Examiner replies after your question':'Examiner'} <span class="chip warn" style="margin-left:8px">● recording</span></div><div class="ar bigar ${mock.showText?'':'masked'}" lang="ar" id="mockEx">${esc(st.text)}</div></div>
+ ${st.kind==='rp'?`<div class="bubble you"><div class="who"><span class="av">👤</span>Your task ${st.unexpected?'<span class="chip warn">! unexpected</span>':''}</div><div class="task">${esc(st.task)}</div></div>`:''}
+ <div id="mockTimerSlot"></div></div></div>`;
+ $('stopMock').onclick=()=>endMock(true);$('mockEx').onclick=()=>$('mockEx').classList.toggle('masked')}
+async function startMock(showText){if(!(await startRec('mock',null))){return}mock.plan=mockPlan();mock.running=true;mock.step=0;mock.showText=showText;mock.result=null;const tok=++mock.token;
+ for(let i=0;i<mock.plan.steps.length;i++){if(tok!==mock.token)return;mock.step=i;renderMock();const st=mock.plan.steps[i];if(i===mock.plan.R.tasks.length){toast('Part 2 · Topic conversation');await wait(1200)}if(!st.ask)await speak(st.text,(st.kind==='rp'?'rpx:':'cvq:')+st.id);if(tok!==mock.token)return;await countdown($('mockTimerSlot'),st.secs,()=>tok===mock.token,st.ask?'Ask now':'Answer');if(st.ask&&tok===mock.token){await speak(st.text,'rpx:'+st.id);await wait(400)}}
+ if(tok===mock.token)endMock(false)}
+async function endMock(aborted){mock.token++;stopSpeech();const wasRunning=mock.running;mock.running=false;await stopRec();if(!wasRunning)return;if(aborted){mock.plan=null;toast('Mock ended.');if(curTab==='mock')renderMock();return}mock.result={scores:{}};renderMock()}
+const CRIT=[['task','Task completion','I answered every role-play task, including the unexpected one, in full sentences.'],['range','Range of language','I used reasons, opinions, connectors and more than one time frame.'],['accuracy','Accuracy','Verb endings, agreement (m./f.) and word order were mostly correct.'],['fluency','Fluency and repair','I kept going, used repair phrases and did not stay silent.']];
+function renderMockResult(){const P3=$('p-mock');const r=recs.get('mock');const sc=mock.result.scores;const total=Object.values(sc).reduce((a,b)=>a+b,0);
+ P3.innerHTML=`<div class="panelhead"><div><h2>4 · Your mock: listen and self-assess</h2><p>Listen to your whole performance, compare with the models below, then score yourself 0–3 on each criterion.</p></div><button class="btn" id="againMock">↻ New mock</button></div>
+ ${r?`<div class="actions"><audio controls src="${r.url}" style="max-width:100%;flex:1"></audio><a class="btn" download="${D.code}-mock-speaking.webm" href="${r.url}">⬇ Download recording</a></div>`:''}
+ <div class="rubric">${CRIT.map(([k,t,d])=>`<div class="crit"><div><b>${t}</b><small>${d}</small></div><div class="seg" data-crit="${k}">${[0,1,2,3].map(v=>`<button data-v="${v}" aria-pressed="${sc[k]===v}">${v}</button>`).join('')}</div></div>`).join('')}</div>
+ <div class="actions" style="margin-top:14px"><b style="font-size:15px">Total: ${total} / 12</b><span class="grow"></span><button class="btn dark" id="saveMock" ${Object.keys(sc).length<4?'disabled':''}>Save my score</button></div>
+ <h3 style="margin-top:22px;font-size:15px">Model answers for your mock</h3><div class="reviewlist">${mock.plan.steps.map((s,i)=>`<div class="review"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><small style="font-weight:800;color:#a16b29">${i+1} · ${s.kind==='rp'?'Role play':'Conversation'}</small><button class="iconbtn" data-model-say="${esc(s.model)}" data-id="${(s.kind==='rp'?'rpm:':'cvm:')+s.id}">🔊</button></div><div class="ar" lang="ar" style="color:#5d7173;font-size:16px">${esc(s.text)}</div><div class="ar" lang="ar">${spot(s.model).html}</div><div class="en">${esc(s.en)}</div></div>`).join('')}</div>`;
+ P3.querySelectorAll('[data-crit]').forEach(g=>g.onclick=e=>{const b=e.target.closest('[data-v]');if(!b)return;sc[g.dataset.crit]=+b.dataset.v;renderMockResult()});
+ $('againMock').onclick=()=>{mock.result=null;mock.plan=null;renderMock()};
+ $('saveMock').onclick=()=>{S.mocks.push({at:Date.now(),level:mock.plan.level,score:total,scores:{...sc}});persist();toast('Score saved to My progress.');mock.result=null;mock.plan=null;renderMock()}}
+/* ---------- 5. progress ---------- */
+function renderProgress(){const it=allItems();const got=it.filter(i=>S.r[i.id]===2).length,near=it.filter(i=>S.r[i.id]===1).length,again=it.filter(i=>S.r[i.id]===0).length;const bank=D.bank.flatMap(g=>g.items);const bdone=bank.filter(w=>S.bank[w.id]).length;const best=S.mocks.reduce((a,m)=>Math.max(a,m.score),-1);
+ const lvStat=l=>{const x=it.filter(i=>i.level===l);return`${x.filter(i=>S.r[i.id]===2).length}/${x.length}`};
+ const todo=[...D.roleplays.flatMap(r=>r.tasks.map((t,i)=>({t:`Role play ${r.id} · task ${i+1}`,id:t.id,lvl:r.level}))),...D.conversation.map((c,i)=>({t:c.qen,id:c.id,lvl:c.level}))].filter(x=>S.r[x.id]===0||S.r[x.id]===1);
+ $('p-progress').innerHTML=`<div class="panelhead"><div><h2>5 · My progress</h2><p>Saved on this device and browser. Use the same device each time — or show this page to your teacher.</p></div><button class="btn" id="resetBtn">Reset this lesson</button></div>
+ <div class="stats"><div class="stat"><b>${got}</b><small>answers rated “Got it” (of ${it.length})</small></div><div class="stat"><b>${near+again}</b><small>answers to practise again</small></div><div class="stat"><b>${bdone}/${bank.length}</b><small>key-language items practised</small></div><div class="stat"><b>${best<0?'—':best+' / 12'}</b><small>best mock score (${S.mocks.length} taken)</small></div></div>
+ <div class="badges">${ORDER.map(l=>`<div class="badge ${levelDone(l)?'won':''}"><span class="ic">${{core:'🥉',develop:'🥈',stretch:'🥇'}[l]}</span><div><b>${LV[l].en} speaker</b><small>${lvStat(l)} ${LV[l].en} answers secure</small></div></div>`).join('')}<div class="badge ${best>=9?'won':''}"><span class="ic">🎙</span><div><b>Exam ready</b><small>Score 9+ / 12 in a mock</small></div></div></div>
+ <h3 style="font-size:15px;margin:0 0 8px">Practise next</h3>${todo.length?`<div class="reviewlist">${todo.slice(0,8).map(x=>`<div class="review" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><span>${esc(x.t)}</span>${chip(x.lvl)}</div>`).join('')}</div>`:`<div class="note teal">${got?'Nothing marked “Nearly” or “Again” — great work. Try the next route or a mock exam.':'Start with the role plays and rate each answer — your to-do list appears here.'}</div>`}`;
+ $('resetBtn').onclick=()=>{if(confirm('Reset all ratings and mock scores for this lesson on this device?')){S.r={};S.bank={};S.mocks=[];persist();renderProgress()}}}
+/* ---------- print ---------- */
+function buildPrint(){const row=(a,b,c)=>`<tr><td class="ar" lang="ar">${esc(a)}</td><td>${esc(b)}</td><td class="ar" lang="ar">${esc(c||'')}</td></tr>`;
+ $('printArea').innerHTML=`<h1>${esc(D.code)} · ${esc(D.title)} — Speaking Mastery</h1><p class="ar" lang="ar">${esc(D.arabic)}</p>`+
+ D.roleplays.map(R=>`<h2>Role play ${esc(R.id)} (${LV[R.level].en}) — ${esc(R.title)}</h2><p>You are: ${esc(R.you)} · Examiner: ${esc(R.examiner)}</p><table><tr><th>Examiner</th><th>Your task</th><th>Help frame</th></tr>${R.tasks.map(t=>row(t.examiner,(t.unexpected?'! ':'')+t.task,t.help)).join('')}</table><table><tr><th>Model answer</th><th>English</th></tr>${R.tasks.map(t=>`<tr><td class="ar" lang="ar">${esc(t.model)}</td><td>${esc(t.en)}</td></tr>`).join('')}</table>`).join('')+
+ `<h2>Topic conversation</h2><table><tr><th>Question</th><th>Meaning · level</th><th>Start like this</th></tr>${D.conversation.map(c=>row(c.q,c.qen+' · '+LV[c.level].en,c.starter)).join('')}</table><table><tr><th>Model answer</th><th>English</th></tr>${D.conversation.map(c=>`<tr><td class="ar" lang="ar">${esc(c.model)}</td><td>${esc(c.en)}</td></tr>`).join('')}</table>`}
+$('printBtn').onclick=()=>{buildPrint();window.print()};
+/* ---------- settings ---------- */
+function renderVoiceSel(){const s=$('voiceSel');if(!s)return;s.innerHTML=voices.length?voices.map(v=>`<option value="${esc(v.name)}" ${v===voice()?'selected':''}>${esc(v.name)} (${esc(v.lang)})</option>`).join(''):'<option>No Arabic voice installed</option>'}
+function renderSettings(){document.querySelectorAll('#rateSeg button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.rate===P.rate));document.querySelectorAll('#srSeg button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.sr===P.sr));$('srNote').textContent=SR?'Compares the words it hears with the model answer. Uses your browser’s speech service (Chrome sends audio to Google to transcribe it).':'Not available in this browser — use Chrome or Edge on a computer or Android.'}
+$('settingsBtn').onclick=()=>{renderVoiceSel();renderSettings();$('settings').showModal()};$('closeSettings').onclick=()=>{$('settings').close();renderTab(curTab)};
+$('voiceSel').onchange=e=>{P.voice=e.target.value;save(PREF,P)};
+$('rateSeg').onclick=e=>{const b=e.target.closest('[data-rate]');if(!b)return;P.rate=+b.dataset.rate;save(PREF,P);renderSettings()};
+$('srSeg').onclick=e=>{const b=e.target.closest('[data-sr]');if(!b)return;P.sr=+b.dataset.sr;save(PREF,P);renderSettings()};
+$('testVoice').onclick=e=>speak('مَرْحَبًا! أَنَا جَاهِزٌ لِلتَّدْرِيبِ.',null,e.currentTarget);
+/* ---------- boot ---------- */
+document.title=`${D.code} · ${D.title} | Miftah Speaking Mastery`;
+$('eyebrow').textContent=`${D.unit.label} · ${D.code} · Speaking mastery`;$('title').textContent=D.title;$('titleAr').textContent=D.arabic;$('intro').textContent=D.intro||'';
+$('footLeft').textContent=`Miftah Arabic · Cambridge IGCSE Arabic (0544) · ${D.unit.label}: ${D.unit.title}`;
+if(D.nav){['hubLink','hubLink2'].forEach(i=>$(i).href=D.nav.hub);$('lessonNav').innerHTML=(D.nav.prev?`<a href="${esc(D.nav.prev.href)}"><small>← Previous</small>${esc(D.nav.prev.code)} · ${esc(D.nav.prev.title)}</a>`:'<span></span>')+(D.nav.next?`<a class="next" href="${esc(D.nav.next.href)}"><small>Next →</small>${esc(D.nav.next.code)} · ${esc(D.nav.next.title)}</a>`:'<span></span>')}
+renderRoutes();updateMeter();const h=location.hash.slice(1);curTab=TABS.some(t=>t[0]===h)?h:'bank';showTab(curTab);
+window.addEventListener('beforeunload',()=>{stopSpeech()});
+})();
+</script>
+</body>
+</html>

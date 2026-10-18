@@ -1,0 +1,410 @@
+{
+    "a": {
+        "area": "A",
+        "code": "TA",
+        "title": "Everyday Activities",
+        "arabic": "الأَنْشِطَةُ اليَوْمِيَّةُ",
+        "icon": "☀️",
+        "colour": "teal",
+        "route_note": "Flexible topic-based teaching unit",
+        "summary": "Time and routine, food and drink, the human body and health, travel and transport — connected through useful present, past and future communication.",
+        "subtopics": [
+            "Time expressions: time, days, months, seasons, routine, frequency and sequencing",
+            "Food and drink: meals, ingredients, quantities, menus, ordering and healthy choices",
+            "The human body and health: body parts, symptoms, treatment, advice and wellbeing",
+            "Travel and transport: journeys, tickets, timetables, directions and travel problems"
+        ],
+        "grammar": [
+            "Present-tense control and daily-routine verb patterns",
+            "Clock time, dates, ordinal numbers and number–noun agreement",
+            "Frequency adverbs, sequencing expressions and time frames",
+            "Imperatives, negative commands and advice structures",
+            "Past and future time frames for journeys and experiences",
+            "Prepositions, attached pronouns and common weak verbs"
+        ],
+        "skills": {
+            "Listening": "Timetables, café exchanges, health conversations, announcements and travel updates",
+            "Reading": "Menus, schedules, health advice, signs, notices, tickets and short articles",
+            "Speaking": "Order food, describe routines and symptoms, seek help and manage travel situations",
+            "Writing": "Routine descriptions, advice, messages, travel accounts and connected topic responses"
+        },
+        "lessons": [
+            {
+                "code": "AT-A-L01",
+                "title": "Time and Daily Routine",
+                "arabic": "الْوَقْتُ وَالرُّوتِينُ الْيَوْمِيُّ",
+                "focus": "Describe your daily routine using accurate present-tense verbs, times and connected sentences.",
+                "grammar": "Present tense; subject–verb agreement",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "AT-A-L02",
+                "title": "Calendar, Dates and the School Week",
+                "arabic": "التَّقْوِيمُ وَالتَّوَارِيخُ وَالْأُسْبُوعُ الدِّرَاسِيُّ",
+                "focus": "Communicate clock times, days, dates, months and the organisation of a school week.",
+                "grammar": "Ordinal numbers; clock expressions; prepositions of time",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "AT-A-L03",
+                "title": "Frequency, Sequencing and Communication",
+                "arabic": "التَّوَاتُرُ وَالتَّرْتِيبُ وَالتَّوَاصُلُ",
+                "focus": "Explain how often things happen, connect events and communicate about your day or week.",
+                "grammar": "Adverbs; connectors; before\/after; عندما",
+                "skills": "All four skills"
+            },
+            {
+                "code": "AT-A-L04",
+                "title": "Food and Drink — Meals and Preferences",
+                "arabic": "الطَّعَامُ وَالشَّرَابُ وَالْوَجَبَاتُ وَالتَّفْضِيلَاتُ",
+                "focus": "Describe meals, food and drink, express preferences and explain your choices.",
+                "grammar": "Idāfa; adjective agreement; plurals",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "AT-A-L05",
+                "title": "Eating Out — Café, Menu and Prices",
+                "arabic": "تَنَاوُلُ الطَّعَامِ خَارِجَ الْبَيْتِ: الْمَقْهَى وَقَائِمَةُ الطَّعَامِ وَالْأَسْعَارُ",
+                "focus": "Read a menu, ask about prices and order food politely in a café or restaurant.",
+                "grammar": "Requests; imperatives; attached pronouns; numbers",
+                "skills": "Listening · Speaking"
+            },
+            {
+                "code": "AT-A-L06",
+                "title": "Healthy Eating and Lifestyle Choices",
+                "arabic": "الْأَكْلُ الصِّحِّيُّ وَاخْتِيَارَاتُ نَمَطِ الْحَيَاةِ",
+                "focus": "Discuss nutrition, balanced habits, physical activity, sleep and practical lifestyle advice.",
+                "grammar": "Nutrition vocabulary; modal advice; reasons and healthy habits",
+                "skills": "Reading · Speaking · Writing"
+            },
+            {
+                "code": "AT-A-L07",
+                "title": "Body Parts and Health Problems",
+                "arabic": "أَجْزَاءُ الْجِسْمِ وَالْمُشْكِلَاتُ الصِّحِّيَّةُ",
+                "focus": "Name body parts, describe symptoms and explain how you feel.",
+                "grammar": "Possessive suffixes; عند; symptoms and duration",
+                "skills": "Listening · Speaking"
+            },
+            {
+                "code": "AT-A-L08",
+                "title": "Doctor, Pharmacy and Advice",
+                "arabic": "الطَّبِيبُ وَالصَّيْدَلِيَّةُ وَالنَّصِيحَةُ",
+                "focus": "Describe a health problem, understand a consultation and give appropriate general advice.",
+                "grammar": "Advice with أن; subjunctive; requests and health vocabulary",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "AT-A-L09",
+                "title": "Travel and Transport for Everyday Journeys",
+                "arabic": "السَّفَرُ وَوَسَائِلُ النَّقْلِ فِي الرِّحْلَاتِ الْيَوْمِيَّةِ",
+                "focus": "Describe transport, plan everyday journeys, understand timetables and ask for directions.",
+                "grammar": "Travel verbs; prepositions; time; comparison; directions",
+                "skills": "Listening · Reading · Speaking"
+            },
+            {
+                "code": "AT-A-L10",
+                "title": "Reading and Listening Exam Skills",
+                "arabic": "مَهَارَاتُ الْقِرَاءَةِ وَالِاسْتِمَاعِ لِلِامْتِحَانِ",
+                "focus": "Practise understanding Topic A texts, locating evidence and checking answers against distractors.",
+                "grammar": "Question strategies; time frames; evidence and distractors",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "AT-A-L11",
+                "title": "Reading — Travel and Tourism Texts",
+                "arabic": "الْقِرَاءَةُ: نُصُوصُ السَّفَرِ وَالسِّيَاحَةِ",
+                "focus": "Read travel and tourism texts, identify details and infer meaning using contextual evidence.",
+                "grammar": "Reading inference; vocabulary in context; time frames",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "AT-A-L12",
+                "title": "Topic A Review and Assessment",
+                "arabic": "مُرَاجَعَةُ الْمَوْضُوعِ أ وَالتَّقْيِيمُ",
+                "focus": "Retrieve the complete Topic A language, practise all four skills and identify your next revision target.",
+                "grammar": "Cumulative Topic A grammar and four-skills review",
+                "skills": "All four skills"
+            }
+        ],
+        "sources": [
+            "d1-l01",
+            "d1-l02",
+            "d1-l03",
+            "f5-l01",
+            "f5-l05",
+            "p1-l01",
+            "f5-l07",
+            "f5-l09",
+            "f6-l03",
+            "d1-l10",
+            "p3-l08",
+            "d1-l12"
+        ],
+        "practice": [
+            {
+                "icon": "⏱️",
+                "title": "Routine sequencing race",
+                "text": "Reorder mixed-up routine cards, add realistic times, then retell the day with accurate present-tense verbs and sequencing expressions."
+            },
+            {
+                "icon": "📅",
+                "title": "Calendar and time bingo",
+                "text": "Listen for days, dates, months and clock times, mark the matching square, then create two clues of your own using complete Arabic time expressions."
+            },
+            {
+                "icon": "🔁",
+                "title": "Frequency ladder",
+                "text": "Rank activities from never to always, justify two choices and combine them with before, after and when to build a connected mini-routine."
+            },
+            {
+                "icon": "🥗",
+                "title": "Food preference survey",
+                "text": "Interview a partner about meals, food and drink. Record preferences and reasons, then report the results with accurate adjective and noun agreement."
+            },
+            {
+                "icon": "🍽️",
+                "title": "Menu budget challenge",
+                "text": "Choose a complete meal within a fixed budget, ask about prices and quantities, then role-play a polite order including one change or special request."
+            },
+            {
+                "icon": "⚖️",
+                "title": "Healthy-choice sort",
+                "text": "Sort habits into helpful, unhelpful or depends. Give a reason for each decision and turn three statements into practical health advice."
+            },
+            {
+                "icon": "🩹",
+                "title": "Symptom detective",
+                "text": "Describe a health problem without naming it. Partners identify the symptom, body part and likely duration, then ask one sensible follow-up question."
+            },
+            {
+                "icon": "🩺",
+                "title": "Doctor and pharmacy role-play",
+                "text": "Take turns as patient and health professional: explain symptoms, ask questions, understand advice and finish with an appropriate request or response."
+            },
+            {
+                "icon": "🚌",
+                "title": "Journey planner",
+                "text": "Use a timetable and map to choose a route, compare two transport options and explain the journey using times, prepositions and direction language."
+            },
+            {
+                "icon": "🎧",
+                "title": "Distractor detective",
+                "text": "For each short listening or reading item, underline the evidence, identify the tempting distractor and explain why the correct answer fits the time frame."
+            },
+            {
+                "icon": "🔎",
+                "title": "Travel evidence hunt",
+                "text": "Scan a travel text for place, time, transport, opinion and problem details, then infer one unstated meaning from context and justify it."
+            },
+            {
+                "icon": "🏁",
+                "title": "Topic A four-skills relay",
+                "text": "Complete one short listening, reading, speaking and writing station. At every station, retrieve language from a different Topic A subtopic."
+            }
+        ]
+    },
+    "b": {
+        "area": "B",
+        "code": "TB",
+        "title": "Personal and Social Life",
+        "arabic": "الحَيَاةُ الشَّخْصِيَّةُ وَالِاجْتِمَاعِيَّةُ",
+        "icon": "🤝",
+        "colour": "blue",
+        "route_note": "Flexible topic-based teaching unit",
+        "summary": "Self, family and friends, home, colours, clothes and accessories, leisure time and holidays — developed through description, narration, interaction and opinion.",
+        "subtopics": [
+            "Self, family and friends: identity, appearance, personality and relationships",
+            "In the home: rooms, furniture, furnishings, garden and appliances",
+            "Colours, clothes and accessories: description, choice, shopping and occasions",
+            "Leisure time: activities, hobbies, sport, invitations, holidays and experiences"
+        ],
+        "grammar": [
+            "Nominal sentences, pronouns and possessive endings",
+            "Adjective position and full gender\/number agreement",
+            "Idāfa, demonstratives, relative pronouns and attached pronouns",
+            "Comparative and superlative forms for people, homes and choices",
+            "Past tense for leisure experiences and future plans",
+            "Connectors, opinions, reasons and balanced personal responses"
+        ],
+        "skills": {
+            "Listening": "Personal profiles, family discussions, invitations, shopping exchanges and leisure interviews",
+            "Reading": "Profiles, messages, home descriptions, adverts, invitations and holiday accounts",
+            "Speaking": "Describe people and homes, shop for clothes, respond to invitations and discuss leisure",
+            "Writing": "Profiles, descriptions, messages, past experiences, plans and extended personal responses"
+        },
+        "lessons": [
+            {
+                "code": "TB-L01",
+                "title": "Identity and Personal Profiles",
+                "arabic": "الهُوِيَّةُ وَالمَلَفَّاتُ الشَّخْصِيَّةُ",
+                "focus": "Introduce and describe yourself accurately in spoken, written and form-based contexts.",
+                "grammar": "Pronouns; nominal sentences; gender",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TB-L02",
+                "title": "Family, Friends and Relationships",
+                "arabic": "العَائِلَةُ وَالأَصْدِقَاءُ وَالعَلَاقَاتُ",
+                "focus": "Explain family links, friendship and changing relationships with precise vocabulary.",
+                "grammar": "Possessive endings; idāfa; dual and plural",
+                "skills": "Listening · Speaking"
+            },
+            {
+                "code": "TB-L03",
+                "title": "Appearance and Personality",
+                "arabic": "المَظْهَرُ وَالشَّخْصِيَّةُ",
+                "focus": "Build detailed, respectful descriptions and support character judgements with evidence.",
+                "grammar": "Adjective agreement; relative pronouns; ليس",
+                "skills": "Reading · Writing"
+            },
+            {
+                "code": "TB-L04",
+                "title": "My Home, Rooms and Garden",
+                "arabic": "بَيْتِي وَغُرَفُهُ وَحَدِيقَتُهُ",
+                "focus": "Describe the layout, location and qualities of a home in connected language.",
+                "grammar": "يوجد\/توجد; demonstratives; locative prepositions",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TB-L05",
+                "title": "Furniture, Furnishings and Appliances",
+                "arabic": "الأَثَاثُ وَالمُفْرُوشَاتُ وَالأَجْهِزَةُ",
+                "focus": "Explain where household items are, what they are used for and what needs changing.",
+                "grammar": "Idāfa; attached pronouns; relative clauses",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "TB-L06",
+                "title": "Colours and Accurate Description",
+                "arabic": "الأَلْوَانُ وَالوَصْفُ الدَّقِيقُ",
+                "focus": "Control regular and irregular colour forms in realistic descriptions.",
+                "grammar": "Colour adjective forms; non-human plural agreement",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "TB-L07",
+                "title": "Clothes, Accessories and Shopping",
+                "arabic": "المَلَابِسُ وَالإِكْسِسْوَارَاتُ وَالتَّسَوُّقُ",
+                "focus": "Choose, compare and buy clothes while discussing size, material, colour and price.",
+                "grammar": "Comparatives; numbers; demonstratives; object pronouns",
+                "skills": "Listening · Speaking"
+            },
+            {
+                "code": "TB-L08",
+                "title": "Hobbies, Sport and Free Time",
+                "arabic": "الهِوَايَاتُ وَالرِّيَاضَةُ وَوَقْتُ الفَرَاغِ",
+                "focus": "Discuss regular activities, preferences, ability and the value of leisure.",
+                "grammar": "Present tense; verbal nouns; frequency; reasons",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "TB-L09",
+                "title": "Invitations, Holidays and Past Experiences",
+                "arabic": "الدَّعَوَاتُ وَالعُطَلُ وَالتَّجَارِبُ المَاضِيَةُ",
+                "focus": "Arrange social activities and narrate a memorable leisure or holiday experience.",
+                "grammar": "Past tense; future plans; sequencing; polite responses",
+                "skills": "Listening · Writing"
+            },
+            {
+                "code": "TB-L10",
+                "title": "Topic B Listening and Reading Workshop",
+                "arabic": "وَرْشَةُ الِاسْتِمَاعِ وَالقِرَاءَةِ لِلْمِحْوَرِ ب",
+                "focus": "Interpret profiles, messages, descriptions and opinions across all Topic B content.",
+                "grammar": "Reference tracking; agreement; contextual deduction",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "TB-L11",
+                "title": "Topic B Speaking and Writing Workshop",
+                "arabic": "وَرْشَةُ التَّحَدُّثِ وَالكِتَابَةِ لِلْمِحْوَرِ ب",
+                "focus": "Develop personal answers through detail, reasons, comparisons and time frames.",
+                "grammar": "Cohesion; mixed tenses; accuracy editing",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TB-L12",
+                "title": "Topic B Review and Four-Skills Assessment",
+                "arabic": "مُرَاجَعَةُ المِحْوَرِ ب وَتَقْيِيمُ المَهَارَاتِ الأَرْبَعِ",
+                "focus": "Demonstrate secure Topic B vocabulary, grammar and independent communication.",
+                "grammar": "Cumulative Topic B grammar",
+                "skills": "All four skills"
+            }
+        ],
+        "sources": [
+            "f2-l10",
+            "d2-l02",
+            "d2-l06",
+            "f3-l03",
+            "f3-l04",
+            "f3-l05",
+            "d2-l03",
+            "d5-l01",
+            "d5-l07",
+            "d2-l08",
+            "d2-l09",
+            "d2-l12"
+        ],
+        "practice": [
+            {
+                "icon": "🪪",
+                "title": "Identity mystery",
+                "text": "Create a six-clue personal profile using name, age, place, language, study and personality. A partner identifies the person and checks gender agreement."
+            },
+            {
+                "icon": "👨‍👩‍👧‍👦",
+                "title": "Family-tree challenge",
+                "text": "Build a mini family tree from clues, then explain at least four relationships using possessive endings or idāfa without pointing at the answer."
+            },
+            {
+                "icon": "🧩",
+                "title": "Appearance and character match",
+                "text": "Match physical-description cards to personality clues, then justify which details are facts and which are opinions using accurate adjective agreement."
+            },
+            {
+                "icon": "🏠",
+                "title": "Room detective",
+                "text": "Describe a room, floor or garden using يوجد\/توجد and location phrases. Your partner sketches the layout and checks it against the original."
+            },
+            {
+                "icon": "🛋️",
+                "title": "Household redesign",
+                "text": "Choose furniture and appliances for a room, explain where each item belongs and justify one change using a relative clause or purpose phrase."
+            },
+            {
+                "icon": "🎨",
+                "title": "Colour-agreement snap",
+                "text": "Match nouns to correct colour forms as quickly as possible. Keep only pairs with correct gender\/number agreement and repair any rejected combination."
+            },
+            {
+                "icon": "🛍️",
+                "title": "Clothes-shop role-play",
+                "text": "Ask for an item by size, colour and material, compare alternatives and prices, then decide what to buy and explain the choice."
+            },
+            {
+                "icon": "⚽",
+                "title": "Leisure survey showdown",
+                "text": "Survey hobbies and sport, rank the most popular activities and report frequency, ability and reasons in connected sentences."
+            },
+            {
+                "icon": "🎟️",
+                "title": "Invitation-to-memory timeline",
+                "text": "Respond to an invitation, describe a past holiday or outing and finish with a future leisure plan using clear time markers and sequencing."
+            },
+            {
+                "icon": "🔎",
+                "title": "Profile evidence hunt",
+                "text": "Read or listen to short Topic B profiles and messages. Find evidence for identity, relationship, opinion and time frame, then reject one distractor."
+            },
+            {
+                "icon": "🗣️",
+                "title": "Speak–upgrade–write",
+                "text": "Give a 30-second Topic B response, improve it with a comparison and reason, then convert the strongest version into a connected written paragraph."
+            },
+            {
+                "icon": "🏁",
+                "title": "Topic B four-skills relay",
+                "text": "Rotate through identity, home, clothes and leisure stations. Retrieve vocabulary, grammar and one extended response before checking your weakest area."
+            }
+        ]
+    }
+}

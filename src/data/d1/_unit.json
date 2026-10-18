@@ -1,0 +1,12 @@
+{"liftMark": [
+ {"ar": "قَبْلَ أَنْ أَنَامَ", "en": "before I sleep", "kind": "قَبْلَ أَنْ + subjunctive", "forms": [{"label": "he", "ar": "قَبْلَ أَنْ يَنَامَ"}, {"label": "she", "ar": "قَبْلَ أَنْ تَنَامَ"}]},
+ {"ar": "بَعْدَ أَنْ أَعُودَ", "en": "after I get back", "kind": "بَعْدَ أَنْ + subjunctive", "forms": [{"label": "he", "ar": "بَعْدَ أَنْ يَعُودَ"}, {"label": "she", "ar": "بَعْدَ أَنْ تَعُودَ"}]},
+ {"ar": "أَسْتَيْقِظُ مُبَكِّرًا، بَيْنَمَا يَسْتَيْقِظُ أَخِي مُتَأَخِّرًا", "en": "I wake up early, whereas my brother wakes up late", "kind": "contrast · بَيْنَمَا"},
+ {"ar": "أَمَّا السَّبْتُ فَهُوَ يَوْمُ الرَّاحَةِ", "en": "as for Saturday, it is the day of rest", "kind": "أَمَّا … فَـ"},
+ {"ar": "كُنْتُ أَسْتَيْقِظُ مُتَأَخِّرًا", "en": "I used to wake up late", "kind": "past habit · كَانَ + present", "forms": [{"label": "he", "ar": "كَانَ يَسْتَيْقِظُ"}, {"label": "she", "ar": "كَانَتْ تَسْتَيْقِظُ"}]},
+ {"ar": "سَأَنَامُ مُبَكِّرًا", "en": "I will sleep early", "kind": "future · سَـ", "forms": [{"label": "he", "ar": "سَيَنَامُ"}, {"label": "she", "ar": "سَتَنَامُ"}]},
+ {"ar": "أُحَضِّرُ حَقِيبَتِي حَتَّى لَا أَنْسَى كُتُبِي", "en": "I prepare my bag so that I don’t forget my books", "kind": "purpose · لِكَيْ / حَتَّى لَا"},
+ {"ar": "نَادِرًا مَا أَتَأَخَّرُ، وَلَا أَغِيبُ أَبَدًا", "en": "I am rarely late, and I am never absent", "kind": "frequency · نَادِرًا مَا / لَا … أَبَدًا"},
+ {"ar": "لَوْ كَانَ عِنْدِي وَقْتٌ، لَمَارَسْتُ الرِّيَاضَةَ", "en": "if I had time, I would do sport", "kind": "conditional · لَوْ … لَـ"},
+ {"ar": "عَلَى سَبِيلِ المِثَالِ … وَمَعَ ذٰلِكَ …", "en": "for example … and yet …", "kind": "developing an answer"}
+]}
