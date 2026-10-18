@@ -1,0 +1,12 @@
+{"liftMark": [
+ {"ar": "كَيْفَ حَالُكَ؟", "en": "how are you?", "kind": "to a boy · a girl · a group", "forms": [{"label": "m.", "ar": "كَيْفَ حَالُكَ؟"}, {"label": "f.", "ar": "كَيْفَ حَالُكِ؟"}, {"label": "pl.", "ar": "كَيْفَ حَالُكُمْ؟"}]},
+ {"ar": "اِسْمِي آدَمُ، وَعُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً", "en": "my name is Adam, and I am fourteen", "kind": "two facts joined with وَ"},
+ {"ar": "عُمْرِي خَمْسَ عَشْرَةَ سَنَةً", "en": "I am fifteen", "kind": "11–20 → سَنَةً · 3–10 → سَنَوَاتٍ", "forms": [{"label": "11–20", "ar": "خَمْسَ عَشْرَةَ سَنَةً"}, {"label": "3–10", "ar": "عَشْرُ سَنَوَاتٍ"}]},
+ {"ar": "أَنَا بِرِيطَانِيٌّ", "en": "I am British", "kind": "nationality agreement", "forms": [{"label": "m.", "ar": "بِرِيطَانِيٌّ"}, {"label": "f.", "ar": "بِرِيطَانِيَّةٌ"}]},
+ {"ar": "أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ، وَأَتَعَلَّمُ العَرَبِيَّةَ أَيْضًا", "en": "I speak English, and I am learning Arabic too", "kind": "adding with أَيْضًا"},
+ {"ar": "هٰذَا صَدِيقِي، اِسْمُهُ خَالِدٌ", "en": "this is my friend; his name is Khalid", "kind": "introducing someone", "forms": [{"label": "m.", "ar": "هٰذَا صَدِيقِي، اِسْمُهُ …"}, {"label": "f.", "ar": "هٰذِهِ صَدِيقَتِي، اِسْمُهَا …"}]},
+ {"ar": "طَالِبَةٌ جَدِيدَةٌ", "en": "a new (female) student", "kind": "the adjective matches the noun", "forms": [{"label": "m.", "ar": "طَالِبٌ جَدِيدٌ"}, {"label": "f.", "ar": "طَالِبَةٌ جَدِيدَةٌ"}]},
+ {"ar": "هَلْ يُمْكِنُ أَنْ تُعِيدَ السُّؤَالَ، مِنْ فَضْلِكَ؟", "en": "could you repeat the question, please?", "kind": "polite repair", "forms": [{"label": "to m.", "ar": "تُعِيدَ … مِنْ فَضْلِكَ"}, {"label": "to f.", "ar": "تُعِيدِي … مِنْ فَضْلِكِ"}]},
+ {"ar": "أَتَعَلَّمُ العَرَبِيَّةَ لِأَنَّهَا لُغَةٌ جَمِيلَةٌ", "en": "I am learning Arabic because it is a beautiful language", "kind": "a reason with لِأَنَّ"},
+ {"ar": "سَعِيدٌ بِلِقَائِكُمْ!", "en": "pleased to meet you (all)!", "kind": "a polished ending", "forms": [{"label": "m.", "ar": "سَعِيدٌ"}, {"label": "f.", "ar": "سَعِيدَةٌ"}]}
+]}

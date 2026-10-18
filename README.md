@@ -9,6 +9,7 @@ It is the website companion to the Miftah Arabic PowerPoint lessons (in the `Mif
 |---|---|
 | `site/` | **The website.** Upload this folder’s contents to your web host. |
 | `site/index.html` | The hub: every unit and lesson, with each student’s progress |
+| `site/f2/` | F2-L01 … F2-L11, and F2-L12 (the unit speaking mock) — Foundation: greetings and introductions |
 | `site/topic-a/` | AT-A-L01 … AT-A-L12 (from the Topic A Speaking Workshops) |
 | `site/d1/` | D1-L01 … D1-L11, and D1-L12 (the unit speaking mock) |
 | `site/d2/` | D2-L01 … D2-L11, and D2-L12 (the unit speaking mock) |
@@ -52,6 +53,8 @@ node src/build.js
 
 - **D1 / D2 content:** `src/data/d1/` and `src/data/d2/`, one JSON file per lesson (role plays, conversation questions, model answers).
 - **Key language:** comes from `src/data/d1-content.json` and `d2-content.json`, copied from the Miftah Arabic lesson data.
+- **F2 key language:** extracted from the KEY WORDS slides of the F2 decks:
+  `python3 src/extract_keywords.py <path to Miftah_arabic>/Foundation_F2 F2` (works for any unit folder, e.g. F3, P1).
 - **Topic A:** extracted from the Speaking Workshop decks in the Miftah_arabic repository:
   `python3 src/extract_topic_a.py <path to Miftah_arabic>/Topic_A/Exam_Practice`
   This needs Python with `python-pptx`.
