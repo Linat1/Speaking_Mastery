@@ -1,0 +1,12 @@
+{"liftMark": [
+ {"ar": "هُوَ صَبُورٌ / هِيَ صَبُورَةٌ", "en": "he is patient / she is patient", "kind": "adjective agreement · m. / f.", "forms": [{"label": "m.", "ar": "صَبُورٌ"}, {"label": "f.", "ar": "صَبُورَةٌ"}, {"label": "pl.", "ar": "صَبُورُونَ"}]},
+ {"ar": "هِيَ مُتَعَاوِنَةٌ لِأَنَّهَا تُسَاعِدُ الآخَرِينَ", "en": "she is cooperative because she helps others", "kind": "quality + evidence"},
+ {"ar": "أَخِي أَطْوَلُ مِنِّي", "en": "my brother is taller than me", "kind": "comparative · أَفْعَلُ مِنْ"},
+ {"ar": "هُوَ أَكْثَرُ ثِقَةً مِنْ أَخِيهِ", "en": "he is more confident than his brother", "kind": "comparative · أَكْثَرُ … مِنْ"},
+ {"ar": "هٰذَا هُوَ الخِيَارُ الأَفْضَلُ", "en": "this is the best choice", "kind": "superlative"},
+ {"ar": "هِيَ البِنْتُ الَّتِي تَرْتَدِي النَّظَّارَةَ", "en": "she is the girl who wears glasses", "kind": "relative clause · الَّذِي / الَّتِي", "forms": [{"label": "m.", "ar": "الوَلَدُ الَّذِي"}, {"label": "f.", "ar": "البِنْتُ الَّتِي"}]},
+ {"ar": "أُسْلُوبُهَا يُعَبِّرُ عَنْ شَخْصِيَّتِهَا", "en": "her style expresses her personality", "kind": "يُعَبِّرُ عَنْ"},
+ {"ar": "كَانَ خَجُولًا، أَمَّا الآنَ فَأَصْبَحَ وَاثِقًا", "en": "he used to be shy; now he has become confident", "kind": "change · كَانَ / أَصْبَحَ"},
+ {"ar": "عَلَى الرَّغْمِ مِنْ أَنَّ المَوْضَةَ مُهِمَّةٌ، فَإِنَّ الرَّاحَةَ أَهَمُّ", "en": "although fashion matters, comfort matters more", "kind": "concession · عَلَى الرَّغْمِ مِنْ أَنَّ … فَإِنَّ"},
+ {"ar": "أَفْهَمُ رَأْيَكَ، وَلٰكِنَّنِي لَا أَتَّفِقُ تَمَامًا", "en": "I understand your view, but I don’t fully agree", "kind": "disagreeing politely"}
+]}

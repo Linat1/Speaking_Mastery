@@ -11,6 +11,7 @@ It is the website companion to the Miftah Arabic PowerPoint lessons (in the `Mif
 | `site/index.html` | The hub: every unit and lesson, with each student’s progress |
 | `site/topic-a/` | AT-A-L01 … AT-A-L12 (from the Topic A Speaking Workshops) |
 | `site/d1/` | D1-L01 … D1-L11, and D1-L12 (the unit speaking mock) |
+| `site/d2/` | D2-L01 … D2-L11, and D2-L12 (the unit speaking mock) |
 | `src/` | The build kit that makes the website (templates, build script, lesson content) |
 
 ## Each lesson page has five stations
