@@ -1,0 +1,43 @@
+{"F2-L06": {
+ "intro": "Polite classroom Arabic: ask for things, ask permission, say sorry and thank you — and choose the right form every time: مِنْ فَضْلِكَ / مِنْ فَضْلِكِ، تَفَضَّلْ / تَفَضَّلِي، آسِفٌ / آسِفَةٌ، يَا أُسْتَاذُ / يَا أُسْتَاذَةُ.",
+ "roleplays": [
+  {"id": "A", "level": "core", "setting": "In class with your (female) teacher", "title": "Please, Miss!", "arabic": "مِنْ فَضْلِكِ يَا أُسْتَاذَةُ", "you": "a student", "examiner": "your teacher (a woman)",
+   "tasks": [
+    {"examiner": "… تَفَضَّلْ، هٰذَا قَلَمٌ.", "task": "ASK your teacher for a pen, politely — to a woman (she then answers).", "help": "قَلَمًا، مِنْ فَضْلِكِ يَا أُسْتَاذَةُ", "model": "قَلَمًا، مِنْ فَضْلِكِ يَا أُسْتَاذَةُ.", "en": "A pen, please, Miss."},
+    {"examiner": "تَفَضَّلْ.", "task": "Thank her.", "help": "شُكْرًا … يَا أُسْتَاذَةُ", "model": "شُكْرًا جَزِيلًا يَا أُسْتَاذَةُ.", "en": "Thank you very much, Miss."},
+    {"examiner": "هَلْ تَفْهَمُ السُّؤَالَ؟", "task": "Say sorry, you don’t understand.", "help": "لَا، آسِفٌ، لَا …", "model": "لَا، آسِفٌ، لَا أَفْهَمُ.", "en": "No, sorry, I don’t understand."},
+    {"examiner": "… طَبْعًا، سَأُعِيدُ السُّؤَالَ.", "task": "ASK her to repeat the question — to a woman (she then answers).", "help": "هَلْ يُمْكِنُ أَنْ تُعِيدِي …، مِنْ فَضْلِكِ؟", "model": "هَلْ يُمْكِنُ أَنْ تُعِيدِي السُّؤَالَ، مِنْ فَضْلِكِ؟", "en": "Could you repeat the question, please? (to a woman)"},
+    {"examiner": "شُكْرًا عَلَى سُؤَالِكَ!", "task": "Answer the unexpected: reply politely.", "help": "عَفْوًا يَا …", "model": "عَفْوًا يَا أُسْتَاذَةُ.", "en": "You’re welcome, Miss.", "unexpected": true}
+   ]},
+  {"id": "B", "level": "develop", "setting": "Arriving late to a lesson", "title": "Sorry I’m late!", "arabic": "آسِفٌ، تَأَخَّرْتُ", "you": "a student", "examiner": "your teacher (a man)",
+   "tasks": [
+    {"examiner": "أَنْتَ مُتَأَخِّرٌ!", "task": "Apologise and ask permission to come in.", "help": "أَنَا آسِفٌ يَا أُسْتَاذُ. هَلْ يُمْكِنُ أَنْ …؟", "model": "أَنَا آسِفٌ يَا أُسْتَاذُ. هَلْ يُمْكِنُ أَنْ أَدْخُلَ؟", "en": "I am sorry, Sir. May I come in?"},
+    {"examiner": "تَفَضَّلْ، اِجْلِسْ.", "task": "Thank him.", "help": "شُكْرًا يَا …", "model": "شُكْرًا يَا أُسْتَاذُ.", "en": "Thank you, Sir."},
+    {"examiner": "أَيْنَ كِتَابُكَ؟", "task": "Say sorry, it is at home, and ask to read with a classmate.", "help": "آسِفٌ، كِتَابِي فِي … هَلْ يُمْكِنُ أَنْ …؟", "model": "آسِفٌ، كِتَابِي فِي البَيْتِ. هَلْ يُمْكِنُ أَنْ أَقْرَأَ مَعَ زَمِيلِي؟", "en": "Sorry, my book is at home. May I read with my classmate?"},
+    {"examiner": "… نَعَمْ، لَا بَأْسَ، الجَوُّ حَارٌّ اليَوْمَ.", "task": "ASK if you may open the window (the teacher then answers).", "help": "هَلْ يُمْكِنُ أَنْ أَفْتَحَ …، مِنْ فَضْلِكَ؟", "model": "هَلْ يُمْكِنُ أَنْ أَفْتَحَ النَّافِذَةَ، مِنْ فَضْلِكَ؟", "en": "May I open the window, please?"},
+    {"examiner": "لِمَاذَا تَأَخَّرْتَ؟", "task": "Answer the unexpected question (past).", "help": "تَأَخَّرَتِ … ، أَنَا آسِفٌ …", "model": "تَأَخَّرَتِ الحَافِلَةُ، أَنَا آسِفٌ جِدًّا.", "en": "The bus was late; I am very sorry.", "unexpected": true}
+   ]},
+  {"id": "C", "level": "stretch", "setting": "Helping a new student", "title": "Teaching Hana the polite phrases", "arabic": "أُسَاعِدُ هَنَاءَ", "you": "a helpful classmate", "examiner": "Hana, a new student",
+   "tasks": [
+    {"examiner": "كَيْفَ أَطْلُبُ شَيْئًا مِنَ المُعَلِّمَةِ؟", "task": "Tell Hana what to say, and why (speak to her as a girl: قُولِي).", "help": "قُولِي: «… مِنْ فَضْلِكِ يَا أُسْتَاذَةُ»، لِأَنَّ …", "model": "قُولِي: «… مِنْ فَضْلِكِ يَا أُسْتَاذَةُ»، لِأَنَّ المُعَلِّمَةَ امْرَأَةٌ.", "en": "Say: “… please, Miss”, because the teacher is a woman."},
+    {"examiner": "وَإِذَا كَانَ المُعَلِّمُ رَجُلًا؟", "task": "Explain the masculine form.", "help": "نَقُولُ: «… يَا أُسْتَاذُ»، بِـ …", "model": "نَقُولُ: «مِنْ فَضْلِكَ يَا أُسْتَاذُ»، بِالفَتْحَةِ.", "en": "We say “min faḍlika yā ustādh”, with a fatha."},
+    {"examiner": "مَاذَا أَقُولُ إِذَا لَمْ أَفْهَمْ؟", "task": "Give her two options, for a female and a male teacher.", "help": "قُولِي: «… تُعِيدِي؟» لِلْمُعَلِّمَةِ، أَوْ «… تُعِيدَ؟» لِلْمُعَلِّمِ", "model": "قُولِي: «لَا أَفْهَمُ، هَلْ يُمْكِنُ أَنْ تُعِيدِي؟» لِلْمُعَلِّمَةِ، أَوْ «هَلْ يُمْكِنُ أَنْ تُعِيدَ؟» لِلْمُعَلِّمِ.", "en": "Say: “I don’t understand, could you repeat?” with “tuʿīdī” to a female teacher, or “tuʿīda” to a male teacher."},
+    {"examiner": "… لَا، شُكْرًا! أَنْتَ لَطِيفٌ جِدًّا.", "task": "ASK if she has any other questions — to a girl (she then answers).", "help": "هَلْ عِنْدَكِ … آخَرُ؟", "model": "هَلْ عِنْدَكِ سُؤَالٌ آخَرُ؟", "en": "Do you have another question? (to a girl)"},
+    {"examiner": "كَيْفَ أَرُدُّ عَلَى «شُكْرًا»؟", "task": "Answer the unexpected question with two options.", "help": "نَقُولُ «…»، أَوْ «…»", "model": "نَقُولُ «عَفْوًا»، أَوْ «لَا شُكْرَ عَلَى وَاجِبٍ».", "en": "We say “ʿafwan”, or “no thanks needed for a duty”.", "unexpected": true}
+   ]}
+ ],
+ "conversation": [
+  {"level": "core", "q": "كَيْفَ تَقُولُ «please» لِلْمُعَلِّمِ؟", "qen": "How do you say “please” to a male teacher?", "starter": "مِنْ فَضْلِكَ يَا …", "model": "مِنْ فَضْلِكَ يَا أُسْتَاذُ.", "en": "Please, Sir."},
+  {"level": "core", "q": "وَكَيْفَ تَقُولُهَا لِلْمُعَلِّمَةِ؟", "qen": "And how do you say it to a female teacher?", "starter": "مِنْ فَضْلِكِ يَا …", "model": "مِنْ فَضْلِكِ يَا أُسْتَاذَةُ.", "en": "Please, Miss."},
+  {"level": "core", "q": "مَاذَا تَقُولُ عِنْدَمَا لَا تَفْهَمُ؟", "qen": "What do you say when you don’t understand?", "starter": "لَا …", "model": "عَفْوًا، لَا أَفْهَمُ.", "en": "Excuse me, I don’t understand."},
+  {"level": "core", "q": "مَاذَا تَقُولُ بَعْدَ «شُكْرًا»؟", "qen": "What do you say after “thank you”?", "starter": "…", "model": "عَفْوًا.", "en": "You’re welcome."},
+  {"level": "develop", "q": "اُطْلُبْ قَلَمًا مِنْ صَدِيقِكَ بِأَدَبٍ.", "qen": "Politely ask your (male) friend for a pen.", "starter": "هَلْ يُمْكِنُ أَنْ آخُذَ … ، مِنْ فَضْلِكَ؟ شُكْرًا!", "model": "هَلْ يُمْكِنُ أَنْ آخُذَ قَلَمَكَ، مِنْ فَضْلِكَ؟ شُكْرًا!", "en": "May I take your pen, please? Thank you!"},
+  {"level": "develop", "q": "اِعْتَذِرْ لِأَنَّكَ تَأَخَّرْتَ.", "qen": "Apologise for being late.", "starter": "أَنَا آسِفٌ يَا … ، تَأَخَّرْتُ …", "model": "أَنَا آسِفٌ يَا أُسْتَاذُ، تَأَخَّرْتُ اليَوْمَ.", "en": "I am sorry, Sir, I was late today."},
+  {"level": "develop", "q": "أَعْطِ صَدِيقَتَكَ كِتَابَهَا.", "qen": "Hand your (female) friend her book.", "starter": "تَفَضَّلِي، هٰذَا …", "model": "تَفَضَّلِي، هٰذَا كِتَابُكِ.", "en": "Here you are, this is your book. (to a girl)"},
+  {"level": "develop", "q": "كَيْفَ يَقُولُ الوَلَدُ «sorry»؟ وَكَيْفَ تَقُولُهُ البِنْتُ؟", "qen": "How does a boy say “sorry”? And a girl?", "starter": "الوَلَدُ يَقُولُ «…»، وَالبِنْتُ تَقُولُ «…»", "model": "الوَلَدُ يَقُولُ «أَنَا آسِفٌ»، وَالبِنْتُ تَقُولُ «أَنَا آسِفَةٌ».", "en": "A boy says “anā āsif”, and a girl says “anā āsifa”."},
+  {"level": "stretch", "q": "لِمَاذَا اللُّغَةُ المُهَذَّبَةُ مُهِمَّةٌ فِي الصَّفِّ؟", "qen": "Why is polite language important in class?", "starter": "لِأَنَّهَا تُظْهِرُ … ، وَتَجْعَلُ …", "model": "لِأَنَّهَا تُظْهِرُ الاِحْتِرَامَ لِلْمُعَلِّمِ وَلِلزُّمَلَاءِ، وَتَجْعَلُ الصَّفَّ مَكَانًا لَطِيفًا.", "en": "Because it shows respect for the teacher and classmates, and makes the class a pleasant place."},
+  {"level": "stretch", "q": "اُطْلُبْ مِنَ المُعَلِّمَةِ أَنْ تَتَكَلَّمَ بِبُطْءٍ.", "qen": "Ask the (female) teacher to speak slowly.", "starter": "يَا أُسْتَاذَةُ، هَلْ يُمْكِنُ أَنْ تَتَكَلَّمِي … ، مِنْ فَضْلِكِ؟ …", "model": "يَا أُسْتَاذَةُ، هَلْ يُمْكِنُ أَنْ تَتَكَلَّمِي بِبُطْءٍ، مِنْ فَضْلِكِ؟ لَا أَفْهَمُ جَيِّدًا.", "en": "Miss, could you speak slowly, please? I don’t understand well."},
+  {"level": "stretch", "q": "مَاذَا تَقُولُ لِمَجْمُوعَةٍ مِنَ الضُّيُوفِ فِي الصَّفِّ؟", "qen": "What do you say to a group of guests in class?", "starter": "أَهْلًا وَسَهْلًا! تَفَضَّلُوا … مِنْ فَضْلِكُمْ", "model": "أَهْلًا وَسَهْلًا! تَفَضَّلُوا، اِجْلِسُوا مِنْ فَضْلِكُمْ.", "en": "Welcome! Please come in and sit down. (to a group)"},
+  {"level": "stretch", "q": "نَسِيتَ كِتَابَكَ. مَاذَا تَقُولُ لِلْمُعَلِّمِ؟", "qen": "You forgot your book. What do you say to the teacher?", "starter": "يَا أُسْتَاذُ، أَنَا آسِفٌ، نَسِيتُ … هَلْ يُمْكِنُ أَنْ …؟ …", "model": "يَا أُسْتَاذُ، أَنَا آسِفٌ، نَسِيتُ كِتَابِي فِي البَيْتِ. هَلْ يُمْكِنُ أَنْ أَقْرَأَ مَعَ زَمِيلِي؟ شُكْرًا جَزِيلًا.", "en": "Sir, I am sorry, I forgot my book at home. May I read with my classmate? Thank you very much."}
+ ]
+}}
