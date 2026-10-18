@@ -1,0 +1,1721 @@
+{
+ "unit": "F2",
+ "lessons": [
+  {
+   "code": "F2-L01",
+   "title": "Hello, Goodbye & How Are You?",
+   "arabic": "مَرْحَبًا! كَيْفَ حَالُكَ؟",
+   "summary": "Move from reading Arabic to using it with another person: open with a suitable greeting, give the paired reply, ask how someone is (to a boy or a girl), answer, and close the exchange politely.",
+   "bank": [
+    {
+     "title": "Opening and welcome",
+     "arabic": "التَّحِيَّةُ وَالتَّرْحِيبُ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "السَّلَامُ عَلَيْكُمْ",
+       "en": "Peace be upon you.",
+       "tr": "as-sa-lā-mu ʿa-lay-kum",
+       "kind": "open",
+       "forms": []
+      },
+      {
+       "n": 2,
+       "ar": "وَعَلَيْكُمُ السَّلَامُ",
+       "en": "And upon you be peace.",
+       "tr": "wa-ʿa-lay-ku-mu s-sa-lām",
+       "kind": "reply",
+       "forms": []
+      },
+      {
+       "n": 3,
+       "ar": "مَرْحَبًا",
+       "en": "Hello / welcome.",
+       "tr": "mar-ḥa-ban",
+       "kind": "open + reply",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "أَهْلًا وَسَهْلًا",
+       "en": "Welcome.",
+       "tr": "ah-lan wa-sah-lan",
+       "kind": "welcome",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "عَلَيْكَ",
+       "en": "upon you",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "عَلَيْكَ"
+        },
+        {
+         "label": "f.",
+         "ar": "عَلَيْكِ"
+        },
+        {
+         "label": "pl.",
+         "ar": "عَلَيْكُمْ"
+        }
+       ]
+      },
+      {
+       "n": 6,
+       "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+       "en": "The extended greeting (Stretch)",
+       "tr": "… and the mercy of God and His blessings",
+       "kind": "Stretch",
+       "forms": []
+      }
+     ]
+    },
+    {
+     "title": "Morning and evening pairs",
+     "arabic": "تَحِيَّاتُ الصَّبَاحِ وَالمَسَاءِ",
+     "items": [
+      {
+       "n": 7,
+       "ar": "صَبَاحُ الخَيْرِ",
+       "en": "Good morning.",
+       "tr": "ṣa-bā-ḥu l-khayr",
+       "kind": "open",
+       "forms": []
+      },
+      {
+       "n": 8,
+       "ar": "صَبَاحُ النُّورِ",
+       "en": "Good morning. (reply)",
+       "tr": "ṣa-bā-ḥu n-nūr",
+       "kind": "reply",
+       "forms": []
+      },
+      {
+       "n": 9,
+       "ar": "مَسَاءُ الخَيْرِ",
+       "en": "Good evening.",
+       "tr": "ma-sā-ʾu l-khayr",
+       "kind": "open",
+       "forms": []
+      },
+      {
+       "n": 10,
+       "ar": "مَسَاءُ النُّورِ",
+       "en": "Good evening. (reply)",
+       "tr": "ma-sā-ʾu n-nūr",
+       "kind": "reply",
+       "forms": []
+      }
+     ]
+    },
+    {
+     "title": "How are you? and goodbye",
+     "arabic": "السُّؤَالُ عَنِ الحَالِ وَالوَدَاعُ",
+     "items": [
+      {
+       "n": 11,
+       "ar": "كَيْفَ حَالُكَ؟",
+       "en": "How are you?",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "to m.",
+         "ar": "حَالُكَ"
+        },
+        {
+         "label": "to f.",
+         "ar": "حَالُكِ"
+        },
+        {
+         "label": "to pl.",
+         "ar": "حَالُكُمْ"
+        }
+       ]
+      },
+      {
+       "n": 12,
+       "ar": "بِخَيْرٍ، الحَمْدُ لِلَّهِ",
+       "en": "Fine, praise be to God.",
+       "tr": "bi-khay-rin, al-ḥam-du lil-lāh",
+       "kind": "answer",
+       "forms": []
+      },
+      {
+       "n": 13,
+       "ar": "شُكْرًا",
+       "en": "Thank you.",
+       "tr": "shuk-ran",
+       "kind": "polite",
+       "forms": []
+      },
+      {
+       "n": 14,
+       "ar": "وَأَنْتَ؟",
+       "en": "And you?",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "وَأَنْتَ؟"
+        },
+        {
+         "label": "f.",
+         "ar": "وَأَنْتِ؟"
+        },
+        {
+         "label": "pl.",
+         "ar": "وَأَنْتُمْ؟"
+        }
+       ]
+      },
+      {
+       "n": 15,
+       "ar": "مَعَ السَّلَامَةِ",
+       "en": "Goodbye.",
+       "tr": "ma-ʿa s-sa-lā-ma",
+       "kind": "close",
+       "forms": []
+      },
+      {
+       "n": 16,
+       "ar": "إِلَى اللِّقَاءِ",
+       "en": "See you later.",
+       "tr": "i-lā l-li-qāʾ",
+       "kind": "close",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L02",
+   "title": "What Is Your Name?",
+   "arabic": "مَا اسْمُكَ؟ مَا اسْمُكِ؟",
+   "summary": "Open a conversation, ask one person’s name accurately (-ka to a boy, -ki to a girl), answer with اِسْمِي …, and introduce a friend.",
+   "bank": [
+    {
+     "title": "Ask, answer, ask back",
+     "arabic": "مُفْرَدَاتُ السُّؤَالِ عَنِ الاِسْمِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "مَا اسْمُكَ؟",
+       "en": "What is your name? (to a boy)",
+       "tr": "mas-mu-ka",
+       "kind": "to m.",
+       "forms": []
+      },
+      {
+       "n": 2,
+       "ar": "مَا اسْمُكِ؟",
+       "en": "What is your name? (to a girl)",
+       "tr": "mas-mu-ki",
+       "kind": "to f.",
+       "forms": []
+      },
+      {
+       "n": 3,
+       "ar": "اِسْمِي …",
+       "en": "My name is …",
+       "tr": "is-mī …",
+       "kind": "answer",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "وَأَنْتَ؟",
+       "en": "And you?",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "وَأَنْتَ؟"
+        },
+        {
+         "label": "f.",
+         "ar": "وَأَنْتِ؟"
+        },
+        {
+         "label": "pl.",
+         "ar": "وَأَنْتُمْ؟"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "تَشَرَّفْنَا",
+       "en": "Pleased to meet you.",
+       "tr": "ta-shar-raf-nā",
+       "kind": "fixed phrase",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "اِسْمٌ",
+       "en": "name",
+       "tr": "",
+       "kind": "your: m · f · pl",
+       "forms": [
+        {
+         "label": "your m.",
+         "ar": "اِسْمُكَ"
+        },
+        {
+         "label": "your f.",
+         "ar": "اِسْمُكِ"
+        },
+        {
+         "label": "your pl.",
+         "ar": "اِسْمُكُمْ"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Introduce a friend",
+     "arabic": "هَذَا صَدِيقِي",
+     "items": [
+      {
+       "n": 7,
+       "ar": "صَدِيقٌ",
+       "en": "a friend",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "صَدِيقٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "صَدِيقَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "أَصْدِقَاءُ"
+        }
+       ]
+      },
+      {
+       "n": 8,
+       "ar": "هَذَا صَدِيقِي",
+       "en": "This is my friend. (m.)",
+       "tr": "",
+       "kind": "Stretch",
+       "forms": [
+        {
+         "label": "this m.",
+         "ar": "هَذَا"
+        },
+        {
+         "label": "this f.",
+         "ar": "هَذِهِ"
+        },
+        {
+         "label": "these",
+         "ar": "هَؤُلَاءِ"
+        }
+       ]
+      },
+      {
+       "n": 9,
+       "ar": "هَذِهِ صَدِيقَتِي",
+       "en": "This is my friend. (f.)",
+       "tr": "hā-dhi-hi ṣa-dī-qa-tī",
+       "kind": "Stretch",
+       "forms": []
+      },
+      {
+       "n": 10,
+       "ar": "خَالِد · يُوسُف",
+       "en": "Khalid · Yusuf (boys)",
+       "tr": "khā-lid · yū-suf",
+       "kind": "names m.",
+       "forms": []
+      },
+      {
+       "n": 11,
+       "ar": "زَيْنَب · مَرْيَم",
+       "en": "Zaynab · Maryam (girls)",
+       "tr": "zay-nab · mar-yam",
+       "kind": "names f.",
+       "forms": []
+      },
+      {
+       "n": 12,
+       "ar": "اِسْمُهُ … / اِسْمُهَا …",
+       "en": "His name is … / Her name is …",
+       "tr": "is-mu-hu · is-mu-hā",
+       "kind": "Stretch",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L03",
+   "title": "How Old Are You?",
+   "arabic": "كَمْ عُمْرُكَ؟ كَمْ عُمْرُكِ؟",
+   "summary": "Ask one person their age (-ka to a boy, -ki to a girl), answer with عُمْرِي … سَنَةً, and recognise the ages 11–20 in short conversations and profiles.",
+   "bank": [
+    {
+     "title": "Ask and answer age",
+     "arabic": "السُّؤَالُ عَنِ العُمْرِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "كَمْ عُمْرُكَ؟",
+       "en": "How old are you? (to a boy)",
+       "tr": "kam ʿum-ru-ka",
+       "kind": "to m.",
+       "forms": []
+      },
+      {
+       "n": 2,
+       "ar": "كَمْ عُمْرُكِ؟",
+       "en": "How old are you? (to a girl)",
+       "tr": "kam ʿum-ru-ki",
+       "kind": "to f.",
+       "forms": []
+      },
+      {
+       "n": 3,
+       "ar": "عُمْرِي … سَنَةً",
+       "en": "I am … years old. (11–20)",
+       "tr": "ʿum-rī … sa-na-tan",
+       "kind": "answer",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "سَنَةٌ",
+       "en": "a year",
+       "tr": "",
+       "kind": "sg · dual · pl",
+       "forms": [
+        {
+         "label": "one",
+         "ar": "سَنَةٌ"
+        },
+        {
+         "label": "two",
+         "ar": "سَنَتَانِ"
+        },
+        {
+         "label": "pl.",
+         "ar": "سَنَوَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "عُمْرٌ",
+       "en": "age",
+       "tr": "",
+       "kind": "your: m · f · pl",
+       "forms": [
+        {
+         "label": "your m.",
+         "ar": "عُمْرُكَ"
+        },
+        {
+         "label": "your f.",
+         "ar": "عُمْرُكِ"
+        },
+        {
+         "label": "your pl.",
+         "ar": "أَعْمَارُكُمْ"
+        }
+       ]
+      },
+      {
+       "n": 6,
+       "ar": "عُمْرِي خَمْسُ سَنَوَاتٍ",
+       "en": "I am five years old. (3–10)",
+       "tr": "kham-su sa-na-wāt",
+       "kind": "Stretch",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L04",
+   "title": "Nationality and Language",
+   "arabic": "الجِنْسِيَّةُ وَاللُّغَةُ — مَنْ أَنْتَ؟",
+   "summary": "Say where you are from (أَنَا مِنْ …), choose the nationality ending that matches the person (ـِيٌّ / ـِيَّةٌ), and say which languages you speak, understand, read and write.",
+   "bank": [
+    {
+     "title": "Identity words",
+     "arabic": "مُفْرَدَاتُ الهُوِيَّةِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "جِنْسِيَّةٌ",
+       "en": "nationality",
+       "tr": "",
+       "kind": "noun · f.",
+       "forms": [
+        {
+         "label": "your m.",
+         "ar": "جِنْسِيَّتُكَ"
+        },
+        {
+         "label": "your f.",
+         "ar": "جِنْسِيَّتُكِ"
+        },
+        {
+         "label": "my",
+         "ar": "جِنْسِيَّتِي"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "لُغَةٌ",
+       "en": "language",
+       "tr": "",
+       "kind": "noun · f.",
+       "forms": [
+        {
+         "label": "one",
+         "ar": "لُغَةٌ"
+        },
+        {
+         "label": "two",
+         "ar": "لُغَتَانِ"
+        },
+        {
+         "label": "pl.",
+         "ar": "لُغَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "عَرَبِيٌّ",
+       "en": "Arab",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "عَرَبِيٌّ"
+        },
+        {
+         "label": "f.",
+         "ar": "عَرَبِيَّةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "عَرَبٌ"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "ar": "أَنَا مِنْ …",
+       "en": "I am from …",
+       "tr": "a-nā min …",
+       "kind": "origin",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "مَا جِنْسِيَّتُكَ؟",
+       "en": "What is your nationality? (to a boy)",
+       "tr": "mā jin-siy-ya-tu-ka",
+       "kind": "to m.",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "مِنْ أَيْنَ أَنْتَ؟",
+       "en": "Where are you from? (to a boy)",
+       "tr": "min ay-na an-ta · an-ti",
+       "kind": "to m. · f.",
+       "forms": []
+      }
+     ]
+    },
+    {
+     "title": "Speak, understand, read, write",
+     "arabic": "أَتَكَلَّمُ · أَفْهَمُ · أَقْرَأُ · أَكْتُبُ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "أَتَكَلَّمُ",
+       "en": "I speak",
+       "tr": "",
+       "kind": "I · you m. · you f.",
+       "forms": [
+        {
+         "label": "I",
+         "ar": "أَتَكَلَّمُ"
+        },
+        {
+         "label": "you m.",
+         "ar": "تَتَكَلَّمُ"
+        },
+        {
+         "label": "you f.",
+         "ar": "تَتَكَلَّمِينَ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "أَفْهَمُ",
+       "en": "I understand",
+       "tr": "",
+       "kind": "I · you m. · you f.",
+       "forms": [
+        {
+         "label": "I",
+         "ar": "أَفْهَمُ"
+        },
+        {
+         "label": "you m.",
+         "ar": "تَفْهَمُ"
+        },
+        {
+         "label": "you f.",
+         "ar": "تَفْهَمِينَ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "أَقْرَأُ",
+       "en": "I read",
+       "tr": "",
+       "kind": "I · you m. · you f.",
+       "forms": [
+        {
+         "label": "I",
+         "ar": "أَقْرَأُ"
+        },
+        {
+         "label": "you m.",
+         "ar": "تَقْرَأُ"
+        },
+        {
+         "label": "you f.",
+         "ar": "تَقْرَئِينَ"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "ar": "أَكْتُبُ بِـ",
+       "en": "I write (in)",
+       "tr": "",
+       "kind": "I · you m. · you f.",
+       "forms": [
+        {
+         "label": "I",
+         "ar": "أَكْتُبُ"
+        },
+        {
+         "label": "you m.",
+         "ar": "تَكْتُبُ"
+        },
+        {
+         "label": "you f.",
+         "ar": "تَكْتُبِينَ"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "العَرَبِيَّةُ · الإِنْجِلِيزِيَّةُ",
+       "en": "Arabic · English",
+       "tr": "al-ʿa-ra-biy-ya · al-in-ji-lī-ziy-ya",
+       "kind": "languages",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "الفَرَنْسِيَّةُ · الأُرْدِيَّةُ",
+       "en": "French · Urdu",
+       "tr": "al-fa-ran-siy-ya · al-ur-diy-ya",
+       "kind": "languages",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L05",
+   "title": "Masculine and Feminine: Make the Pair Match",
+   "arabic": "تَذْكِيرُ الأَسْمَاءِ وَتَأْنِيثُهَا وَمُطَابَقَةُ الصِّفَةِ",
+   "summary": "Learn the eight people-noun pairs and ten adjective pairs, use ة as a strong feminine clue (and know the exceptions), and build descriptions where the noun, the adjective and هَذَا / هَذِهِ all agree.",
+   "bank": [
+    {
+     "title": "People: masculine, feminine, plural",
+     "arabic": "الأَشْخَاصُ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "طَالِبٌ",
+       "en": "student",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "طَالِبٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "طَالِبَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "طُلَّابٌ · طَالِبَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "مُعَلِّمٌ",
+       "en": "teacher",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "مُعَلِّمٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "مُعَلِّمَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "مُعَلِّمُونَ · مُعَلِّمَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "صَدِيقٌ",
+       "en": "friend",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "صَدِيقٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "صَدِيقَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "أَصْدِقَاءُ · صَدِيقَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "ar": "زَمِيلٌ",
+       "en": "classmate / colleague",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "زَمِيلٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "زَمِيلَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "زُمَلَاءُ · زَمِيلَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "طِفْلٌ",
+       "en": "child",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "طِفْلٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "طِفْلَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "أَطْفَالٌ"
+        }
+       ]
+      },
+      {
+       "n": 6,
+       "ar": "وَلَدٌ",
+       "en": "boy / girl",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "وَلَدٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "بِنْتٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "أَوْلَادٌ · بَنَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 7,
+       "ar": "رَجُلٌ",
+       "en": "man / woman",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "رَجُلٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "اِمْرَأَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "رِجَالٌ · نِسَاءٌ"
+        }
+       ]
+      },
+      {
+       "n": 8,
+       "ar": "أَخٌ",
+       "en": "brother / sister",
+       "tr": "",
+       "kind": "",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "أَخٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "أُخْتٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "إِخْوَةٌ · أَخَوَاتٌ"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Adjectives: add ة for feminine",
+     "arabic": "الصِّفَاتُ (١)",
+     "items": [
+      {
+       "n": 1,
+       "ar": "جَدِيدٌ",
+       "en": "new",
+       "tr": "",
+       "kind": "طَالِبَةٌ جَدِيدَةٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "جَدِيدٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "جَدِيدَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "قَدِيمٌ",
+       "en": "old (things)",
+       "tr": "",
+       "kind": "كِتَابٌ قَدِيمٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "قَدِيمٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "قَدِيمَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "كَبِيرٌ",
+       "en": "big / older",
+       "tr": "",
+       "kind": "أَخٌ كَبِيرٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "كَبِيرٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "كَبِيرَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "ar": "صَغِيرٌ",
+       "en": "small / young",
+       "tr": "",
+       "kind": "طِفْلَةٌ صَغِيرَةٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "صَغِيرٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "صَغِيرَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "جَمِيلٌ",
+       "en": "beautiful",
+       "tr": "",
+       "kind": "حَقِيبَةٌ جَمِيلَةٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "جَمِيلٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "جَمِيلَةٌ"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Five more matching pairs",
+     "arabic": "الصِّفَاتُ (٢)",
+     "items": [
+      {
+       "n": 1,
+       "ar": "ذَكِيٌّ",
+       "en": "clever",
+       "tr": "",
+       "kind": "هِيَ ذَكِيَّةٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "ذَكِيٌّ"
+        },
+        {
+         "label": "f.",
+         "ar": "ذَكِيَّةٌ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "لَطِيفٌ",
+       "en": "kind / pleasant",
+       "tr": "",
+       "kind": "زَمِيلٌ لَطِيفٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "لَطِيفٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "لَطِيفَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "طَوِيلٌ",
+       "en": "tall / long",
+       "tr": "",
+       "kind": "أَخٌ طَوِيلٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "طَوِيلٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "طَوِيلَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "ar": "قَصِيرٌ",
+       "en": "short",
+       "tr": "",
+       "kind": "أُخْتٌ قَصِيرَةٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "قَصِيرٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "قَصِيرَةٌ"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "سَعِيدٌ",
+       "en": "happy",
+       "tr": "",
+       "kind": "اِمْرَأَةٌ سَعِيدَةٌ",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "سَعِيدٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "سَعِيدَةٌ"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L06",
+   "title": "Polite Classroom Arabic",
+   "arabic": "لُغَةُ الأَدَبِ فِي الصَّفِّ",
+   "summary": "Ask for help, borrow classroom items, ask permission, apologise, thank someone and respond — choosing the right form for a male or female listener every time.",
+   "bank": [
+    {
+     "title": "Please, thank you, sorry",
+     "arabic": "عِبَارَاتُ الأَدَبِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "مِنْ فَضْلِكَ",
+       "en": "please",
+       "tr": "",
+       "kind": "to m. · f. · pl.",
+       "forms": [
+        {
+         "label": "to m.",
+         "ar": "مِنْ فَضْلِكَ"
+        },
+        {
+         "label": "to f.",
+         "ar": "مِنْ فَضْلِكِ"
+        },
+        {
+         "label": "to pl.",
+         "ar": "مِنْ فَضْلِكُمْ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "شُكْرًا",
+       "en": "thank you",
+       "tr": "shuk-ran",
+       "kind": "-an sound",
+       "forms": []
+      },
+      {
+       "n": 3,
+       "ar": "شُكْرًا جَزِيلًا",
+       "en": "thank you very much",
+       "tr": "shuk-ran ja-zī-lan",
+       "kind": "-an sound ×2",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "عَفْوًا",
+       "en": "you’re welcome / excuse me",
+       "tr": "ʿaf-wan",
+       "kind": "reply",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "نَعَمْ · لَا",
+       "en": "yes · no",
+       "tr": "na-ʿam · lā",
+       "kind": "answer",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "أَنَا آسِفٌ",
+       "en": "I am sorry",
+       "tr": "",
+       "kind": "speaker m. · f. · pl.",
+       "forms": [
+        {
+         "label": "boy",
+         "ar": "آسِفٌ"
+        },
+        {
+         "label": "girl",
+         "ar": "آسِفَةٌ"
+        },
+        {
+         "label": "we",
+         "ar": "آسِفُونَ"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Here you are, no problem, excuse me",
+     "arabic": "عِبَارَاتُ الأَدَبِ",
+     "items": [
+      {
+       "n": 7,
+       "ar": "تَفَضَّلْ",
+       "en": "here you are / go ahead",
+       "tr": "",
+       "kind": "to m. · f. · pl.",
+       "forms": [
+        {
+         "label": "to m.",
+         "ar": "تَفَضَّلْ"
+        },
+        {
+         "label": "to f.",
+         "ar": "تَفَضَّلِي"
+        },
+        {
+         "label": "to pl.",
+         "ar": "تَفَضَّلُوا"
+        }
+       ]
+      },
+      {
+       "n": 8,
+       "ar": "لَا بَأْسَ",
+       "en": "no problem / it’s all right",
+       "tr": "lā baʾs",
+       "kind": "reply to sorry",
+       "forms": []
+      },
+      {
+       "n": 9,
+       "ar": "مَعْذِرَةً",
+       "en": "excuse me / pardon",
+       "tr": "maʿ-dhi-ra-tan",
+       "kind": "attention",
+       "forms": []
+      },
+      {
+       "n": 10,
+       "ar": "يَا أُسْتَاذُ",
+       "en": "Sir / Miss (addressing a teacher)",
+       "tr": "",
+       "kind": "to m. · f.",
+       "forms": [
+        {
+         "label": "to m.",
+         "ar": "يَا أُسْتَاذُ"
+        },
+        {
+         "label": "to f.",
+         "ar": "يَا أُسْتَاذَةُ"
+        }
+       ]
+      },
+      {
+       "n": 11,
+       "ar": "لَا أَفْهَمُ",
+       "en": "I do not understand.",
+       "tr": "lā af-ha-mu",
+       "kind": "problem",
+       "forms": []
+      },
+      {
+       "n": 12,
+       "ar": "هَلْ يُمْكِنُ أَنْ …؟",
+       "en": "May I …? / Is it possible to …?",
+       "tr": "hal yum-ki-nu an …",
+       "kind": "permission",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L07",
+   "title": "Building a Full Introduction",
+   "arabic": "بِنَاءُ تَعْرِيفٍ كَامِلٍ بِالنَّفْسِ",
+   "summary": "Bring together everything you can already say — greeting, name, age, origin, residence, nationality and language — and connect it with وَ and أَيْضًا into a clear introduction another person can follow.",
+   "bank": [
+    {
+     "title": "Where you live, and how to join facts",
+     "arabic": "السَّكَنُ وَأَدَوَاتُ الرَّبْطِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "أَسْكُنُ فِي",
+       "en": "I live in",
+       "tr": "",
+       "kind": "I · you m. · you f.",
+       "forms": [
+        {
+         "label": "I",
+         "ar": "أَسْكُنُ"
+        },
+        {
+         "label": "you m.",
+         "ar": "تَسْكُنُ"
+        },
+        {
+         "label": "you f.",
+         "ar": "تَسْكُنِينَ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "سَعِيدٌ بِلِقَائِكُمْ",
+       "en": "pleased to meet you (all)",
+       "tr": "",
+       "kind": "speaker m. · f.",
+       "forms": [
+        {
+         "label": "boy",
+         "ar": "سَعِيدٌ"
+        },
+        {
+         "label": "girl",
+         "ar": "سَعِيدَةٌ"
+        },
+        {
+         "label": "we",
+         "ar": "سُعَدَاءُ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "وَ",
+       "en": "and",
+       "tr": "wa-",
+       "kind": "connector",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "أَيْضًا",
+       "en": "also, too",
+       "tr": "ay-ḍan",
+       "kind": "connector",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "ثُمَّ",
+       "en": "then",
+       "tr": "thum-ma",
+       "kind": "Stretch",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "لَنْدَنُ · بِرْمِنْغَامُ",
+       "en": "London · Birmingham",
+       "tr": "lan-da-nu · bir-min-ghā-mu",
+       "kind": "cities",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L08",
+   "title": "Reading and Writing Personal Profiles",
+   "arabic": "قِرَاءَةُ وَكِتَابَةُ البِطَاقَاتِ الشَّخْصِيَّةِ",
+   "summary": "Move from “I” to “he” and “she”: read profiles by scanning for information categories, recognise ـهُ / ـهَا and يـ / تـ verbs, and write a connected 60–80-word profile.",
+   "bank": [
+    {
+     "title": "Profile words",
+     "arabic": "مُفْرَدَاتُ البِطَاقَةِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "بِطَاقَةٌ شَخْصِيَّةٌ",
+       "en": "personal profile",
+       "tr": "bi-ṭā-qa shakh-siy-ya",
+       "kind": "noun · f.",
+       "forms": []
+      },
+      {
+       "n": 2,
+       "ar": "مَكَانُ السَّكَنِ",
+       "en": "place of residence",
+       "tr": "ma-kā-nu s-sa-kan",
+       "kind": "form label",
+       "forms": []
+      },
+      {
+       "n": 3,
+       "ar": "هِوَايَةٌ",
+       "en": "a hobby",
+       "tr": "",
+       "kind": "my · his · her",
+       "forms": [
+        {
+         "label": "my",
+         "ar": "هِوَايَتِي"
+        },
+        {
+         "label": "his",
+         "ar": "هِوَايَتُهُ"
+        },
+        {
+         "label": "her",
+         "ar": "هِوَايَتُهَا"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "ar": "المُفَضَّلُ",
+       "en": "favourite",
+       "tr": "",
+       "kind": "m · f",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "المُفَضَّلُ"
+        },
+        {
+         "label": "f.",
+         "ar": "المُفَضَّلَةُ"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "ar": "مَدْرَسَةٌ · صَفٌّ",
+       "en": "school · class / year group",
+       "tr": "mad-ra-sa · ṣaff",
+       "kind": "school",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "وَقْتُ الفَرَاغِ",
+       "en": "free time",
+       "tr": "waq-tu l-fa-rāgh",
+       "kind": "interests",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L09",
+   "title": "Listening to Personal Introductions",
+   "arabic": "الاِسْتِمَاعُ إِلَى التَّعْرِيفَاتِ الشَّخْصِيَّةِ",
+   "summary": "Train your ear to catch the facts that matter — name, age, country, city, language and interests — through multiple-choice, note-completion and matching tasks, then retell what you heard in the third person.",
+   "bank": [
+    {
+     "title": "Words that tell you what to do",
+     "arabic": "تَعْلِيمَاتُ المَهَامِّ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "اِسْتَمِعْ",
+       "en": "Listen!",
+       "tr": "",
+       "kind": "to m. · f. · pl.",
+       "forms": [
+        {
+         "label": "to m.",
+         "ar": "اِسْتَمِعْ"
+        },
+        {
+         "label": "to f.",
+         "ar": "اِسْتَمِعِي"
+        },
+        {
+         "label": "to pl.",
+         "ar": "اِسْتَمِعُوا"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "اِخْتَرْ",
+       "en": "Choose!",
+       "tr": "",
+       "kind": "to m. · f. · pl.",
+       "forms": [
+        {
+         "label": "to m.",
+         "ar": "اِخْتَرْ"
+        },
+        {
+         "label": "to f.",
+         "ar": "اِخْتَارِي"
+        },
+        {
+         "label": "to pl.",
+         "ar": "اِخْتَارُوا"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "اِمْلَأِ الفَرَاغَ",
+       "en": "Fill the gap!",
+       "tr": "im-la-ʾi l-fa-rāgh",
+       "kind": "instruction",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "صَحِيحٌ · خَطَأٌ",
+       "en": "true · false",
+       "tr": "ṣa-ḥīḥ · kha-ṭaʾ",
+       "kind": "label",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "مَرَّةً أُخْرَى",
+       "en": "once more, again",
+       "tr": "mar-ra-tan ukh-rā",
+       "kind": "instruction",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "الفِكْرَةُ الرَّئِيسِيَّةُ · التَّفَاصِيلُ",
+       "en": "the main idea · the details",
+       "tr": "al-fik-ra r-ra-ʾī-siy-ya · at-ta-fā-ṣīl",
+       "kind": "strategy",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L10",
+   "title": "Greetings and Identity in the Arab World",
+   "arabic": "التَّحِيَّاتُ وَالهُوِيَّةُ فِي العَالَمِ العَرَبِيِّ",
+   "summary": "Language carries culture: explore how greetings, family, hospitality, nationality, language and belief can shape identity — while remembering that Arabic-speaking communities are diverse and no single custom applies to everyone.",
+   "bank": [
+    {
+     "title": "Culture, customs and respect",
+     "arabic": "مُفْرَدَاتُ الثَّقَافَةِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "ثَقَافَةٌ",
+       "en": "culture",
+       "tr": "",
+       "kind": "my · sg · pl",
+       "forms": [
+        {
+         "label": "my",
+         "ar": "ثَقَافَتِي"
+        },
+        {
+         "label": "one",
+         "ar": "ثَقَافَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "ثَقَافَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "عَادَاتٌ",
+       "en": "customs, habits",
+       "tr": "",
+       "kind": "pl. · sg.",
+       "forms": [
+        {
+         "label": "one",
+         "ar": "عَادَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "عَادَاتٌ"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "ar": "تَقَالِيدُ",
+       "en": "traditions",
+       "tr": "ta-qā-līd",
+       "kind": "plural",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "اِحْتِرَامٌ",
+       "en": "respect",
+       "tr": "iḥ-ti-rām",
+       "kind": "noun",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "ضِيَافَةٌ",
+       "en": "hospitality",
+       "tr": "ḍi-yā-fa",
+       "kind": "noun · f.",
+       "forms": []
+      },
+      {
+       "n": 6,
+       "ar": "عَائِلَةٌ",
+       "en": "family",
+       "tr": "",
+       "kind": "my · his · her",
+       "forms": [
+        {
+         "label": "my",
+         "ar": "عَائِلَتِي"
+        },
+        {
+         "label": "his",
+         "ar": "عَائِلَتُهُ"
+        },
+        {
+         "label": "her",
+         "ar": "عَائِلَتُهَا"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Community, identity and pride",
+     "arabic": "المُجْتَمَعُ وَالهُوِيَّةُ",
+     "items": [
+      {
+       "n": 7,
+       "ar": "مُجْتَمَعٌ",
+       "en": "society, community",
+       "tr": "mu-jta-maʿ",
+       "kind": "noun · m.",
+       "forms": []
+      },
+      {
+       "n": 8,
+       "ar": "دِينٌ",
+       "en": "religion",
+       "tr": "dīn",
+       "kind": "recognise",
+       "forms": []
+      },
+      {
+       "n": 9,
+       "ar": "هُوِيَّةٌ",
+       "en": "identity",
+       "tr": "",
+       "kind": "my · his · her",
+       "forms": [
+        {
+         "label": "my",
+         "ar": "هُوِيَّتِي"
+        },
+        {
+         "label": "his",
+         "ar": "هُوِيَّتُهُ"
+        },
+        {
+         "label": "her",
+         "ar": "هُوِيَّتُهَا"
+        }
+       ]
+      },
+      {
+       "n": 10,
+       "ar": "فَخُورٌ بِـ",
+       "en": "proud of",
+       "tr": "",
+       "kind": "m · f · pl",
+       "forms": [
+        {
+         "label": "m.",
+         "ar": "فَخُورٌ"
+        },
+        {
+         "label": "f.",
+         "ar": "فَخُورَةٌ"
+        },
+        {
+         "label": "pl.",
+         "ar": "فَخُورُونَ"
+        }
+       ]
+      },
+      {
+       "n": 11,
+       "ar": "مُتَشَابِهٌ · مُخْتَلِفٌ",
+       "en": "similar · different",
+       "tr": "mu-ta-shā-bih · mukh-ta-lif",
+       "kind": "m · f",
+       "forms": []
+      },
+      {
+       "n": 12,
+       "ar": "فِي بَعْضِ … · أَحْيَانًا",
+       "en": "in some … · sometimes",
+       "tr": "fī baʿ-ḍi … · aḥ-yā-nan",
+       "kind": "careful",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L11",
+   "title": "Writing a Short Personal Introduction",
+   "arabic": "كِتَابَةُ تَعْرِيفٍ شَخْصِيٍّ قَصِيرٍ",
+   "summary": "Turn personal facts into accurate form answers and a polished Arabic introduction: plan first, connect ideas with وَ، أَيْضًا، ثُمَّ، لِأَنَّ, check the detail, and improve the draft before you finish.",
+   "bank": [
+    {
+     "title": "Read the field",
+     "arabic": "حُقُولُ الاِسْتِمَارَةِ",
+     "items": [
+      {
+       "n": 1,
+       "ar": "الاِسْمُ",
+       "en": "name",
+       "tr": "",
+       "kind": "field",
+       "forms": [
+        {
+         "label": "first",
+         "ar": "الاِسْمُ الأَوَّلُ"
+        },
+        {
+         "label": "family",
+         "ar": "اِسْمُ العَائِلَةِ"
+        },
+        {
+         "label": "surname",
+         "ar": "اللَّقَبُ"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "ar": "العُمْرُ",
+       "en": "age",
+       "tr": "al-ʿumr",
+       "kind": "field",
+       "forms": []
+      },
+      {
+       "n": 3,
+       "ar": "الجِنْسِيَّةُ",
+       "en": "nationality",
+       "tr": "al-jin-siy-ya",
+       "kind": "field",
+       "forms": []
+      },
+      {
+       "n": 4,
+       "ar": "مَكَانُ السَّكَنِ",
+       "en": "place of residence",
+       "tr": "ma-kā-nu s-sa-kan",
+       "kind": "field",
+       "forms": []
+      },
+      {
+       "n": 5,
+       "ar": "اللُّغَاتُ",
+       "en": "languages",
+       "tr": "",
+       "kind": "field",
+       "forms": [
+        {
+         "label": "one",
+         "ar": "اللُّغَةُ"
+        },
+        {
+         "label": "pl.",
+         "ar": "اللُّغَاتُ"
+        },
+        {
+         "label": "first",
+         "ar": "اللُّغَةُ الأُولَى"
+        }
+       ]
+      },
+      {
+       "n": 6,
+       "ar": "التَّوْقِيعُ",
+       "en": "signature",
+       "tr": "at-taw-qīʿ",
+       "kind": "field",
+       "forms": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "F2-L12",
+   "title": "Show What You Can Say: F2 Review & Assessment",
+   "arabic": "مُرَاجَعَةُ الوَحْدَةِ الثَّانِيَةِ وَتَقْيِيمُهَا",
+   "summary": "Bring the whole F2 language system together, revise deliberately, then show what you understand and produce across listening, reading, speaking and writing — and set one precise target for F3.",
+   "bank": []
+  }
+ ]
+}

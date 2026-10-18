@@ -1,0 +1,43 @@
+{"F2-L01": {
+ "intro": "Greet, reply, ask how someone is — حَالُكَ to a boy, حَالُكِ to a girl, حَالُكُمْ to a group — answer, and close politely. Short, natural, and always with the paired reply.",
+ "roleplays": [
+  {"id": "A", "level": "core", "setting": "Meeting your teacher in the morning", "title": "Good morning, Sir!", "arabic": "صَبَاحُ الخَيْرِ يَا أُسْتَاذُ", "you": "a student", "examiner": "your teacher",
+   "tasks": [
+    {"examiner": "السَّلَامُ عَلَيْكُمْ!", "task": "Reply to the greeting.", "help": "وَعَلَيْكُمُ …", "model": "وَعَلَيْكُمُ السَّلَامُ.", "en": "And upon you be peace."},
+    {"examiner": "صَبَاحُ الخَيْرِ.", "task": "Give the morning reply.", "help": "صَبَاحُ …", "model": "صَبَاحُ النُّورِ.", "en": "Good morning. (reply)"},
+    {"examiner": "كَيْفَ حَالُكَ؟", "task": "Say you are fine.", "help": "بِخَيْرٍ، …", "model": "بِخَيْرٍ، الحَمْدُ لِلَّهِ.", "en": "Fine, praise be to God."},
+    {"examiner": "… أَنَا بِخَيْرٍ، شُكْرًا.", "task": "ASK the teacher how he is (he then answers).", "help": "وَأَنْتَ يَا أُسْتَاذُ، كَيْفَ …؟", "model": "وَأَنْتَ يَا أُسْتَاذُ، كَيْفَ حَالُكَ؟", "en": "And you, Sir, how are you?"},
+    {"examiner": "إِلَى اللِّقَاءِ!", "task": "Answer the unexpected: say goodbye politely.", "help": "مَعَ … يَا أُسْتَاذُ", "model": "مَعَ السَّلَامَةِ يَا أُسْتَاذُ.", "en": "Goodbye, Sir.", "unexpected": true}
+   ]},
+  {"id": "B", "level": "develop", "setting": "A new girl joins your class", "title": "Hello, Sara!", "arabic": "مَرْحَبًا يَا سَارَةُ", "you": "a student", "examiner": "Sara, a new classmate",
+   "tasks": [
+    {"examiner": "مَسَاءُ الخَيْرِ!", "task": "Give the evening reply and welcome her.", "help": "مَسَاءُ … ! أَهْلًا وَ…", "model": "مَسَاءُ النُّورِ! أَهْلًا وَسَهْلًا.", "en": "Good evening! Welcome."},
+    {"examiner": "… بِخَيْرٍ، الحَمْدُ لِلَّهِ.", "task": "ASK Sara how she is — to a girl (she then answers).", "help": "كَيْفَ حَالُكِ …؟", "model": "كَيْفَ حَالُكِ يَا سَارَةُ؟", "en": "How are you, Sara? (to a girl)"},
+    {"examiner": "وَأَنْتَ، كَيْفَ حَالُكَ؟", "task": "Answer and thank her.", "help": "أَنَا بِخَيْرٍ أَيْضًا، …", "model": "أَنَا بِخَيْرٍ أَيْضًا، شُكْرًا.", "en": "I am fine too, thank you."},
+    {"examiner": "هَلْ أَنْتَ فِي هٰذَا الصَّفِّ؟", "task": "Say yes and welcome her to the class.", "help": "نَعَمْ، أَنَا فِي … أَهْلًا بِكِ!", "model": "نَعَمْ، أَنَا فِي هٰذَا الصَّفِّ. أَهْلًا بِكِ!", "en": "Yes, I am in this class. Welcome! (to a girl)"},
+    {"examiner": "إِلَى اللِّقَاءِ غَدًا!", "task": "Answer the unexpected: say goodbye to her.", "help": "مَعَ السَّلَامَةِ يَا … ، إِلَى …", "model": "مَعَ السَّلَامَةِ يَا سَارَةُ، إِلَى اللِّقَاءِ!", "en": "Goodbye, Sara, see you later!", "unexpected": true}
+   ]},
+  {"id": "C", "level": "stretch", "setting": "Helping at a school open evening", "title": "Welcoming a visitor", "arabic": "أَهْلًا وَسَهْلًا بِالضُّيُوفِ", "you": "a student helper", "examiner": "a visiting father",
+   "tasks": [
+    {"examiner": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ.", "task": "Give the full reply and welcome him.", "help": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، …", "model": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، أَهْلًا وَسَهْلًا!", "en": "And upon you be peace, God’s mercy and His blessings. Welcome!"},
+    {"examiner": "مَسَاءُ الخَيْرِ يَا بُنَيَّ. كَيْفَ حَالُكَ؟", "task": "Reply to the evening greeting and say how you are.", "help": "مَسَاءُ … ! أَنَا …", "model": "مَسَاءُ النُّورِ! أَنَا بِخَيْرٍ، الحَمْدُ لِلَّهِ.", "en": "Good evening! I am fine, praise be to God."},
+    {"examiner": "… بِخَيْرٍ، شُكْرًا. هِيَ فِي الصَّفِّ الآنَ.", "task": "ASK how his daughter is (he then answers).", "help": "وَكَيْفَ حَالُ …؟", "model": "وَكَيْفَ حَالُ ابْنَتِكَ؟", "en": "And how is your daughter?"},
+    {"examiner": "أَيْنَ صَفُّ العَرَبِيَّةِ، مِنْ فَضْلِكَ؟", "task": "Say it is here, and invite him in.", "help": "هُنَا، … !", "model": "هُنَا، تَفَضَّلْ!", "en": "Here, please go in!"},
+    {"examiner": "شُكْرًا جَزِيلًا!", "task": "Answer the unexpected: reply politely and say goodbye.", "help": "عَفْوًا! مَعَ … ، إِلَى …", "model": "عَفْوًا! مَعَ السَّلَامَةِ، إِلَى اللِّقَاءِ.", "en": "You’re welcome! Goodbye, see you later.", "unexpected": true}
+   ]}
+ ],
+ "conversation": [
+  {"level": "core", "q": "السَّلَامُ عَلَيْكُمْ!", "qen": "Peace be upon you! (Give the reply.)", "starter": "وَعَلَيْكُمُ …", "model": "وَعَلَيْكُمُ السَّلَامُ.", "en": "And upon you be peace."},
+  {"level": "core", "q": "صَبَاحُ الخَيْرِ!", "qen": "Good morning! (Give the reply.)", "starter": "صَبَاحُ …", "model": "صَبَاحُ النُّورِ!", "en": "Good morning! (reply)"},
+  {"level": "core", "q": "كَيْفَ حَالُكَ؟", "qen": "How are you?", "starter": "بِخَيْرٍ، …", "model": "بِخَيْرٍ، الحَمْدُ لِلَّهِ.", "en": "Fine, praise be to God."},
+  {"level": "core", "q": "مَعَ السَّلَامَةِ!", "qen": "Goodbye! (Reply.)", "starter": "مَعَ السَّلَامَةِ، …", "model": "مَعَ السَّلَامَةِ، إِلَى اللِّقَاءِ!", "en": "Goodbye, see you later!"},
+  {"level": "develop", "q": "كَيْفَ حَالُكَ اليَوْمَ؟", "qen": "How are you today? (Answer and ask back.)", "starter": "أَنَا بِخَيْرٍ، … شُكْرًا. وَأَنْتَ؟", "model": "أَنَا بِخَيْرٍ، الحَمْدُ لِلَّهِ، شُكْرًا. وَأَنْتَ؟", "en": "I am fine, praise be to God, thank you. And you?"},
+  {"level": "develop", "q": "كَيْفَ تُسَلِّمُ عَلَى صَدِيقَتِكَ فِي الصَّبَاحِ؟", "qen": "How do you greet your (female) friend in the morning?", "starter": "أَقُولُ: صَبَاحُ الخَيْرِ يَا … ! كَيْفَ حَالُكِ؟", "model": "أَقُولُ: صَبَاحُ الخَيْرِ يَا مَرْيَمُ! كَيْفَ حَالُكِ؟", "en": "I say: Good morning, Maryam! How are you? (to a girl)"},
+  {"level": "develop", "q": "كَيْفَ تُرَحِّبُ بِضَيْفٍ؟", "qen": "How do you welcome a guest?", "starter": "أَقُولُ: أَهْلًا وَسَهْلًا! …", "model": "أَقُولُ: أَهْلًا وَسَهْلًا! مَرْحَبًا بِكَ.", "en": "I say: Welcome! Hello to you."},
+  {"level": "develop", "q": "مَاذَا تَقُولُ فِي المَسَاءِ؟", "qen": "What do you say in the evening?", "starter": "فِي المَسَاءِ أَقُولُ «…»، وَالرَّدُّ «…».", "model": "فِي المَسَاءِ أَقُولُ «مَسَاءُ الخَيْرِ»، وَالرَّدُّ «مَسَاءُ النُّورِ».", "en": "In the evening I say “masā’ al-khayr”, and the reply is “masā’ an-nūr”."},
+  {"level": "stretch", "q": "مَا الفَرْقُ بَيْنَ «حَالُكَ» وَ«حَالُكِ»؟", "qen": "What is the difference between “ḥāluka” and “ḥāluki”?", "starter": "«حَالُكَ» لِـ … وَ«حَالُكِ» لِـ …", "model": "«حَالُكَ» لِلْوَلَدِ، وَ«حَالُكِ» لِلْبِنْتِ؛ الفَتْحَةُ لِلْمُذَكَّرِ وَالكَسْرَةُ لِلْمُؤَنَّثِ.", "en": "“Ḥāluka” is for a boy and “ḥāluki” for a girl; the fatha is masculine and the kasra feminine."},
+  {"level": "stretch", "q": "أَيُّ تَحِيَّةٍ تَسْتَعْمِلُ مَعَ أُسْرَتِكَ؟ وَلِمَاذَا؟", "qen": "Which greeting do you use with your family, and why?", "starter": "أَسْتَعْمِلُ «…» مَعَ أُسْرَتِي، لِأَنَّهَا …", "model": "أَسْتَعْمِلُ «السَّلَامُ عَلَيْكُمْ» مَعَ أُسْرَتِي، لِأَنَّهَا تَحِيَّةٌ جَمِيلَةٌ وَمُهِمَّةٌ فِي دِينِنَا.", "en": "I use “as-salāmu ʿalaykum” with my family, because it is a beautiful greeting and important in our religion."},
+  {"level": "stretch", "q": "سَلِّمْ عَلَى مَجْمُوعَةٍ مِنَ الأَصْدِقَاءِ وَاسْأَلْ عَنْ حَالِهِمْ.", "qen": "Greet a group of friends and ask how they are.", "starter": "السَّلَامُ عَلَيْكُمْ! كَيْفَ حَالُكُمْ؟ أَنَا …", "model": "السَّلَامُ عَلَيْكُمْ! كَيْفَ حَالُكُمْ؟ أَنَا سَعِيدٌ بِلِقَائِكُمْ.", "en": "Peace be upon you! How are you all? I am happy to see you."},
+  {"level": "stretch", "q": "قُلِ الحَرَكَاتِ الأَرْبَعَ: سَلِّمْ، اِسْأَلْ، أَجِبْ، وَوَدِّعْ.", "qen": "Do all four moves: greet, ask, answer for yourself, say goodbye.", "starter": "مَرْحَبًا يَا … ! كَيْفَ حَالُكَ؟ أَنَا … إِلَى اللِّقَاءِ …", "model": "مَرْحَبًا يَا خَالِدُ! كَيْفَ حَالُكَ؟ أَنَا بِخَيْرٍ، الحَمْدُ لِلَّهِ. إِلَى اللِّقَاءِ، مَعَ السَّلَامَةِ!", "en": "Hello, Khalid! How are you? I am fine, praise be to God. See you later, goodbye!"}
+ ]
+}}

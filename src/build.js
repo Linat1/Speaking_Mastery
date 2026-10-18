@@ -35,12 +35,14 @@ const REPAIR = [
 ];
 
 const UNITS = [
-  { key: 'topic-a', code: 'TA', label: 'Topic A', title: 'Everyday Activities', arabic: 'الأَنْشِطَةُ اليَوْمِيَّةُ', icon: '☀️',
-    blurb: 'Time and routine, food and drink, health and travel — exam-style role plays and topic conversations from the Topic A speaking workshops.' },
+  { key: 'f2', code: 'F2', label: 'Foundation F2', title: 'Greetings and Introductions', arabic: 'التَّحِيَّاتُ وَالتَّعَارُفُ', icon: '👋',
+    blurb: 'Greet, introduce yourself and others, and ask the first questions — name, age, nationality and language — to a boy and to a girl.' },
   { key: 'd1', code: 'D1', label: 'Development D1', title: 'Daily Routine and Time', arabic: 'الرُّوتِينُ اليَوْمِيُّ وَالوَقْتُ', icon: '🌅',
     blurb: 'Routines, precise time, frequency and sequencing — I, he, she and you, in present, past and future.' },
   { key: 'd2', code: 'D2', label: 'Development D2', title: 'Personality, Relationships and Clothes', arabic: 'الشَّخْصِيَّةُ وَالعَلَاقَاتُ وَالمَلَابِسُ', icon: '🧠',
     blurb: 'Describing people, relationships, shopping for clothes and opinions on style — with comparison and evidence.' },
+  { key: 'topic-a', code: 'TA', label: 'Topic A', title: 'Everyday Activities', arabic: 'الأَنْشِطَةُ اليَوْمِيَّةُ', icon: '☀️',
+    blurb: 'Time and routine, food and drink, health and travel — exam-style role plays and topic conversations from the Topic A speaking workshops.' },
 ];
 
 /* ---------- normalisers ---------- */
@@ -87,8 +89,21 @@ function bankFromVocab(groups) {
   }));
 }
 
+// Lesson titles + key language come from the lesson website data (D units: <key>-content.json)
+// or, where the website has none, from the decks' KEY WORDS slides (<key>-keywords.json,
+// made by src/extract_keywords.py). The deck's own L12 is a review lesson, so it is dropped
+// and replaced by the generated unit mock below.
+function unitLessons(key) {
+  if (fs.existsSync(path.join(DATA, `${key}-content.json`))) {
+    return read(`${key}-content.json`).lessons.map((c) => ({ code: c.code, title: c.title, arabic: c.arabic, summary: c.summary, bank: bankFromVocab(c.vocab) }));
+  }
+  return read(`${key}-keywords.json`).lessons.filter((l) => !l.code.endsWith('L12'))
+    .map((l) => ({ code: l.code, title: l.title, arabic: l.arabic, summary: l.summary,
+      bank: l.bank.map((g) => ({ title: g.title, arabic: g.arabic, items: g.items.map((i) => ({ ar: i.ar, en: i.en, tr: i.tr, kind: i.kind, forms: i.forms })) })) }));
+}
+
 function devUnit(key) {
-  const content = read(`${key}-content.json`).lessons;
+  const content = unitLessons(key);
   const sdir = path.join(DATA, key);
   const speaking = Object.assign({}, ...fs.readdirSync(sdir).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(sdir, f), 'utf8'))));
   const missing = content.filter((c) => !speaking[c.code]).map((c) => c.code);
@@ -97,7 +112,7 @@ function devUnit(key) {
     const s = speaking[c.code];
     return withIds(c.code, {
       code: c.code, title: c.title, arabic: c.arabic, intro: s.intro || c.summary,
-      bank: bankFromVocab(c.vocab), roleplays: s.roleplays, conversation: s.conversation,
+      bank: s.bank || c.bank, roleplays: s.roleplays, conversation: s.conversation,
     });
   });
   if (!lessons.length) return null;
@@ -155,7 +170,7 @@ function writeLesson(unit, L, prev, next) {
 
 function build() {
   const has = (k) => fs.existsSync(path.join(DATA, k));
-  const units = { 'topic-a': topicA(), d1: has('d1') && devUnit('d1'), d2: has('d2') && devUnit('d2') };
+  const units = { f2: has('f2') && devUnit('f2'), 'topic-a': topicA(), d1: has('d1') && devUnit('d1'), d2: has('d2') && devUnit('d2') };
   const hub = [];
   for (const unit of UNITS) {
     const lessons = units[unit.key];

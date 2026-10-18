@@ -1,0 +1,43 @@
+{"F2-L02": {
+ "intro": "Ask a name accurately — مَا اسْمُكَ؟ to a boy, مَا اسْمُكِ؟ to a girl — answer with اِسْمِي …, say تَشَرَّفْنَا, and introduce friends with هٰذَا … اِسْمُهُ / هٰذِهِ … اِسْمُهَا.",
+ "roleplays": [
+  {"id": "A", "level": "core", "setting": "Your first Arabic lesson", "title": "What is your name?", "arabic": "مَا اسْمُكَ؟", "you": "a new student", "examiner": "your teacher",
+   "tasks": [
+    {"examiner": "مَرْحَبًا! مَا اسْمُكَ؟", "task": "Give your name.", "help": "اِسْمِي …", "model": "اِسْمِي آدَمُ.", "en": "My name is Adam."},
+    {"examiner": "تَشَرَّفْنَا يَا آدَمُ.", "task": "Reply politely.", "help": "تَشَرَّفْنَا يَا …", "model": "تَشَرَّفْنَا يَا أُسْتَاذُ.", "en": "Pleased to meet you, Sir."},
+    {"examiner": "… اِسْمِي الأُسْتَاذُ يُوسُفُ.", "task": "ASK the teacher his name (he then answers).", "help": "وَأَنْتَ يَا أُسْتَاذُ، مَا …؟", "model": "وَأَنْتَ يَا أُسْتَاذُ، مَا اسْمُكَ؟", "en": "And you, Sir, what is your name?"},
+    {"examiner": "مَنْ هٰذَا؟", "task": "Introduce your friend Khalid.", "help": "هٰذَا صَدِيقِي، اِسْمُهُ …", "model": "هٰذَا صَدِيقِي، اِسْمُهُ خَالِدٌ.", "en": "This is my friend; his name is Khalid."},
+    {"examiner": "وَمَنْ هٰذِهِ؟", "task": "Answer the unexpected: introduce your friend Maryam.", "help": "هٰذِهِ صَدِيقَتِي، اِسْمُهَا …", "model": "هٰذِهِ صَدِيقَتِي، اِسْمُهَا مَرْيَمُ.", "en": "This is my friend; her name is Maryam.", "unexpected": true}
+   ]},
+  {"id": "B", "level": "develop", "setting": "At the youth club", "title": "Meeting Zaynab", "arabic": "أَتَعَرَّفُ عَلَى زَيْنَبَ", "you": "a club member", "examiner": "Zaynab, a new member",
+   "tasks": [
+    {"examiner": "مَرْحَبًا! أَنَا جَدِيدَةٌ هُنَا.", "task": "Welcome her and give your name.", "help": "أَهْلًا وَسَهْلًا! اِسْمِي …", "model": "أَهْلًا وَسَهْلًا! اِسْمِي يُوسُفُ.", "en": "Welcome! My name is Yusuf."},
+    {"examiner": "… اِسْمِي زَيْنَبُ.", "task": "ASK her name — to a girl (she then answers).", "help": "مَا اسْمُكِ؟", "model": "وَأَنْتِ، مَا اسْمُكِ؟", "en": "And you, what is your name? (to a girl)"},
+    {"examiner": "تَشَرَّفْنَا!", "task": "Reply politely, using her name.", "help": "تَشَرَّفْنَا يَا …", "model": "تَشَرَّفْنَا يَا زَيْنَبُ.", "en": "Pleased to meet you, Zaynab."},
+    {"examiner": "مَنْ هٰذَا الوَلَدُ هُنَاكَ؟", "task": "Say it is your friend Omar.", "help": "هٰذَا … ، اِسْمُهُ …", "model": "هٰذَا صَدِيقِي، اِسْمُهُ عُمَرُ.", "en": "That is my friend; his name is Omar."},
+    {"examiner": "وَمَنْ هٰذِهِ البِنْتُ؟", "task": "Answer the unexpected: she is your sister Sara.", "help": "هٰذِهِ … ، اِسْمُهَا …", "model": "هٰذِهِ أُخْتِي، اِسْمُهَا سَارَةُ.", "en": "This is my sister; her name is Sara.", "unexpected": true}
+   ]},
+  {"id": "C", "level": "stretch", "setting": "Introducing friends at a family party", "title": "These are my friends", "arabic": "هٰؤُلَاءِ أَصْدِقَائِي", "you": "a student", "examiner": "your cousin Ali",
+   "tasks": [
+    {"examiner": "مَنْ هٰؤُلَاءِ؟", "task": "Say they are your friends from school.", "help": "هٰؤُلَاءِ … مِنَ …", "model": "هٰؤُلَاءِ أَصْدِقَائِي مِنَ المَدْرَسَةِ.", "en": "These are my friends from school."},
+    {"examiner": "مَا اسْمُ الوَلَدِ؟", "task": "Give his name and one more detail.", "help": "اِسْمُهُ … ، وَهُوَ …", "model": "اِسْمُهُ خَالِدٌ، وَهُوَ فِي صَفِّي.", "en": "His name is Khalid, and he is in my class."},
+    {"examiner": "وَمَا اسْمُ البِنْتِ؟", "task": "Give her name and one more detail.", "help": "اِسْمُهَا … ، وَهِيَ …", "model": "اِسْمُهَا مَرْيَمُ، وَهِيَ أُخْتُ خَالِدٍ.", "en": "Her name is Maryam, and she is Khalid’s sister."},
+    {"examiner": "… نَعَمْ، أُحِبُّ أَنْ أَتَعَرَّفَ عَلَيْهِمْ!", "task": "ASK your cousin if he would like to meet them (he then answers).", "help": "هَلْ تُرِيدُ أَنْ …؟", "model": "هَلْ تُرِيدُ أَنْ تَتَعَرَّفَ عَلَيْهِمْ؟", "en": "Would you like to meet them?"},
+    {"examiner": "هَلِ اسْمُ «خَالِدٍ» لِلْبِنْتِ أَيْضًا؟", "task": "Answer the unexpected question.", "help": "لَا، «…» اسْمٌ لِلْوَلَدِ، وَ«…» اسْمٌ لِلْبِنْتِ", "model": "لَا، «خَالِدٌ» اسْمٌ لِلْوَلَدِ، وَ«خَالِدَةُ» اسْمٌ لِلْبِنْتِ.", "en": "No, “Khalid” is a boy’s name, and “Khalida” is a girl’s name.", "unexpected": true}
+   ]}
+ ],
+ "conversation": [
+  {"level": "core", "q": "مَا اسْمُكَ؟", "qen": "What is your name?", "starter": "اِسْمِي …", "model": "اِسْمِي آدَمُ.", "en": "My name is Adam."},
+  {"level": "core", "q": "مَا اسْمُ صَدِيقِكَ؟", "qen": "What is your friend’s name?", "starter": "اِسْمُهُ …", "model": "اِسْمُهُ خَالِدٌ.", "en": "His name is Khalid."},
+  {"level": "core", "q": "مَا اسْمُ أُمِّكَ؟", "qen": "What is your mother’s name?", "starter": "اِسْمُهَا …", "model": "اِسْمُهَا فَاطِمَةُ.", "en": "Her name is Fatima."},
+  {"level": "core", "q": "كَيْفَ تَسْأَلُ بِنْتًا عَنِ اسْمِهَا؟", "qen": "How do you ask a girl her name?", "starter": "مَا …؟", "model": "مَا اسْمُكِ؟", "en": "What is your name? (to a girl)"},
+  {"level": "develop", "q": "مَا اسْمُكَ؟ وَمَا اسْمُ أَخِيكَ؟", "qen": "What is your name, and your brother’s name?", "starter": "اِسْمِي … ، وَاسْمُ أَخِي …", "model": "اِسْمِي آدَمُ، وَاسْمُ أَخِي يُوسُفُ.", "en": "My name is Adam, and my brother’s name is Yusuf."},
+  {"level": "develop", "q": "قَدِّمْ صَدِيقًا وَصَدِيقَةً.", "qen": "Introduce a male friend and a female friend.", "starter": "هٰذَا صَدِيقِي، اِسْمُهُ … وَهٰذِهِ صَدِيقَتِي، اِسْمُهَا …", "model": "هٰذَا صَدِيقِي، اِسْمُهُ عُمَرُ. وَهٰذِهِ صَدِيقَتِي، اِسْمُهَا زَيْنَبُ.", "en": "This is my friend; his name is Omar. And this is my friend; her name is Zaynab."},
+  {"level": "develop", "q": "سَلِّمْ، وَقُلِ اسْمَكَ، وَاسْأَلْ عَنِ الاِسْمِ.", "qen": "Greet, give your name and ask for the other person’s name.", "starter": "مَرْحَبًا! أَنَا … ، مَا اسْمُكَ؟", "model": "مَرْحَبًا! أَنَا آدَمُ، مَا اسْمُكَ؟", "en": "Hello! I am Adam, what is your name?"},
+  {"level": "develop", "q": "مَا الفَرْقُ بَيْنَ «هٰذَا» وَ«هٰذِهِ»؟", "qen": "What is the difference between “hādhā” and “hādhihi”?", "starter": "«هٰذَا» لِلْمُذَكَّرِ، مِثْلُ … وَ«هٰذِهِ» لِلْمُؤَنَّثِ، مِثْلُ …", "model": "«هٰذَا» لِلْمُذَكَّرِ، مِثْلُ «هٰذَا صَدِيقِي»، وَ«هٰذِهِ» لِلْمُؤَنَّثِ، مِثْلُ «هٰذِهِ صَدِيقَتِي».", "en": "“Hādhā” is masculine, like “this is my (male) friend”, and “hādhihi” is feminine, like “this is my (female) friend”."},
+  {"level": "stretch", "q": "هَلْ تُحِبُّ اسْمَكَ؟ لِمَاذَا؟", "qen": "Do you like your name? Why?", "starter": "اِسْمِي … ، وَأَنَا أُحِبُّهُ لِأَنَّهُ …", "model": "اِسْمِي آدَمُ، وَهُوَ اسْمُ أَوَّلِ إِنْسَانٍ، وَأَنَا أُحِبُّهُ لِأَنَّهُ قَصِيرٌ وَجَمِيلٌ.", "en": "My name is Adam, the name of the first human, and I like it because it is short and beautiful."},
+  {"level": "stretch", "q": "قَدِّمْ ثَلَاثَةَ أَشْخَاصٍ مِنْ أُسْرَتِكَ.", "qen": "Introduce three people from your family.", "starter": "هٰذَا … اِسْمُهُ … هٰذِهِ … اِسْمُهَا … وَهٰذَا …", "model": "هٰذَا أَبِي، اِسْمُهُ مُحَمَّدٌ. هٰذِهِ أُمِّي، اِسْمُهَا عَائِشَةُ. وَهٰذَا أَخِي الصَّغِيرُ، اِسْمُهُ يُوسُفُ.", "en": "This is my father; his name is Muhammad. This is my mother; her name is Aisha. And this is my little brother; his name is Yusuf."},
+  {"level": "stretch", "q": "كَيْفَ تَسْأَلُ مَجْمُوعَةً عَنْ أَسْمَائِهِمْ؟", "qen": "How do you ask a group their names?", "starter": "أَقُولُ: مَا … ؟ وَأَبْدَأُ بِاسْمِي: …", "model": "أَقُولُ: مَا أَسْمَاؤُكُمْ؟ وَأَبْدَأُ بِاسْمِي: أَنَا آدَمُ.", "en": "I say: What are your names? And I start with mine: I am Adam."},
+  {"level": "stretch", "q": "لِمَاذَا نَقُولُ «تَشَرَّفْنَا»؟", "qen": "Why do we say “tasharrafnā”?", "starter": "نَقُولُ «تَشَرَّفْنَا» لِأَنَّهَا …", "model": "نَقُولُ «تَشَرَّفْنَا» لِأَنَّهَا كَلِمَةٌ مُهَذَّبَةٌ تَعْنِي أَنَّنَا سُعَدَاءُ بِلِقَاءِ الشَّخْصِ الجَدِيدِ.", "en": "We say “tasharrafnā” because it is a polite word meaning we are happy to meet the new person."}
+ ]
+}}
